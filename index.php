@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>t</title>
+    <title>testing</title>
 
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />

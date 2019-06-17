@@ -6289,7 +6289,7 @@ a.close.disabled {
 .carousel-fade .active.carousel-item-right {
   z-index: 0;
   opacity: 0;
-  transition: 0s 0.6s opacity;
+  transition: 1s 0.6s opacity;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -6314,7 +6314,7 @@ a.close.disabled {
   width: 15%;
   color: #fff;
   text-align: center;
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 0.15s ease;
 }
 

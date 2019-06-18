@@ -27,7 +27,7 @@
 <body>
 <!-- Header -->
 
-<nav class="navbar navbar-expand-lg navbar-inverse bg-blackish" style="z-index: 1;">
+<nav class="navbar navbar-expand-lg navbar-inverse bg-blackish2" style="z-index: 2;">
     <div class="col-md-2"></div>
     <img src="img/logo.png" alt="logo" style="height: 85px;width: 180px;margin-top:-5px;">
     <!--<a class="navbar-brand" href="#" style="color:white">Mi Almas Cafe</a>-->
@@ -61,20 +61,6 @@
     </div>
     <div class="col-md-2"></div>
 </nav>
-<div class="headerwrapper">
-    <div id="carouselExampleFade" class="" data-ride="carousel" style="z-index: 2;margin-top:-100px;">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:700px;filter:brightness(60%);">
-                <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
-                <ul class="headericons">
-                    <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
-                    <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
 
 <br>
 
@@ -82,263 +68,267 @@
 <br>
 <hr>
 
-<h2 style="text-align:left">Food & Drink</h2>
-<hr>
-<div class="row">
-    <div class="column">
-        <img src="img/FoodDrink/1.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(1)" class="hover-shadow cursor">
+<div class="wrapper">
+    <h2 style="text-align:left">Food & Drink</h2>
+    <hr>
+    <div class="row">
+        <div class="column">
+            <img src="img/FoodDrink/1.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="img/FoodDrink/2.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="img/FoodDrink/3.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="img/FoodDrink/4.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="img/FoodDrink/5.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(5)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="img/FoodDrink/6.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(6)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="img/FoodDrink/7.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(7)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="img/FoodDrink/8.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(8)" class="hover-shadow cursor">
+        </div>
     </div>
-    <div class="column">
-        <img src="img/FoodDrink/2.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(2)" class="hover-shadow cursor">
-    </div>
-    <div class="column">
-        <img src="img/FoodDrink/3.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(3)" class="hover-shadow cursor">
-    </div>
-    <div class="column">
-        <img src="img/FoodDrink/4.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(4)" class="hover-shadow cursor">
-    </div>
-    <div class="column">
-        <img src="img/FoodDrink/5.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(5)" class="hover-shadow cursor">
-    </div>
-    <div class="column">
-        <img src="img/FoodDrink/6.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(6)" class="hover-shadow cursor">
-    </div>
-    <div class="column">
-        <img src="img/FoodDrink/7.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(7)" class="hover-shadow cursor">
-    </div>
-    <div class="column">
-        <img src="img/FoodDrink/8.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(8)" class="hover-shadow cursor">
-    </div>
-</div>
 
+    <br>
+    <hr>
+    <h2 style="text-align:left">Interior</h2>
+    <hr>
+    <div class="row">
+        <div class="column">
+            <img src="img/Interior/interior.jpg" style="width:100%" onclick="openInteriorModal();currentInteriorSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="img/Interior/interior2.jpg" style="width:100%" onclick="openInteriorModal();currentInteriorSlide(2)" class="hover-shadow cursor">
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <h2 style="text-align:left">Staff</h2>
+    <hr>
+    <div class="row">
+        <div class="column">
+            <img src="img/Staff/staff.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="img/Staff/staff3.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(2)" class="hover-shadow cursor">
+        </div>
+    </div>
+
+    <div id="foodModal" class="modal">
+        <span class="close cursor" onclick="closeFoodModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="foodSlides">
+                <div class="numbertext">1 / 8</div>
+                <img src="img/FoodDrink/1.jpg" style="width:100%">
+            </div>
+
+            <div class="foodSlides">
+                <div class="numbertext">2 / 8</div>
+                <img src="img/FoodDrink/2.jpg" style="width:100%">
+            </div>
+
+            <div class="foodSlides">
+                <div class="numbertext">3 / 8</div>
+                <img src="img/FoodDrink/3.jpg" style="width:100%">
+            </div>
+
+            <div class="foodSlides">
+                <div class="numbertext">4 / 8</div>
+                <img src="img/FoodDrink/4.jpg" style="width:100%">
+            </div>
+
+            <div class="foodSlides">
+                <div class="numbertext">5 / 8</div>
+                <img src="img/FoodDrink/5.jpg" style="width:100%">
+            </div>
+
+            <div class="foodSlides">
+                <div class="numbertext">6 / 8</div>
+                <img src="img/FoodDrink/6.jpg" style="width:100%">
+            </div>
+
+            <div class="foodSlides">
+                <div class="numbertext">7 / 8</div>
+                <img src="img/FoodDrink/7.jpg" style="width:100%">
+            </div>
+
+            <div class="foodSlides">
+                <div class="numbertext">8 / 8</div>
+                <img src="img/FoodDrink/8.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusFoodSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusFoodSlides(1)">&#10095;</a>
+
+        </div>
+    </div>
+
+    <div id="interiorModal" class="modal">
+        <span class="close cursor" onclick="closeInteriorModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="interiorSlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="img/Interior/interior.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="img/Interior/interior2.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusInteriorSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusInteriorSlides(1)">&#10095;</a>
+
+        </div>
+    </div>
+
+    <div id="staffModal" class="modal">
+        <span class="close cursor" onclick="closeStaffModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="staffSlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="img/Staff/staff.jpg" style="width:100%">
+            </div>
+
+            <div class="staffSlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="img/Staff/staff3.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusStaffSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusStaffSlides(1)">&#10095;</a>
+
+        </div>
+    </div>
+
+    <script>
+        function openFoodModal() {
+            document.getElementById("foodModal").style.display = "block";
+        }
+
+        function closeFoodModal() {
+            document.getElementById("foodModal").style.display = "none";
+        }
+
+        function openInteriorModal() {
+            document.getElementById("interiorModal").style.display = "block";
+        }
+
+        function closeInteriorModal() {
+            document.getElementById("interiorModal").style.display = "none";
+        }
+
+        function openStaffModal() {
+            document.getElementById("staffModal").style.display = "block";
+        }
+
+        function closeStaffModal() {
+            document.getElementById("staffModal").style.display = "none";
+        }
+
+        var foodSlideIndex = 1;
+        showFoodSlides(foodSlideIndex);
+
+        var interiorSlideIndex = 1;
+        showFoodSlides(interiorSlideIndex);
+
+        var staffSlideIndex = 1;
+        showFoodSlides(staffSlideIndex);
+
+        function plusFoodSlides(n) {
+            showFoodSlides(foodSlideIndex += n);
+        }
+
+        function currentFoodSlide(n) {
+            showFoodSlides(foodSlideIndex = n);
+        }
+
+        function plusInteriorSlides(n) {
+            showInteriorSlides(interiorSlideIndex += n);
+        }
+
+        function currentInteriorSlide(n) {
+            showInteriorSlides(interiorSlideIndex = n);
+        }
+
+        function plusStaffSlides(n) {
+            showStaffSlides(staffSlideIndex += n);
+        }
+
+        function currentStaffSlide(n) {
+            showStaffSlides(staffSlideIndex = n);
+        }
+
+        function showFoodSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("foodSlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {foodSlideIndex = 1}
+            if (n < 1) {foodSlideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[foodSlideIndex-1].style.display = "block";
+            dots[foodSlideIndex-1].className += " active";
+            captionText.innerHTML = dots[foodSlideIndex-1].alt;
+        }
+
+        function showInteriorSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("interiorSlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {interiorSlideIndex = 1}
+            if (n < 1) {interiorSlideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[interiorSlideIndex-1].style.display = "block";
+            dots[interiorSlideIndex-1].className += " active";
+            captionText.innerHTML = dots[interiorSlideIndex-1].alt;
+        }
+
+        function showStaffSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("staffSlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {staffSlideIndex = 1}
+            if (n < 1) {staffSlideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[staffSlideIndex-1].style.display = "block";
+            dots[staffSlideIndex-1].className += " active";
+            captionText.innerHTML = dots[staffSlideIndex-1].alt;
+        }
+    </script>
+</div>
 <br>
-<hr>
-<h2 style="text-align:left">Interior</h2>
-<hr>
-<div class="row">
-    <div class="column">
-        <img src="img/Interior/interior.jpg" style="width:100%" onclick="openInteriorModal();currentInteriorSlide(1)" class="hover-shadow cursor">
-    </div>
-    <div class="column">
-        <img src="img/Interior/interior2.jpg" style="width:100%" onclick="openInteriorModal();currentInteriorSlide(2)" class="hover-shadow cursor">
-    </div>
-</div>
-
 <br>
-<hr>
-<h2 style="text-align:left">Staff</h2>
-<hr>
-<div class="row">
-    <div class="column">
-        <img src="img/Staff/staff.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(1)" class="hover-shadow cursor">
-    </div>
-    <div class="column">
-        <img src="img/Staff/staff3.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(2)" class="hover-shadow cursor">
-    </div>
-</div>
-
-<div id="foodModal" class="modal">
-    <span class="close cursor" onclick="closeFoodModal()">&times;</span>
-    <div class="modal-content">
-
-        <div class="foodSlides">
-            <div class="numbertext">1 / 8</div>
-            <img src="img/FoodDrink/1.jpg" style="width:100%">
-        </div>
-
-        <div class="foodSlides">
-            <div class="numbertext">2 / 8</div>
-            <img src="img/FoodDrink/2.jpg" style="width:100%">
-        </div>
-
-        <div class="foodSlides">
-            <div class="numbertext">3 / 8</div>
-            <img src="img/FoodDrink/3.jpg" style="width:100%">
-        </div>
-
-        <div class="foodSlides">
-            <div class="numbertext">4 / 8</div>
-            <img src="img/FoodDrink/4.jpg" style="width:100%">
-        </div>
-
-        <div class="foodSlides">
-            <div class="numbertext">5 / 8</div>
-            <img src="img/FoodDrink/5.jpg" style="width:100%">
-        </div>
-
-        <div class="foodSlides">
-            <div class="numbertext">6 / 8</div>
-            <img src="img/FoodDrink/6.jpg" style="width:100%">
-        </div>
-
-        <div class="foodSlides">
-            <div class="numbertext">7 / 8</div>
-            <img src="img/FoodDrink/7.jpg" style="width:100%">
-        </div>
-
-        <div class="foodSlides">
-            <div class="numbertext">8 / 8</div>
-            <img src="img/FoodDrink/8.jpg" style="width:100%">
-        </div>
-
-        <a class="prev" onclick="plusFoodSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusFoodSlides(1)">&#10095;</a>
-
-    </div>
-</div>
-
-<div id="interiorModal" class="modal">
-    <span class="close cursor" onclick="closeInteriorModal()">&times;</span>
-    <div class="modal-content">
-
-        <div class="interiorSlides">
-            <div class="numbertext">1 / 2</div>
-            <img src="img/Interior/interior.jpg" style="width:100%">
-        </div>
-
-        <div class="interiorSlides">
-            <div class="numbertext">2 / 2</div>
-            <img src="img/Interior/interior2.jpg" style="width:100%">
-        </div>
-
-        <a class="prev" onclick="plusInteriorSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusInteriorSlides(1)">&#10095;</a>
-
-    </div>
-</div>
-
-<div id="staffModal" class="modal">
-    <span class="close cursor" onclick="closeStaffModal()">&times;</span>
-    <div class="modal-content">
-
-        <div class="staffSlides">
-            <div class="numbertext">1 / 2</div>
-            <img src="img/Staff/staff.jpg" style="width:100%">
-        </div>
-
-        <div class="staffSlides">
-            <div class="numbertext">2 / 2</div>
-            <img src="img/Staff/staff3.jpg" style="width:100%">
-        </div>
-
-        <a class="prev" onclick="plusStaffSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusStaffSlides(1)">&#10095;</a>
-
-    </div>
-</div>
-
-<script>
-    function openFoodModal() {
-        document.getElementById("foodModal").style.display = "block";
-    }
-
-    function closeFoodModal() {
-        document.getElementById("foodModal").style.display = "none";
-    }
-
-    function openInteriorModal() {
-        document.getElementById("interiorModal").style.display = "block";
-    }
-
-    function closeInteriorModal() {
-        document.getElementById("interiorModal").style.display = "none";
-    }
-
-    function openStaffModal() {
-        document.getElementById("staffModal").style.display = "block";
-    }
-
-    function closeStaffModal() {
-        document.getElementById("staffModal").style.display = "none";
-    }
-
-    var foodSlideIndex = 1;
-    showFoodSlides(foodSlideIndex);
-
-    var interiorSlideIndex = 1;
-    showFoodSlides(interiorSlideIndex);
-
-    var staffSlideIndex = 1;
-    showFoodSlides(staffSlideIndex);
-
-    function plusFoodSlides(n) {
-        showFoodSlides(foodSlideIndex += n);
-    }
-
-    function currentFoodSlide(n) {
-        showFoodSlides(foodSlideIndex = n);
-    }
-
-    function plusInteriorSlides(n) {
-        showInteriorSlides(interiorSlideIndex += n);
-    }
-
-    function currentInteriorSlide(n) {
-        showInteriorSlides(interiorSlideIndex = n);
-    }
-
-    function plusStaffSlides(n) {
-        showStaffSlides(staffSlideIndex += n);
-    }
-
-    function currentStaffSlide(n) {
-        showStaffSlides(staffSlideIndex = n);
-    }
-
-    function showFoodSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("foodSlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) {foodSlideIndex = 1}
-        if (n < 1) {foodSlideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[foodSlideIndex-1].style.display = "block";
-        dots[foodSlideIndex-1].className += " active";
-        captionText.innerHTML = dots[foodSlideIndex-1].alt;
-    }
-
-    function showInteriorSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("interiorSlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) {interiorSlideIndex = 1}
-        if (n < 1) {interiorSlideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[interiorSlideIndex-1].style.display = "block";
-        dots[interiorSlideIndex-1].className += " active";
-        captionText.innerHTML = dots[interiorSlideIndex-1].alt;
-    }
-
-    function showStaffSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("staffSlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) {staffSlideIndex = 1}
-        if (n < 1) {staffSlideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[staffSlideIndex-1].style.display = "block";
-        dots[staffSlideIndex-1].className += " active";
-        captionText.innerHTML = dots[staffSlideIndex-1].alt;
-    }
-</script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

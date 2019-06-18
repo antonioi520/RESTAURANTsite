@@ -64,7 +64,7 @@ p {
 }
 .bg-blackish{
 
-    background-color:rgba(20, 20, 20, 0.8);
+    background-color:rgba(0, 0, 0, 0.8);
     opacity: 1;
 }
 
@@ -83,14 +83,24 @@ p {
     left: 33%;
     color:white;
 }
+.headertext2{
+    text-align: center;
+    margin-left:7%;
+    font-size: 60px;"
+// z-index:0;
+    position: absolute;
+    top: 23%;
+    left: 33%;
+    color:white;
+}
 .headerwrapper {
     position: relative;
     text-align: center;
 }
 .headericons{
     position: absolute;
-    top: 90%;
-    left: 44.5%;
+    top: 83%;
+    left: 44.7%;
 }
 .iconcolor{
     margin-top: 15%;
@@ -367,4 +377,17 @@ p {
 
 #about .about-text:last-child {
     margin-bottom: 0;
+}
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
 }

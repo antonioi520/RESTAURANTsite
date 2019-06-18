@@ -13,15 +13,7 @@
     <title>Mi Alma Restaurant</title>
 
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/css.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <link rel="icon" href="img/logo.png" type="image/x-icon">
-
+    <?php include("views/includetop.html")?>
 
 </head>
 <body>
@@ -33,8 +25,9 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="z-index: 1;margin-top:-100px;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(60%);object-fit: cover">
+                <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:25%;top:20%;object-fit: contain">
                 <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
@@ -43,8 +36,9 @@
             </div>
 
             <div class="carousel-item">
-                <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(60%);object-fit: cover">
+                <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:25%;top:20%;object-fit: contain">
                 <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
@@ -53,8 +47,9 @@
             </div>
 
             <div class="carousel-item">
-                <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(60%);object-fit: cover">
+                <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:25%;top:20%;object-fit: contain">
                 <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
@@ -87,7 +82,6 @@
     </div>
     <div class="container about-container wow fadeInUp">
         <div class="row">
-
             <div class="col-lg-6 about-img">
                 <img src="img/Staff/staff.jpg" alt="">
             </div>
@@ -197,13 +191,12 @@
         </div>
     </div>
 </section>
-<?php include("views/footer.html")?>
 <!-- #footer -->
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<?php include("views/footer.html")?>
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<?php include("views/includebottom.html") ?>
+
 </body>
 </html>
 

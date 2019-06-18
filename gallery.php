@@ -38,7 +38,7 @@
     <h1 class="menu-heading">Gallery</h1>
     <br>
     <hr>
-    <h2 style="text-align:left">Food & Drink</h2>
+    <h2 style="text-align:left; color:black;">Food & Drink</h2>
 
     <div class="row">
         <div class="column">
@@ -69,7 +69,7 @@
 
     <br>
     <hr>
-    <h2 style="text-align:left">Interior</h2>
+    <h2 style="text-align:left; color:black;">Interior</h2>
 
     <div class="row">
         <div class="column">
@@ -82,7 +82,7 @@
 
     <br>
     <hr>
-    <h2 style="text-align:left">Staff</h2>
+    <h2 style="text-align:left; color:black;">Staff</h2>
 
     <div class="row">
         <div class="column">

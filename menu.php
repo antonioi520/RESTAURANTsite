@@ -241,6 +241,18 @@
                     <span class="menu-item-title2">Piña Colada Virgen</span>
                     <span class="menu-item-price2"> $5</span> <br>
                 </div>
+                <div class="appetizers">
+                    <h2 style="font-weight: bolder;">OTRAS BEBIDAS</h2>
+                    <div class="section-title-divider"></div>
+                    <div class="menu-item2">
+                        <span class="menu-item-title2">Refrescos - Soda</span>
+                        <span class="menu-item-price2"> $2</span> <br>
+
+                        <p class="menu-item-description2">Sprite - Coca Cola - Diet Coke - Ginger Ale - Country Club.</p> <br>
+                        <span class="menu-item-title2">Agua Carbonatadas - Sparkling Water</span>
+                        <span class="menu-item-price2"> $2</span> <br>
+                    </div>
+                </div>
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">COCKTAILS</h2>
@@ -262,7 +274,7 @@
                 </div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Sangria </span>
-                    <span class="menu-item-price2"> $9 <br> Pitcher - 26</span>
+                    <span class="menu-item-price2"> $9 <br> Pitcher - $26</span>
                     <p class="menu-item-description2">Tinta - Peach - Chinola</p>
                 </div>
                 <div class="menu-item2">
@@ -291,19 +303,8 @@
                     <p class="menu-item-description2">Vodka rosada, jugo de toronja, Elderflower liqueur y lima.</p>
                 </div>
             </div>
-            <div class="appetizers">
-                <h2>OTRAS BEBIDAS</h2>
-                <div class="section-title-divider"></div>
-                <div class="menu-item2">
-                    <span class="menu-item-title2">Refrescos - Soda</span>
-                    <span class="menu-item-price2"> $2</span> <br>
 
-                    <p class="menu-item-description2">Sprite - Coca Cola - Diet Coke - Ginger Ale - Country Club.</p> <br>
-                    <span class="menu-item-title2">Agua Carbonatadas - Sparkling Water</span>
-                    <span class="menu-item-price2"> $2</span> <br>
-                </div>
-            </div>
-            </div>
+
         </div>
 
         <br> <br>

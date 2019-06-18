@@ -27,28 +27,30 @@
 <body>
 <!-- Header -->
 
-<nav class="navbar navbar-expand-lg navbar-inverse bg-blackish">
-    <div class="col-md-1"></div>
-    <img src="img/logo.png" alt="logo" style="height: 60px;width: 120px;">
+<nav class="navbar navbar-expand-lg navbar-inverse bg-blackish" style="z-index: 1;">
+    <div class="col-md-2"></div>
+    <img src="img/logo.png" alt="logo" style="height: 85px;width: 180px;margin-top:-5px;">
     <!--<a class="navbar-brand" href="#" style="color:white">Mi Almas Cafe</a>-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto ">
+        <ul class="navbar-nav mx-auto ">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" style="padding-right:20px;">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#" style="padding-right:20px;">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Ingredients</a>
+                <a class="nav-link" href="#" style="padding-right:20px;">Ingredients</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#" style="padding-right:20px;">Services</a>
             </li>
+        </ul>
+        <ul class="navbar-nav md-auto ">
             <li class="nav-item">
                 <a class="nav-link" href="#">About us</a>
             </li>
@@ -57,12 +59,19 @@
             </li>
         </ul>
     </div>
-    <div class="col-md-1"></div>
+    <div class="col-md-2"></div>
 </nav>
-<div id="carouselExampleFade" class="" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <!--img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:700px;filter:brightness(80%);"-->
+<div class="headerwrapper">
+    <div id="carouselExampleFade" class="" data-ride="carousel" style="z-index: 2;margin-top:-100px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:700px;filter:brightness(60%);">
+                <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                <ul class="headericons">
+                    <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
+                    <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

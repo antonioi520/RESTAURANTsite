@@ -54,9 +54,18 @@ h2 {
     margin: 1em;
     padding: .5em;
     max-width: 30em;
+    width: 30em;
     background-color: #5f1f7f;
 }
 
 .menu-item-description {
     margin: 0;
+}
+
+.menu-item-name {
+    font-weight: bold;
+}
+
+.menu-item-price {
+    font-weight: bold;
 }

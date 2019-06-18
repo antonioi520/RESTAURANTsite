@@ -34,7 +34,7 @@
 <div class="wrapper">
     <div class="container">
         <h1 class="menu-heading">Mi Alma Menu</h1>
-        <br>
+        <br> <hr>
         <div class="menu menu-row menu-wrap menu-center">
             <div class="appetizers">
                 <h2>APERITIVOS/APPETIZERS</h2>
@@ -52,7 +52,8 @@
                 </div>
                 <div class="menu-item">
                     <span class="menu-item-title">EMPANADAS DE CARNE MECHADA<BR>SHREDDED BEEF EMPANADAS </span>
-                    <span>-</span><span class="menu-item-price"> 8</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 8</span>
                     <p class="menu-item-description">Con salsa guasacaca.<br> With guasacaca sauce.</p>
                 </div>
                 <div class="menu-item">
@@ -68,7 +69,7 @@
                     <span class="menu-item-name">PECHUGA AL GRILL EN SALSA AL AJILLO <BR> GRILLED CHICKEN BREAST IN GARLIC SAUCE </span>
                     <span>-</span>
                     <span class="menu-item-price"> 12</span>
-                    <p class="menu-item-description">Con pure de papa.<br> With mashed potatos *add accent over e on pure*</p>
+                    <p class="menu-item-description">Con puré de papa.<br> With mashed potatoes.</p>
                 </div>
                 <div class="menu-item">
                     <span class="menu-item-name">RABO DE RES ESTOFADO<BR> STEWED OXTAIL </span>
@@ -83,6 +84,87 @@
                     <span class="menu-item-price"> 22</span>
                     <p class="menu-item-description">Corte cocinado a su gusto con tope de chimichurri. Servido con tostones y ensaladas. <br>
                     Cooked to your liking and topped with chimichurri. Served with tostones and salad.</p>
+                </div>
+            </div>
+            <div class="appetizers">
+                <h2>ENSALADA/SALAD</h2>
+                <div class="menu-item">
+                    <span class="menu-item-name">ENSALADA MI ALMA <BR> MI ALMA SALAD </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 10</span>
+                    <p class="menu-item-description">Mezcla de lechuga, tiras de steak, tomaates asados, zanahorias asadas, y parmesano. Aderezo de oregano fresco. <br>
+                    Lettuce mix, steak tips, roasted tomatoes, roasted carrots, parmesan. Fresh orégano dressing.</p>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2>MARISCOS/SEAFOOD</h2>
+                <div class="menu-item">
+                    <span class="menu-item-name">CAMARONES FUSION <BR> FUSION SHRIMP </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 12</span>
+                    <p class="menu-item-description">Con gajos de papa y mantequilla picante. <br> With potato wedges and spicy butter. </p>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-item-name">SALMON AL GRILL CON CHIMICHURRI DE OLIVA </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 18</span>
+                    <p class="menu-item-description">Acompañado con puré de papa y grean beans. <br> Served with mashed potatos and green beans. </p>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-item-name">PULPO MEDITERRANEO </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 16</span>
+                    <p class="menu-item-description">Con papa al limón y salsa romesco. With lime potato and romesco sauce.</p>
+                </div>
+            </div>
+            <div class="appetizers">
+                <h2>CALDOS/SOUP</h2>
+                <div class="menu-item">
+                    <span class="menu-item-name">CREMA DE AUYUAMA <BR> DOMINICAN PUMKIN CREAM </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 6</span>
+                    <p class="menu-item-description">Con tope de parmesano rallado. <br> With parmesan.</p>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2>ARROCES/RICE</h2>
+                <div class="menu-item">
+                    <span class="menu-item-name">RISOTTO MAR CARIBE <BR> CARIBEAN SEAS RISOTTO </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 22</span>
+                    <p class="menu-item-description">Camarones, calamares, pulpo en salsa pomodoro y parmesano. <br>
+                    Shrimp, calamari, octopus in pomodoro sauce and parmesan.</p>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-item-name">RISOTTO DE AURAMA Y CHURRASCO </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 16</span>
+                    <p class="menu-item-description"></p>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2>PASTAS</h2>
+                <div class="menu-item">
+                    <span class="menu-item-name">LINGUINE AL SALMÓN</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 14</span>
+                    <p class="menu-item-description">Cremosa salsa aurora con vodka. <br> Creamy aurora sauce and vodka.</p>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2>PARA COMPARTIR/TO SHARE</h2>
+                <div class="menu-item">
+                    <span class="menu-item-name">PICADERA DE MARISCOS SEFOOD PLATTER </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 20</span>
+                    <p class="menu-item-description">Calamares, camarones, pescado, papas fritas. <br> Calamari, shrimp, fish, French fries.</p>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-item-name">PICALONGA <BR> FRIED PLATTER </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 18</span>
+                    <p class="menu-item-description">Res frito, longaniza, chuleta ahumada, queso, y tostones. <br>
+                    Fried beef, longaniza, smoked pork chops, cheese, and fried plantains.</p>
                 </div>
             </div>
         </div>

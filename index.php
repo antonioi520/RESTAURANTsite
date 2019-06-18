@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Mi Almas Cafe</title>
+    <title>Mi Alma Restaurant</title>
 
 
     <!-- Bootstrap -->
@@ -26,40 +26,8 @@
 <body>
 <!-- Header -->
 
-<nav class="navbar navbar-expand-lg navbar-inverse bg-blackish" style="z-index: 2;">
-    <div class="col-md-2"></div>
-    <img src="img/logo.png" alt="logo" style="height: 85px;width: 180px;margin-top:-5px;">
-    <!--<a class="navbar-brand" href="#" style="color:white">Mi Almas Cafe</a>-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<?php include("views/nav.html") ?>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto ">
-            <li class="nav-item active">
-                <a class="nav-link" href="#" style="padding-right:20px;">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" style="padding-right:20px;">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" style="padding-right:20px;">Ingredients</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" style="padding-right:20px;">Gallery</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav md-auto ">
-            <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-md-2"></div>
-</nav>
 <div class="headerwrapper">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="z-index: 1;margin-top:-100px;">
         <div class="carousel-inner">
@@ -172,26 +140,7 @@
         </div>
     </div>
 </section>
-<!--==========================
-Footer
-============================-->
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-
-                <div class="credits">
-                    <p style="text-align: center;">Mi Alma Restaurant - 1017 Broad St, Providence, RI 02905</p>
-                    <img src="img/logo.png" alt="logo" style="height:100px;width:200px;">
-                    <ul style="padding-top: 10px;margin-left:-4%;">
-                        <li style="display: inline;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder2"><i class="fab fa-facebook-f iconcolor2"></i></a></div></li>
-                        <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder2"> <i class="fab fa-instagram iconcolor2"></i></a></div></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+<?php include("views/footer.html")?>
 <!-- #footer -->
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

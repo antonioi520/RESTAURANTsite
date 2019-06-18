@@ -284,24 +284,12 @@
                 <div class="section-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Woodbridge by Robert Mondavi Cabernet Sauvignon </span>
-                    <span class="menu-item-price2"> $25</span>
-                    <span class="menu-item-title2">Woodbridge by Robert Mondavi Merlot </span>
-                    <span class="menu-item-price2"> $25</span>
-                    <span class="menu-item-title2">Decoy Pinot Noir </span>
-                    <span class="menu-item-price2"> $45</span>
-                    <span class="menu-item-title2">Casillero del Diablo Reserva Cabernet Sauvignon </span>
-                    <span class="menu-item-price2"> $30</span>
-                </div>
-            </div>
-            <div class="entrees">
-                <h2 style="font-weight: bolder;">BLANCO/WHITE WINE</h2>
-                <div class="section-title-divider"></div>
-                <div class="menu-item2">
-                    <span class="menu-item-title2">Woodbridge by Robert Mondavi Chardonay </span>
                     <span class="menu-item-price2"> $25</span> <br>
-                    <span class="menu-item-title2">Santa Margherita Pinot Grigio </span>
+                    <span class="menu-item-title2">Woodbridge by Robert Mondavi Merlot </span>
+                    <span class="menu-item-price2"> $25</span> <br>
+                    <span class="menu-item-title2">Decoy Pinot Noir </span>
                     <span class="menu-item-price2"> $45</span> <br>
-                    <span class="menu-item-title2">Protos Verdejo </span>
+                    <span class="menu-item-title2">Casillero del Diablo Reserva Cabernet Sauvignon </span>
                     <span class="menu-item-price2"> $30</span>
                 </div>
             </div>
@@ -315,6 +303,18 @@
                     <span class="menu-item-price2"> $150</span> <br>
                     <span class="menu-item-title2">Moet Ice Imperial </span>
                     <span class="menu-item-price2"> $150</span>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2 style="font-weight: bolder;">BLANCO/WHITE WINE</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Woodbridge by Robert Mondavi Chardonay </span>
+                    <span class="menu-item-price2"> $25</span> <br>
+                    <span class="menu-item-title2">Santa Margherita Pinot Grigio </span>
+                    <span class="menu-item-price2"> $45</span> <br>
+                    <span class="menu-item-title2">Protos Verdejo </span>
+                    <span class="menu-item-price2"> $30</span>
                 </div>
             </div>
             <div class="entrees">
@@ -374,11 +374,16 @@
                     <span class="menu-item-price2"> $25</span> <br>
                 </div>
             </div>
-
-            <br>
-            <span class="menu-item-name">20% de gratificación será agregado a los grupos de o más personas.
+            <div class="entrees">
+                <div class="menu-item2">
+                    <span class="menu-item-name">20% de gratificación será agregado a los grupos de o más personas.
             <br> <br>
             20% gratuity will be added to all parties of 6 or more.</span>
+                </div>
+            </div>
+
+            <br>
+
             </div>
 
         <br> <br>

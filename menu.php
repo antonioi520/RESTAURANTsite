@@ -203,7 +203,7 @@
                 </div>
             </div>
             <div class="appetizers">
-                <h2 style="font-weight: bolder;">PARA LOS PEQUEÑOS/FOR THE LITTLE ONES</h2>
+                <h2 style="font-weight: bolder;">PARA LOS PEQUEÑOS/KIDS</h2>
                 <div class="section-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Chicken tenders & Fries</span>
@@ -220,7 +220,6 @@
                 </div>
             </div>
         </div>
-
         <div class="menu menu-row menu-wrap menu-center" id="drinkDiv" style="display: none">
             <div class="appetizers">
                 <h2 style="font-weight: bolder;">SMOOTHIES</h2>
@@ -241,17 +240,81 @@
                     <span class="menu-item-title2">Piña Colada Virgen</span>
                     <span class="menu-item-price2"> $5</span> <br>
                 </div>
-                <div class="appetizers">
-                    <h2 style="font-weight: bolder;">OTRAS BEBIDAS</h2>
-                    <div class="section-title-divider"></div>
-                    <div class="menu-item2">
-                        <span class="menu-item-title2">Refrescos - Soda</span>
-                        <span class="menu-item-price2"> $2</span> <br>
+            </div>
+            <div class="appetizers">
+                <h2 style="font-weight: bolder;">OTRAS BEBIDAS</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Refrescos - Soda</span>
+                    <span class="menu-item-price2"> $2</span> <br>
 
-                        <p class="menu-item-description2">Sprite - Coca Cola - Diet Coke - Ginger Ale - Country Club.</p> <br>
-                        <span class="menu-item-title2">Agua Carbonatadas - Sparkling Water</span>
-                        <span class="menu-item-price2"> $2</span> <br>
-                    </div>
+                    <p class="menu-item-description2">Sprite - Coca Cola - Diet Coke - Ginger Ale - Country Club.</p> <br>
+                    <span class="menu-item-title2">Agua Carbonatadas - Sparkling Water</span>
+                    <span class="menu-item-price2"> $2</span> <br>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2 style="font-weight: bolder;">CERVEZAS/BEER</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Presidente</span>
+                    <span class="menu-item-price2"> $6</span> <br>
+
+                    <span class="menu-item-title2">Presidente Light</span>
+                    <span class="menu-item-price2"> $6</span> <br>
+
+                    <span class="menu-item-title2">Corono</span>
+                    <span class="menu-item-price2"> $6</span> <br>
+
+                    <span class="menu-item-title2">Modelo</span>
+                    <span class="menu-item-price2"> $6</span> <br>
+
+                    <span class="menu-item-title2">Heineken</span>
+                    <span class="menu-item-price2"> $6</span> <br>
+
+                    <span class="menu-item-title2">Stella Artois</span>
+                    <span class="menu-item-price2"> $6</span> <br>
+
+                    <span class="menu-item-title2">Blue moon</span>
+                    <span class="menu-item-price2"> $6</span> <br>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2 style="font-weight: bolder;">VINO TINTO/RED WINE</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Woodbridge by Robert Mondavi Cabernet Sauvignon </span>
+                    <span class="menu-item-price2"> $25</span>
+                    <span class="menu-item-title2">Woodbridge by Robert Mondavi Merlot </span>
+                    <span class="menu-item-price2"> $25</span>
+                    <span class="menu-item-title2">Decoy Pinot Noir </span>
+                    <span class="menu-item-price2"> $45</span>
+                    <span class="menu-item-title2">Casillero del Diablo Reserva Cabernet Sauvignon </span>
+                    <span class="menu-item-price2"> $30</span>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2 style="font-weight: bolder;">BLANCO/WHITE WINE</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Woodbridge by Robert Mondavi Chardonay </span>
+                    <span class="menu-item-price2"> $25</span> <br>
+                    <span class="menu-item-title2">Santa Margherita Pinot Grigio </span>
+                    <span class="menu-item-price2"> $45</span> <br>
+                    <span class="menu-item-title2">Protos Verdejo </span>
+                    <span class="menu-item-price2"> $30</span>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2 style="font-weight: bolder;">ESPUMANTE/SPARKLING</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Prosecco Lunetta </span>
+                    <span class="menu-item-price2"> $25</span> <br>
+                    <span class="menu-item-title2">Moet Chandon Rose Imperial </span>
+                    <span class="menu-item-price2"> $150</span> <br>
+                    <span class="menu-item-title2">Moet Ice Imperial </span>
+                    <span class="menu-item-price2"> $150</span>
                 </div>
             </div>
             <div class="entrees">
@@ -303,9 +366,20 @@
                     <p class="menu-item-description2">Vodka rosada, jugo de toronja, Elderflower liqueur y lima.</p>
                 </div>
             </div>
+            <div class="entrees">
+                <h2 style="font-weight: bolder;">ROSADO/ROSE WINE</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Beringer White Zinfandel </span>
+                    <span class="menu-item-price2"> $25</span> <br>
+                </div>
+            </div>
 
-
-        </div>
+            <br>
+            <span class="menu-item-name">20% de gratificación será agregado a los grupos de o más personas.
+            <br> <br>
+            20% gratuity will be added to all parties of 6 or more.</span>
+            </div>
 
         <br> <br>
         <span class="menu-item-name">IMPORTANTE: Algunos articulos vienen crudo o parcialmente cocinando y puede incrementar el risego de enfermedades por alimentos.
@@ -322,6 +396,7 @@
 <script>
     var food = document.getElementById("foodDiv");
     var drink = document.getElementById("drinkDiv");
+
 
     function switchToFoodMenu() {
         food.style.display = "flex";

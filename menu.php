@@ -381,12 +381,9 @@
             20% gratuity will be added to all parties of 6 or more.</span>
                 </div>
             </div>
+        </div>
 
-            <br>
-
-            </div>
-
-        <br> <br>
+        <br>
         <span class="menu-item-name">IMPORTANTE: Algunos articulos vienen crudo o parcialmente cocinando y puede incrementar el risego de enfermedades por alimentos.
         Los consumidores que son especialmente vulnerables sólo debe de comer cames, mariscos y otras comida de animales completamenta cocinados.
         Por favor notifiquemos inmediantamente de cualquier alergia que usted tenga.

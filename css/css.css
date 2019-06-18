@@ -65,7 +65,7 @@ p {
 }
 .bg-blackish{
 
-    background-color:rgba(0, 0, 0, 0.8);
+    background-color:rgba(0, 0, 0, 0.3);
     opacity: 1;
 }
 
@@ -76,12 +76,14 @@ p {
 }
 
 .headertext{
+    font-family: "Georgia", 'sans-serif';
+   // font-weight: 600;
     text-align: center;
     font-size: 90px;"
    // z-index:0;
     position: absolute;
     top: 17%;
-    left: 23.5%;
+    left: 23%;
     color:white;
 }
 .headertext2{

@@ -62,10 +62,6 @@ h2 {
     margin: 0;
 }
 
-.menu-item-name {
-    font-weight: bold;
-}
-
-.menu-item-price {
+.menu-item-name, .menu-item-title, .menu-item-price {
     font-weight: bold;
 }

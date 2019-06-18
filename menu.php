@@ -221,10 +221,38 @@
             <div class="appetizers">
                 <h2>MENÚ DE BEBIDAS/DRINKS MENU</h2>
                 <div class="menu-item">
-                    <span class="menu-item-title">CALAMARI FRITO <BR> FRIED CALAMARI </span>
+                    <span class="menu-item-title"><h4>SMOOTHIES</h4></span>
+                    <span></span>
+                    <span class="menu-item-name">Fruta del Bosque - Berry Blend</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 6</span> <br>
+                    <span class="menu-item-name">Melocotón - Peach</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Kiwi y Fresa - Strawberry Kiwi</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Lechoza - Papaya</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Piña Colada Virgen</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2>COCKTAILS</h2>
+                <div class="menu-item">
+                    <span class="menu-item-name">Classic Margarita </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 9</span>
+                    <p class="menu-item-description">Tequila, triple sec, jugo de limón y sour mix.</p>
+                </div>
+                <div class="menu-item">
+                    <span class="menu-item-name">Berry Margarita </span>
                     <span>-</span>
                     <span class="menu-item-price"> 10</span>
-                    <p class="menu-item-description">Cherry pepper y salsa marinara.<br> Cherry Pepper and marinara sauce.</p>
+                    <p class="menu-item-description">Tequila, triple sec, puré de berry, jugo de limón y sour mix.</p>
                 </div>
             </div>
         </div>

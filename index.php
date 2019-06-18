@@ -26,7 +26,7 @@
 <body>
 <!-- Header -->
 
-<nav class="navbar navbar-expand-lg navbar-inverse bg-blackish" style="z-index: 1;">
+<nav class="navbar navbar-expand-lg navbar-inverse bg-blackish" style="z-index: 2;">
     <div class="col-md-2"></div>
     <img src="img/logo.png" alt="logo" style="height: 85px;width: 180px;margin-top:-5px;">
     <!--<a class="navbar-brand" href="#" style="color:white">Mi Almas Cafe</a>-->
@@ -61,18 +61,46 @@
     <div class="col-md-2"></div>
 </nav>
 <div class="headerwrapper">
-    <div id="carouselExampleFade" class="" data-ride="carousel" style="z-index: 2;margin-top:-100px;">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="z-index: 1;margin-top:-100px;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:700px;filter:brightness(60%);">
+                <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(20%);">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                <a href="#" id="box"><h2 style="color:white;padding-top: 20px;">View Hours</h2></a>
+                <ul class="headericons">
+                    <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
+                    <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
+                </ul>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(20%);">
+                <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                <a href="#" id="box"><h2 style="color:white;padding-top: 20px;">View Hours</h2></a>
+                <ul class="headericons">
+                    <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
+                    <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
+                </ul>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(20%);">
+                <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                <a href="#" id="box"><h2 style="color:white;padding-top: 20px;">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
                     <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
                 </ul>
             </div>
         </div>
-    </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
 </div>
 
 

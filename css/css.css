@@ -67,6 +67,7 @@
     margin-top: 15%;
     font-size: 30px;
     color: white;
+    opacity: .9;
 
 }
 .circleborder{
@@ -74,6 +75,7 @@
     min-height: 3em;
     border-radius: 50%;
     border: solid white;
+    opacity: .9;
 }
 .circleborder:hover{
     color:deepskyblue;
@@ -89,4 +91,19 @@
 }
 #test:hover{
 
+}
+#box{
+    position:absolute;
+    z-index: 1;
+    height:90px;
+    width: 450px;
+    border: 3px solid white;
+    //background-color: rgb(106,134,79);
+    opacity: .9;
+    left: 38%;
+    margin-top:-15%;
+    border-radius: 5px;
+}
+#box:hover{
+    text-decoration: none;
 }

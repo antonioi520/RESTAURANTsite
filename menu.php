@@ -217,7 +217,7 @@
         Por favor notifiquemos inmediantamente de cualquier alergia que usted tenga.
         <br> <br>
         IMPORTANT: Some menu items are raw or partially cooked and can increase your risk of food borne illness. Consumers who are especially
-        vulnerable to food borne illness should only eat meat, seafood and other foor from animal thoroughly cooked. Please notify us immediately of any
+        vulnerable to food borne illness should only eat meat, seafood and other food from animal thoroughly cooked. Please notify us immediately of any
         food allergies you have.</span>
 
     </div>

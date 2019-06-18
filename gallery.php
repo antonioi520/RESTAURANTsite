@@ -327,8 +327,29 @@
         }
     </script>
 </div>
+
 <br>
 <br>
+<!--==========================
+Footer
+============================-->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="credits">
+                    <p style="text-align: center;">Mi Alma Restaurant - 1017 Broad St, Providence, RI 02905</p>
+                    <img src="img/logo.png" alt="logo" style="height:100px;width:200px;">
+                    <ul style="padding-top: 10px;margin-left:-4%;">
+                        <li style="display: inline;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder2"><i class="fab fa-facebook-f iconcolor2"></i></a></div></li>
+                        <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder2"> <i class="fab fa-instagram iconcolor2"></i></a></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

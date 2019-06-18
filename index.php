@@ -91,7 +91,7 @@
         <div class="row">
                 <div class="col-lg-6">
                     <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%; ">
-                        <img src="img/imgheader.png">
+                        <img src="img/imgheader2.png">
                         <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR INGREDIENTS</h1>
                         <strong style="color:white;letter-spacing: 0.05em;">We use only the finest of ingredients and prepare them so that they bring out the best in our food</strong><br><br><br>
                         <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%; ">
-                        <img src="img/imgheader.png">
+                        <img src="img/imgheader2.png">
                         <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR SERVICES</h1>
                         <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top quality servers and chefs providing every utility to assure you enjoy your time</strong><br><br><br>
                         <a href="#" id="ingredientBox" style="width:240px;"><h2 id="ingredientBoxText">View Services</h2></a>

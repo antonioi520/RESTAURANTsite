@@ -104,6 +104,14 @@
     margin-top:-15%;
     border-radius: 5px;
 }
+#headerHours{
+    color:white;
+    padding-top: 20px;
+}
 #box:hover{
     text-decoration: none;
+    border: 3px solid deepskyblue;
+}
+#box:hover #headerHours{
+    color:deepskyblue;
 }

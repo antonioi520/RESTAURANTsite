@@ -66,7 +66,7 @@
             <div class="carousel-item active">
                 <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(20%);">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
-                <a href="#" id="box"><h2 style="color:white;padding-top: 20px;">View Hours</h2></a>
+                <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
                     <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
@@ -76,7 +76,7 @@
             <div class="carousel-item">
                 <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(20%);">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
-                <a href="#" id="box"><h2 style="color:white;padding-top: 20px;">View Hours</h2></a>
+                <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
                     <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
@@ -86,7 +86,7 @@
             <div class="carousel-item">
                 <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(20%);">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
-                <a href="#" id="box"><h2 style="color:white;padding-top: 20px;">View Hours</h2></a>
+                <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
                     <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>

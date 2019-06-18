@@ -16,7 +16,13 @@
     display: table;
     clear: both;
 }
-
+.menu-heading {
+    font-family: 'Satisfy', cursive;
+    font-size: calc(2em + 3vw);
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+}
 .column {
     float: left;
     width: 12%;
@@ -115,7 +121,7 @@
     top: 0;
 }
 
-img {
+#galleryImg {
     margin-bottom: -4px;
     object-fit: scale-down;
     max-height: 800px;

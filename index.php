@@ -46,7 +46,7 @@
                 <a class="nav-link" href="#" style="padding-right:20px;">Ingredients</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" style="padding-right:20px;">Services</a>
+                <a class="nav-link" href="#" style="padding-right:20px;">Gallery</a>
             </li>
         </ul>
         <ul class="navbar-nav md-auto ">
@@ -101,9 +101,98 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    </div>
 </div>
+<div class="container">
+
+</div>
+<section id="contact">
+    <div class="container wow fadeInUp">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Contact Us</h3>
+                <div class="section-title-divider"></div>
+                <p class="section-description">Feel free to reach out to us and we'll get right back to you.</p>
+            </div>
+        </div>
+
+        <div class="row">
 
 
+            <div class="col-md-5 col-md-push-2" style="padding-bottom: 10px;">
+                <div class="form">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="" method="post" role="form" class="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                        </div>
+                        <div class="text-center"><button type="submit">Disabled</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-4 col-md-push-2">
+                <div class="info">
+
+                    <div>
+                        <i class="fas fa-phone"></i><h4 style="padding-left:40px;">Phone</h4>
+                        <p>(401) 648-0715</p>
+                    </div>
+                    <div style="padding-top: 20px;">
+                        <i class="far fa-calendar-alt"></i><h4 style="padding-left:40px;">Hours</h4>
+                        <strong>Mon-Tue:</strong><p style="padding-left:0;"> Closed</p><br>
+                        <strong>Wed-Thur+Sun:</strong><p style="padding-left:0;"> 12pm-10:30pm</p><br>
+                        <strong>Fri-Sat:</strong><p style="padding-left:0;"> 12-11:30pm</p>
+                    </div>
+                    <div style="padding-top: 20px;">
+                        <i class="fas fa-location-arrow"></i><h4 style="padding-left:40px;">Location</h4>
+                        <p> 1017 Broad Street</p><br>
+                        <p> Providence, RI 02905</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--==========================
+Footer
+============================-->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="credits">
+                    <p style="text-align: center;">Mi Alma Restaurant - 1017 Broad St, Providence, RI 02905</p>
+                    <img src="img/logo.png" alt="logo" style="height:100px;width:200px;">
+                    <ul style="padding-top: 10px;margin-left:-4%;">
+                        <li style="display: inline;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder2"><i class="fab fa-facebook-f iconcolor2"></i></a></div></li>
+                        <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder2"> <i class="fab fa-instagram iconcolor2"></i></a></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- #footer -->
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

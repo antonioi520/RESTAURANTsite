@@ -93,17 +93,6 @@
                     Cooked to your liking and topped with chimichurri. Served with tostones and salad.</p>
                 </div>
             </div>
-            <div class="appetizers">
-                <h2 style="font-weight: bolder;">ENSALADA/SALAD</h2>
-                <div class="section-title-divider"></div>
-                <div class="menu-item2">
-                    <span class="menu-item-title2">ENSALADA MI ALMA
-                        <span class="menu-item-price2"> $10</span>
-                        <BR> MI ALMA SALAD </span>
-                    <p class="menu-item-description2">Mezcla de lechuga, tiras de steak, tomaates asados, zanahorias asadas, y parmesano. Aderezo de oregano fresco. <br>
-                    Lettuce mix, steak tips, roasted tomatoes, roasted carrots, parmesan. Fresh orégano dressing.</p>
-                </div>
-            </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">MARISCOS/SEAFOOD</h2>
                 <div class="section-title-divider"></div>
@@ -126,13 +115,14 @@
                 </div>
             </div>
             <div class="appetizers">
-                <h2 style="font-weight: bolder;">CALDOS/SOUP</h2>
+                <h2 style="font-weight: bolder;">ENSALADA/SALAD</h2>
                 <div class="section-title-divider"></div>
                 <div class="menu-item2">
-                    <span class="menu-item-title2">CREMA DE AUYUAMA
-                        <span class="menu-item-price2"> $6</span>
-                        <BR> DOMINICAN PUMPKIN CREAM </span>
-                    <p class="menu-item-description2">Con tope de parmesano rallado. <br> With parmesan.</p>
+                    <span class="menu-item-title2">ENSALADA MI ALMA
+                        <span class="menu-item-price2"> $10</span>
+                        <BR> MI ALMA SALAD </span>
+                    <p class="menu-item-description2">Mezcla de lechuga, tiras de steak, tomaates asados, zanahorias asadas, y parmesano. Aderezo de oregano fresco. <br>
+                    Lettuce mix, steak tips, roasted tomatoes, roasted carrots, parmesan. Fresh orégano dressing.</p>
                 </div>
             </div>
             <div class="entrees">
@@ -151,13 +141,14 @@
                     <p class="menu-item-description2"></p>
                 </div>
             </div>
-            <div class="entrees">
-                <h2 style="font-weight: bolder;">PASTAS</h2>
+            <div class="appetizers">
+                <h2 style="font-weight: bolder;">CALDOS/SOUP</h2>
                 <div class="section-title-divider"></div>
                 <div class="menu-item2">
-                    <span class="menu-item-title2">LINGUINE AL SALMÓN</span>
-                    <span class="menu-item-price2"> $14</span>
-                    <p class="menu-item-description2">Cremosa salsa aurora con vodka. <br> Creamy aurora sauce and vodka.</p>
+                    <span class="menu-item-title2">CREMA DE AUYUAMA
+                        <span class="menu-item-price2"> $6</span>
+                        <BR> DOMINICAN PUMPKIN CREAM </span>
+                    <p class="menu-item-description2">Con tope de parmesano rallado. <br> With parmesan.</p>
                 </div>
             </div>
             <div class="entrees">
@@ -173,7 +164,16 @@
                         <span class="menu-item-price2"> $18</span>
                         <BR> FRIED PLATTER </span>
                     <p class="menu-item-description2">Res frito, longaniza, chuleta ahumada, queso, y tostones. <br>
-                    Fried beef, longaniza, smoked pork chops, cheese, and fried plantains.</p>
+                        Fried beef, longaniza, smoked pork chops, cheese, and fried plantains.</p>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2 style="font-weight: bolder;">PASTAS</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">LINGUINE AL SALMÓN</span>
+                    <span class="menu-item-price2"> $14</span>
+                    <p class="menu-item-description2">Cremosa salsa aurora con vodka. <br> Creamy aurora sauce and vodka.</p>
                 </div>
             </div>
             <div class="appetizers">

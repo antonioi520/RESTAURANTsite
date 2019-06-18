@@ -76,11 +76,11 @@ p {
 
 .headertext{
     text-align: center;
-    font-size: 60px;"
+    font-size: 90px;"
    // z-index:0;
     position: absolute;
-    top: 25%;
-    left: 33%;
+    top: 17%;
+    left: 23.5%;
     color:white;
 }
 .headertext2{

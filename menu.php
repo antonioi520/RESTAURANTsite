@@ -42,217 +42,218 @@
         <br>
         <div class="menu menu-row menu-wrap menu-center" id="foodDiv">
             <div class="appetizers">
-                <h2>APERITIVOS/APPETIZERS</h2>
-                <div class="menu-item">
-                    <span class="menu-item-title">CALAMARI FRITO <BR> FRIED CALAMARI </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 10</span>
-                    <p class="menu-item-description">Cherry pepper y salsa marinara.<br> Cherry Pepper and marinara sauce.</p>
+                <h2 style="font-weight: bolder;">APERITIVOS/APPETIZERS</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">CALAMARI FRITO
+                    <span class="menu-item-price2"> $10</span>
+                        <BR> FRIED CALAMARI </span>
+                    <p class="menu-item-description2">Cherry pepper y salsa marinara.<br> Cherry Pepper and marinara sauce.</p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-title">COCKTAIL DE CAMARAONES<BR>SHRIMP COCKTAIL </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 12</span>
-                    <p class="menu-item-description">Con aguacate.<br> With avacado.</p>
+                <div class="menu-item2">
+                    <span class="menu-item-title" style="color:black;font-weight: bolder">COCKTAIL DE CAMARAONES
+                        <span class="menu-item-price" style="float:right;color:black"> $12</span>
+                        <BR>SHRIMP COCKTAIL </span>
+                    <p class="menu-item-description" style="color:black">Con aguacate.<br> With avacado.</p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-title">EMPANADAS DE CARNE MECHADA<BR>SHREDDED BEEF EMPANADAS </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 8</span>
-                    <p class="menu-item-description">Con salsa guasacaca.<br> With guasacaca sauce.</p>
+                <div class="menu-item2">
+                    <span class="menu-item-title" style="color:black;font-weight: bolder">EMPANADAS DE CARNE MECHADA
+                        <span class="menu-item-price" style="float:right;color:black"> $8</span>
+                        <BR>SHREDDED BEEF EMPANADAS </span>
+                    <p class="menu-item-description" style="color:black">Con salsa guasacaca.<br> With guasacaca sauce.</p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-title">BERENJENAS PARMESANA<BR>EGGPLANT PARMESAN </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 8</span>
-                    <p class="menu-item-description">Rodajas de berenjenas, salsa marinara y queso mozzarella gratinado.<br> Eggplant slices, marinara sauce, mozzarella au gratin.</p>
+                <div class="menu-item2">
+                    <span class="menu-item-title" style="color:black;font-weight: bolder">BERENJENAS PARMESANA
+                        <span class="menu-item-price" style="float:right;color:black"> $8</span>
+                        <BR>EGGPLANT PARMESAN </span>
+                    <p class="menu-item-description" style="color:black">Rodajas de berenjenas, salsa marinara y queso mozzarella gratinado.<br> Eggplant slices, marinara sauce, mozzarella au gratin.</p>
                 </div>
             </div>
             <div class="entrees">
-                <h2>CARNES/MEAT</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">PECHUGA AL GRILL EN SALSA AL AJILLO <BR> GRILLED CHICKEN BREAST IN GARLIC SAUCE </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 12</span>
-                    <p class="menu-item-description">Con puré de papa.<br> With mashed potatoes.</p>
+                <h2 style="font-weight: bolder;">CARNES/MEAT</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">PECHUGA AL GRILL EN SALSA AL AJILLO
+                        <span class="menu-item-price2"> $12</span>
+                        <BR> GRILLED CHICKEN BREAST IN GARLIC SAUCE </span>
+
+                    <p class="menu-item-description2">Con puré de papa.<br> With mashed potatoes.</p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-name">RABO DE RES ESTOFADO<BR> STEWED OXTAIL </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 16</span>
-                    <p class="menu-item-description">Marinado y cocinado lentamente. Servido con arroz y habichuealas y ensalada rusa. <br>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">RABO DE RES ESTOFADO
+                        <span class="menu-item-price2"> $16</span>
+                        <BR> STEWED OXTAIL </span>
+                    <p class="menu-item-description2">Marinado y cocinado lentamente. Servido con arroz y habichuealas y ensalada rusa. <br>
                     Marinated & slow cooked. Served with rice & beans and rusa salad.</p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-name">CHURRASCO ANGUS </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 22</span>
-                    <p class="menu-item-description">Corte cocinado a su gusto con tope de chimichurri. Servido con tostones y ensaladas. <br>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">CHURRASCO ANGUS </span>
+                    <span class="menu-item-price2" style="font-weight: bold;"> $22</span>
+                    <p class="menu-item-description2">Corte cocinado a su gusto con tope de chimichurri. Servido con tostones y ensaladas. <br>
                     Cooked to your liking and topped with chimichurri. Served with tostones and salad.</p>
                 </div>
             </div>
             <div class="appetizers">
-                <h2>ENSALADA/SALAD</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">ENSALADA MI ALMA <BR> MI ALMA SALAD </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 10</span>
-                    <p class="menu-item-description">Mezcla de lechuga, tiras de steak, tomaates asados, zanahorias asadas, y parmesano. Aderezo de oregano fresco. <br>
+                <h2 style="font-weight: bolder;">ENSALADA/SALAD</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">ENSALADA MI ALMA
+                        <span class="menu-item-price2"> $10</span>
+                        <BR> MI ALMA SALAD </span>
+                    <p class="menu-item-description2">Mezcla de lechuga, tiras de steak, tomaates asados, zanahorias asadas, y parmesano. Aderezo de oregano fresco. <br>
                     Lettuce mix, steak tips, roasted tomatoes, roasted carrots, parmesan. Fresh orégano dressing.</p>
                 </div>
             </div>
             <div class="entrees">
-                <h2>MARISCOS/SEAFOOD</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">CAMARONES FUSION <BR> FUSION SHRIMP </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 12</span>
-                    <p class="menu-item-description">Con gajos de papa y mantequilla picante. <br> With potato wedges and spicy butter. </p>
+                <h2 style="font-weight: bolder;">MARISCOS/SEAFOOD</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">CAMARONES FUSION
+                        <span class="menu-item-price2"> $12</span>
+                        <BR> FUSION SHRIMP </span>
+
+                    <p class="menu-item-description2">Con gajos de papa y mantequilla picante. <br> With potato wedges and spicy butter. </p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-name">SALMON AL GRILL CON CHIMICHURRI DE OLIVA </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 18</span>
-                    <p class="menu-item-description">Acompañado con puré de papa y grean beans. <br> Served with mashed potatos and green beans. </p>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">SALMON AL GRILL CON CHIMICHURRI DE OLIVA </span>
+                    <span class="menu-item-price2" style="font-weight: bold;"> $18</span>
+                    <p class="menu-item-description2">Acompañado con puré de papa y grean beans. <br> Served with mashed potatos and green beans. </p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-name">PULPO MEDITERRANEO </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 16</span>
-                    <p class="menu-item-description">Con papa al limón y salsa romesco. With lime potato and romesco sauce.</p>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">PULPO MEDITERRANEO </span>
+                    <span class="menu-item-price2" style="font-weight: bold;"> $16</span>
+                    <p class="menu-item-description2">Con papa al limón y salsa romesco. With lime potato and romesco sauce.</p>
                 </div>
             </div>
             <div class="appetizers">
-                <h2>CALDOS/SOUP</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">CREMA DE AUYUAMA <BR> DOMINICAN PUMPKIN CREAM </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 6</span>
-                    <p class="menu-item-description">Con tope de parmesano rallado. <br> With parmesan.</p>
+                <h2 style="font-weight: bolder;">CALDOS/SOUP</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">CREMA DE AUYUAMA
+                        <span class="menu-item-price2"> $6</span>
+                        <BR> DOMINICAN PUMPKIN CREAM </span>
+                    <p class="menu-item-description2">Con tope de parmesano rallado. <br> With parmesan.</p>
                 </div>
             </div>
             <div class="entrees">
-                <h2>ARROCES/RICE</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">RISOTTO MAR CARIBE <BR> CARIBEAN SEAS RISOTTO </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 22</span>
-                    <p class="menu-item-description">Camarones, calamares, pulpo en salsa pomodoro y parmesano. <br>
+                <h2 style="font-weight: bolder;">ARROCES/RICE</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">RISOTTO MAR CARIBE
+                        <span class="menu-item-price2"> $22</span>
+                        <BR> CARIBEAN SEAS RISOTTO </span>
+                    <p class="menu-item-description2">Camarones, calamares, pulpo en salsa pomodoro y parmesano. <br>
                     Shrimp, calamari, octopus in pomodoro sauce and parmesan.</p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-name">RISOTTO DE AURAMA Y CHURRASCO </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 16</span>
-                    <p class="menu-item-description"></p>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">RISOTTO DE AURAMA Y CHURRASCO </span>
+                    <span class="menu-item-price2"> $16</span>
+                    <p class="menu-item-description2"></p>
                 </div>
             </div>
             <div class="entrees">
-                <h2>PASTAS</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">LINGUINE AL SALMÓN</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 14</span>
-                    <p class="menu-item-description">Cremosa salsa aurora con vodka. <br> Creamy aurora sauce and vodka.</p>
+                <h2 style="font-weight: bolder;">PASTAS</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">LINGUINE AL SALMÓN</span>
+                    <span class="menu-item-price2"> $14</span>
+                    <p class="menu-item-description2">Cremosa salsa aurora con vodka. <br> Creamy aurora sauce and vodka.</p>
                 </div>
             </div>
             <div class="entrees">
-                <h2>PARA COMPARTIR/TO SHARE</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">PICADERA DE MARISCOS SEFOOD PLATTER </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 20</span>
-                    <p class="menu-item-description">Calamares, camarones, pescado, papas fritas. <br> Calamari, shrimp, fish, French fries.</p>
+                <h2 style="font-weight: bolder;">PARA COMPARTIR/TO SHARE</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">PICADERA DE MARISCOS SEFOOD PLATTER </span>
+                    <span class="menu-item-price2"> $20</span>
+                    <p class="menu-item-description2">Calamares, camarones, pescado, papas fritas. <br> Calamari, shrimp, fish, French fries.</p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-name">PICALONGA <BR> FRIED PLATTER </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 18</span>
-                    <p class="menu-item-description">Res frito, longaniza, chuleta ahumada, queso, y tostones. <br>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">PICALONGA
+                        <span class="menu-item-price2"> $18</span>
+                        <BR> FRIED PLATTER </span>
+                    <p class="menu-item-description2">Res frito, longaniza, chuleta ahumada, queso, y tostones. <br>
                     Fried beef, longaniza, smoked pork chops, cheese, and fried plantains.</p>
                 </div>
             </div>
             <div class="appetizers">
-                <h2>ACOMPAÑAMIENTOS/SIDES</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">Tostones/Fried Plantains</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Papas fritas/French Fries</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Arroz y Habichuelas/Rice and beans</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Green beans</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Ensalada/Salad</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Pure de papas/Mashed Potatoes</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Ensalada rusa con remolacha/Potato and beet salad</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span>
+                <h2 style="font-weight: bolder;">ACOMPAÑAMIENTOS/SIDES</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Tostones/Fried Plantains</span>
+                    <span class="menu-item-price2" style="font-weight: bold;"> $5</span> <br>
+
+                    <span class="menu-item-title2">Papas fritas/French Fries</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Arroz y Habichuelas/Rice and beans</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Green beans</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Ensalada/Salad</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Pure de papas/Mashed Potatoes</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Ensalada rusa con remolacha/Potato and beet salad</span>
+                    <span class="menu-item-price2"> $5</span>
                 </div>
             </div>
             <div class="appetizers">
-                <h2>PARA LOS PEQUEÑOS/FOR THE LITTLE ONES</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">Chicken tenders & Fries</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Fish and chips</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Salchipapas</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Queso frito y maduros/Fried cheese with sweet plantains</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
+                <h2 style="font-weight: bolder;">PARA LOS PEQUEÑOS/FOR THE LITTLE ONES</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Chicken tenders & Fries</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Fish and chips</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Salchipapas</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Queso frito y maduros/Fried cheese with sweet plantains</span>
+                    <span class="menu-item-price2"> $5</span> <br>
                 </div>
             </div>
         </div>
 
         <div class="menu menu-row menu-wrap menu-center" id="drinkDiv" style="display: none">
             <div class="appetizers">
-                <h2>MENÚ DE BEBIDAS/DRINKS MENU</h2>
-                <div class="menu-item">
-                    <span class="menu-item-title"><h4>SMOOTHIES</h4></span>
-                    <span></span>
-                    <span class="menu-item-name">Fruta del Bosque - Berry Blend</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 6</span> <br>
-                    <span class="menu-item-name">Melocotón - Peach</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Kiwi y Fresa - Strawberry Kiwi</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Lechoza - Papaya</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
-                    <span class="menu-item-name">Piña Colada Virgen</span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 5</span> <br>
+                <h2 style="font-weight: bolder;">SMOOTHIES</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Fruta del Bosque - Berry Blend</span>
+                    <span class="menu-item-price2"> $6</span> <br>
+
+                    <span class="menu-item-title2">Melocotón - Peach</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Kiwi y Fresa - Strawberry Kiwi</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Lechoza - Papaya</span>
+                    <span class="menu-item-price2"> $5</span> <br>
+
+                    <span class="menu-item-title2">Piña Colada Virgen</span>
+                    <span class="menu-item-price2"> $5</span> <br>
                 </div>
             </div>
             <div class="entrees">
-                <h2>COCKTAILS</h2>
-                <div class="menu-item">
-                    <span class="menu-item-name">Classic Margarita </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 9</span>
-                    <p class="menu-item-description">Tequila, triple sec, jugo de limón y sour mix.</p>
+                <h2 style="font-weight: bolder;">COCKTAILS</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Classic Margarita </span>
+                    <span class="menu-item-price2"> $9</span>
+                    <p class="menu-item-description2">Tequila, triple sec, jugo de limón y sour mix.</p>
                 </div>
-                <div class="menu-item">
-                    <span class="menu-item-name">Berry Margarita </span>
-                    <span>-</span>
-                    <span class="menu-item-price"> 10</span>
-                    <p class="menu-item-description">Tequila, triple sec, puré de berry, jugo de limón y sour mix.</p>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Berry Margarita </span>
+                    <span class="menu-item-price2"> $10</span>
+                    <p class="menu-item-description2">Tequila, triple sec, puré de berry, jugo de limón y sour mix.</p>
                 </div>
             </div>
         </div>

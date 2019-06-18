@@ -45,6 +45,13 @@
     background-color:rgba(20, 20, 20, 0.7);
     opacity: 1;
 }
+
+.bg-blackish2{
+
+    background-color:rgba(20, 20, 20, 1);
+    opacity: 1;
+}
+
 .headertext{
     text-align: center;
     font-size: 60px;"

@@ -6,16 +6,11 @@
  * Time: 5:31 PM
  */
 ?>
-<!DOCTYPE HTML>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Mi Alma Restaurant</title>
 
 
-    <?php include("views/includetop.html")?>
+<?php include("views/header.html") ?>
 
-</head>
+
 <body>
 <!-- Header -->
 

@@ -22,7 +22,7 @@
             <div class="carousel-item active">
                 <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
-                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:25%;top:20%;object-fit: contain">
+                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:26%;top:20%;object-fit: contain;filter:brightness(95%);">
                 <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
@@ -33,7 +33,7 @@
             <div class="carousel-item">
                 <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
-                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:25%;top:20%;object-fit: contain">
+                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:26%;top:20%;object-fit: contain;filter:brightness(95%);">
                 <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
@@ -44,7 +44,7 @@
             <div class="carousel-item">
                 <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
-                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:25%;top:20%;object-fit: contain">
+                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:26%;top:20%;object-fit: contain;filter:brightness(95%);">
                 <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
                     <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>

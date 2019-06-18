@@ -1,5 +1,13 @@
 .nav-item a{
     color:white;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+.nav-item a:hover{
+    color:deepskyblue;
+}
+.nav-item li a{
+    padding-right:20px;
 }
 .carousel.fade {
     opacity: 1;
@@ -33,5 +41,52 @@
     z-index: 2;
 }
 .bg-blackish{
-    background-color:#141414;
+
+    background-color:rgba(20, 20, 20, 0.7);
+    opacity: 1;
+}
+.headertext{
+    text-align: center;
+    font-size: 60px;"
+   // z-index:0;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    color:white;
+}
+.headerwrapper {
+    position: relative;
+    text-align: center;
+}
+.headericons{
+    position: absolute;
+    top: 90%;
+    left: 44%;
+}
+.iconcolor{
+    margin-top: 15%;
+    font-size: 30px;
+    color: white;
+
+}
+.circleborder{
+    min-width: 3em;
+    min-height: 3em;
+    border-radius: 50%;
+    border: solid white;
+}
+.circleborder:hover{
+    color:deepskyblue;
+    border: solid deepskyblue;
+}
+.circleborder:hover i{
+    color:deepskyblue;
+}
+
+
+#test {
+    display: inline-flex;
+}
+#test:hover{
+
 }

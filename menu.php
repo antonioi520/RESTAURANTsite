@@ -36,8 +36,8 @@
         <h1 class="menu-heading">Mi Alma Menu</h1>
         <br> <hr>
         <center>
-            <button onclick="switchToFoodMenu()">Food</button>
-            <button onclick="switchToDrinkMenu()">Drinks</button>
+            <a href="#" id="fooddrinkButton" onclick="switchToFoodMenu()">Food</a>
+            <a href="#" id="fooddrinkButton" onclick="switchToDrinkMenu()">Drinks</a>
         </center>
         <br>
         <div class="menu menu-row menu-wrap menu-center" id="foodDiv">
@@ -255,6 +255,54 @@
                     <span class="menu-item-price2"> $10</span>
                     <p class="menu-item-description2">Tequila, triple sec, puré de berry, jugo de limón y sour mix.</p>
                 </div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Mojitos </span>
+                    <span class="menu-item-price2"> $10</span>
+                    <p class="menu-item-description2">Limón - Kiwi y fresa - Coco - Chinola<br> Ron blanco, menta, limón y zumo de fruta.</p>
+                </div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Sangria </span>
+                    <span class="menu-item-price2"> $9 <br> Pitcher - 26</span>
+                    <p class="menu-item-description2">Tinta - Peach - Chinola</p>
+                </div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Peaach Moscow Mule </span>
+                    <span class="menu-item-price2"> $10</span>
+                    <p class="menu-item-description2">Vodka, ginger beer, pure de peach y jugo de limón.</p>
+                </div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Spiced Pear Martini </span>
+                    <span class="menu-item-price2"> $10</span>
+                    <p class="menu-item-description2">Vodka de pera, champagne, Elderflower liqueur, canela y jugo de limón.</p>
+                </div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Mimosa </span>
+                    <span class="menu-item-price2"> $8</span>
+                    <p class="menu-item-description2">Naranja - Peach - Berry. <br> Champan y zumo de fruta.</p>
+                </div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Piña Colada </span>
+                    <span class="menu-item-price2"> $8</span>
+                    <p class="menu-item-description2">Ron blanco, crema coco, jugo de piña y leche evaporada.</p>
+                </div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Ruby Martini </span>
+                    <span class="menu-item-price2"> $10</span>
+                    <p class="menu-item-description2">Vodka rosada, jugo de toronja, Elderflower liqueur y lima.</p>
+                </div>
+            </div>
+            <div class="appetizers">
+                <h2>OTRAS BEBIDAS</h2>
+                <div class="section-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Refrescos - Soda</span>
+                    <span class="menu-item-price2"> $2</span> <br>
+
+                    <p class="menu-item-description2">Sprite - Coca Cola - Diet Coke - Ginger Ale - Country Club.</p> <br>
+                    <span class="menu-item-title2">Agua Carbonatadas - Sparkling Water</span>
+                    <span class="menu-item-price2"> $2</span> <br>
+                </div>
+            </div>
             </div>
         </div>
 

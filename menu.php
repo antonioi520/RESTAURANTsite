@@ -167,6 +167,32 @@
                     Fried beef, longaniza, smoked pork chops, cheese, and fried plantains.</p>
                 </div>
             </div>
+            <div class="appetizers">
+                <h2>ACOMPAÑAMIENTOS/SIDES</h2>
+                <div class="menu-item">
+                    <span class="menu-item-name">Tostones/Fried Plantains</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Papas fritas/French Fries</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Arroz y Habichuelas/Rice and beans</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Green beans</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Ensalada/Salad</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Pure de papas/Mashed Potatoes</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Ensalada rusa con remolacha/Potato and beet salad</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span>
+                </div>
+            </div>
         </div>
     </div>
 </div>

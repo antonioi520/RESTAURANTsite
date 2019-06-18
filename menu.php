@@ -193,6 +193,23 @@
                     <span class="menu-item-price"> 5</span>
                 </div>
             </div>
+            <div class="appetizers">
+                <h2>PARA LOS PEQUEÑOS/FOR THE LITTLE ONES</h2>
+                <div class="menu-item">
+                    <span class="menu-item-name">Chicken tenders & Fries</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Fish and chips</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Salchipapas</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                    <span class="menu-item-name">Queso frito y maduros/Fried cheese with sweet plantains</span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 5</span> <br>
+                </div>
+            </div>
         </div>
     </div>
 </div>

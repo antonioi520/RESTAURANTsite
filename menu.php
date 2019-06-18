@@ -120,7 +120,7 @@
             <div class="appetizers">
                 <h2>CALDOS/SOUP</h2>
                 <div class="menu-item">
-                    <span class="menu-item-name">CREMA DE AUYUAMA <BR> DOMINICAN PUMKIN CREAM </span>
+                    <span class="menu-item-name">CREMA DE AUYUAMA <BR> DOMINICAN PUMPKIN CREAM </span>
                     <span>-</span>
                     <span class="menu-item-price"> 6</span>
                     <p class="menu-item-description">Con tope de parmesano rallado. <br> With parmesan.</p>
@@ -211,6 +211,15 @@
                 </div>
             </div>
         </div>
+        <br> <br>
+        <span class="menu-item-name">IMPORTANTE: Algunos articulos vienen crudo o parcialmente cocinando y puede incrementar el risego de enfermedades por alimentos.
+        Los consumidores que son especialmente vulnerables sólo debe de comer cames, mariscos y otras comida de animales completamenta cocinados.
+        Por favor notifiquemos inmediantamente de cualquier alergia que usted tenga.
+        <br> <br>
+        IMPORTANT: Some menu items are raw or partially cooked and can increase your risk of food borne illness. Consumers who are especially
+        vulnerable to food borne illness should only eat meat, seafood and other foor from animal thoroughly cooked. Please notify us immediately of any
+        food allergies you have.</span>
+
     </div>
 </div>
 

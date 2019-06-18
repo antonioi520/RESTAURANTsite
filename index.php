@@ -103,7 +103,7 @@
                         <img src="img/imgheader.png">
                         <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR INGREDIENTS</h1>
                         <strong style="color:white;letter-spacing: 0.05em;">We use only the finest of ingredients and prepare them so that they bring out the best in our food</strong><br><br><br>
-                        <a href="#" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
+                        <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
                     </div>
                     <img src="img/FoodDrink/4.jpg" alt="food" style="height:700px;width: 1000px;object-fit: cover;filter:brightness(30%);float:left;">
                 </div>

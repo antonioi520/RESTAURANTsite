@@ -35,7 +35,12 @@
     <div class="container">
         <h1 class="menu-heading">Mi Alma Menu</h1>
         <br> <hr>
-        <div class="menu menu-row menu-wrap menu-center">
+        <center>
+            <button onclick="switchToFoodMenu()">Food</button>
+            <button onclick="switchToDrinkMenu()">Drinks</button>
+        </center>
+        <br>
+        <div class="menu menu-row menu-wrap menu-center" id="foodDiv">
             <div class="appetizers">
                 <h2>APERITIVOS/APPETIZERS</h2>
                 <div class="menu-item">
@@ -211,6 +216,19 @@
                 </div>
             </div>
         </div>
+
+        <div class="menu menu-row menu-wrap menu-center" id="drinkDiv" style="display: none">
+            <div class="appetizers">
+                <h2>MENÚ DE BEBIDAS/DRINKS MENU</h2>
+                <div class="menu-item">
+                    <span class="menu-item-title">CALAMARI FRITO <BR> FRIED CALAMARI </span>
+                    <span>-</span>
+                    <span class="menu-item-price"> 10</span>
+                    <p class="menu-item-description">Cherry pepper y salsa marinara.<br> Cherry Pepper and marinara sauce.</p>
+                </div>
+            </div>
+        </div>
+
         <br> <br>
         <span class="menu-item-name">IMPORTANTE: Algunos articulos vienen crudo o parcialmente cocinando y puede incrementar el risego de enfermedades por alimentos.
         Los consumidores que son especialmente vulnerables sólo debe de comer cames, mariscos y otras comida de animales completamenta cocinados.
@@ -222,6 +240,20 @@
 
     </div>
 </div>
+
+<script>
+    var food = document.getElementById("foodDiv");
+    var drink = document.getElementById("drinkDiv");
+
+    function switchToFoodMenu() {
+        food.style.display = "flex";
+        drink.style.display = "none";
+    }
+    function switchToDrinkMenu() {
+        food.style.display = "none";
+        drink.style.display = "flex";
+    }
+</script>
 
 <br>
 <br>

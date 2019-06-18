@@ -104,3 +104,6 @@
     margin-top:-15%;
     border-radius: 5px;
 }
+#box:hover{
+    text-decoration: none;
+}

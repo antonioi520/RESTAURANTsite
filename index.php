@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
-
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
 
 
 </head>
@@ -32,7 +33,7 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="z-index: 1;margin-top:-100px;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(20%);">
+                <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(60%);object-fit: cover">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
                 <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
@@ -42,7 +43,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(20%);">
+                <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(60%);object-fit: cover">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
                 <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
@@ -52,7 +53,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(20%);">
+                <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:800px;filter:brightness(60%);object-fit: cover">
                 <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
                 <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
                 <ul class="headericons">
@@ -71,9 +72,65 @@
         </a>
     </div>
 </div>
-<div class="container">
+<!--==========================
+  About Section
+  ============================-->
+<section id="about">
+    <div class="container wow fadeInUp">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">About us</h3>
+                <div class="section-title-divider"></div>
+<!--                <p class="section-description">We are a two man team from different backgrounds in programming coming together to deliver you top-notch websites and other business needs!</p>-->
+            </div>
+        </div>
+    </div>
+    <div class="container about-container wow fadeInUp">
+        <div class="row">
 
-</div>
+            <div class="col-lg-6 about-img">
+                <img src="img/Staff/staff.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 about-content">
+                <h2 class="about-title">We provide great food and services WIP</h2>
+                <p class="about-text">
+                    Mi Alma Cafe is a Latin fusion restaurant brought to Broad Street alongside the newly renovated Bomes Theatre. WIP
+                </p>
+                <p class="about-text">
+                    Providing food, events, and concerts, we go out of our way to ensure you experience a fun, top quality stay! WIP
+                </p>
+                <h3 style="font-weight: bold;color: #333;">Find Us</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.4541081971906!2d-71.41585268432019!3d41.79697697846551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e44f893f923a5f%3A0x86f9ff49752031d1!2s1017+Broad+St%2C+Providence%2C+RI+02905!5e0!3m2!1sen!2sus!4v1560838747202!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>            </div>
+        </div>
+    </div>
+</section>
+<!--images in middle -->
+<section>
+    <div class="wrapper">
+        <div class="row">
+                <div class="col-lg-6">
+                    <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%; ">
+                        <img src="img/imgheader.png">
+                        <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR INGREDIENTS</h1>
+                        <strong style="color:white;letter-spacing: 0.05em;">We use only the finest of ingredients and prepare them so that they bring out the best in our food</strong><br><br><br>
+                        <a href="#" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
+                    </div>
+                    <img src="img/FoodDrink/4.jpg" alt="food" style="height:700px;width: 1000px;object-fit: cover;filter:brightness(30%);float:left;">
+                </div>
+                <div class="col-lg-6">
+                    <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%; ">
+                        <img src="img/imgheader.png">
+                        <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR SERVICES</h1>
+                        <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top quality servers and chefs providing every utility to assure you enjoy your time</strong><br><br><br>
+                        <a href="#" id="ingredientBox" style="width:240px;"><h2 id="ingredientBoxText">View Services</h2></a>
+                    </div>
+                    <img src="img/Staff/staff3.jpg" alt="" style="height:700px;width: 1000px;object-fit: cover;filter:brightness(30%);">
+                </div>
+        </div>
+    </div>
+</section>
+<!--contact-->
 <section id="contact">
     <div class="container wow fadeInUp">
         <div class="row">
@@ -124,7 +181,7 @@
                         <i class="far fa-calendar-alt"></i><h4 style="padding-left:40px;">Hours</h4>
                         <strong>Mon-Tue:</strong><p style="padding-left:0;"> Closed</p><br>
                         <strong>Wed-Thur+Sun:</strong><p style="padding-left:0;"> 12pm-10:30pm</p><br>
-                        <strong>Fri-Sat:</strong><p style="padding-left:0;"> 12-11:30pm</p>
+                        <strong>Fri-Sat:</strong><p style="padding-left:0;"> 12pm-11:30pm</p>
                     </div>
                     <div style="padding-top: 20px;">
                         <i class="fas fa-location-arrow"></i><h4 style="padding-left:40px;">Location</h4>

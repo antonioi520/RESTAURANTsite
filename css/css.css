@@ -2,6 +2,8 @@ body {
     background: #f7f7f7;
     color: #666666;
     font-family: "Open Sans", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,7 +64,7 @@ p {
 }
 .bg-blackish{
 
-    background-color:rgba(20, 20, 20, 0.5);
+    background-color:rgba(20, 20, 20, 0.8);
     opacity: 1;
 }
 
@@ -147,14 +149,39 @@ p {
 #box:hover{
     text-decoration: none;
     border: 3px solid deepskyblue;
+    background-color: deepskyblue;
     transition: 0.5s;
 }
 #box:hover #headerHours{
-    color:deepskyblue;
+    color:white;
     transition: 0.5s;
 }
 
-
+#ingredientBox{
+    transition: 0.5s;
+    position:absolute;
+    z-index: 1;
+    height:60px;
+    width: 200px;
+    border: 3px solid white;
+    opacity: .9;
+    border-radius: 5px;
+}
+#ingredientBox:hover{
+    transition: 0.5s;
+    border: 3px solid deepskyblue;
+    background-color: deepskyblue;
+    text-decoration: none;
+}
+#ingredientBoxText{
+    padding-top:5%;
+    color:white;
+    padding-left:8%;
+}
+#ingredientBoxText:hover{
+    transition: 0.5s;
+    color:white;
+}
 /* Contact Section
 --------------------------------*/
 #contact {
@@ -299,4 +326,45 @@ p {
 }
 .circleborder2:hover i{
 
+}
+/* Get Started Section
+--------------------------------*/
+#about {
+    padding: 80px 0;
+}
+
+#about .about-img {
+    overflow: hidden;
+}
+
+#about .about-img img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    #about .about-img {
+        height: auto;
+    }
+    #about .about-img img {
+        margin-left: 0;
+        padding-bottom: 30px;
+    }
+}
+
+#about .about-content {
+}
+
+#about .about-title {
+    color: #333;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#about .about-text {
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+#about .about-text:last-child {
+    margin-bottom: 0;
 }

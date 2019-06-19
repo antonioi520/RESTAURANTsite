@@ -38,7 +38,7 @@
         <!--            <img class="d-block w-100" src="img/FoodDrink/5.jpg" alt="First slide" style="height:600px;filter:brightness(70%);object-fit: cover">-->
         <!--        </div>-->
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/Interior/interior.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-13.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
             <div class="carousel-caption d-none d-md-block">
                 <center>
                     <img src="img/logo.png" class="galleryHeaderImage">
@@ -46,7 +46,15 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/Interior/interior2.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-23.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <div class="carousel-caption d-none d-md-block">
+                <center>
+                    <img src="img/logo.png" class="galleryHeaderImage">
+                </center>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
             <div class="carousel-caption d-none d-md-block">
                 <center>
                     <img src="img/logo.png" class="galleryHeaderImage">

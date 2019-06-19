@@ -44,28 +44,94 @@
     <div class="gallery-border">
         <div class="row">
             <div class="column">
-                <img id="galleryImg" src="img/FoodDrink/1.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(1)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-1.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(1)" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img id="galleryImg" src="img/FoodDrink/2.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(2)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-2.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(2)" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img id="galleryImg" src="img/FoodDrink/3.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(3)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-3.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(3)" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img id="galleryImg" src="img/FoodDrink/4.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(4)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-4.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(4)" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img id="galleryImg" src="img/FoodDrink/5.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(5)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-5.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(5)" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img id="galleryImg" src="img/FoodDrink/6.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(6)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-6.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(6)" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img id="galleryImg" src="img/FoodDrink/7.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(7)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-7.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(7)" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img id="galleryImg" src="img/FoodDrink/8.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(8)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-8.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(8)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-9.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(9)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-10.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(10)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-11.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(11)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-12.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(12)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-13.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(13)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-14.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(14)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-15.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(15)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-16.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(16)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-17.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(17)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-18.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(18)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-19.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(19)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-20.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(20)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-21.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(21)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-22.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(22)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-23.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(23)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-24.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(24)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-25.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(25)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-26.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(26)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-27.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(27)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-28.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(28)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-29.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(29)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-30.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(30)" class="hover-shadow cursor">
             </div>
         </div>
     </div>

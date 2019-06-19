@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Mi Almas Cafe</title>
+    <title>Mi Alma Restaurant</title>
 
 
     <!-- Bootstrap -->
@@ -100,6 +100,20 @@
         </div>
     </div>
 
+    <br>
+    <h2 style="text-align:left; color:black;">Menu</h2>
+
+    <div class="gallery-border">
+        <div class="row">
+            <div class="column">
+                <img id="galleryImg" src="img/Menu/mi_alma_menu-01.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/Menu/mi_alma_menu-02.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(2)" class="hover-shadow cursor">
+            </div>
+        </div>
+    </div>
+
     <div id="foodModal" class="modal">
         <span class="close cursor" onclick="closeFoodModal()">&times;</span>
         <div class="modal-content">
@@ -146,7 +160,6 @@
 
             <a class="prev" onclick="plusFoodSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusFoodSlides(1)">&#10095;</a>
-
         </div>
     </div>
 
@@ -190,6 +203,26 @@
         </div>
     </div>
 
+    <div id="menuModal" class="modal">
+        <span class="close cursor" onclick="closeMenuModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="menuSlides">
+                <div class="numbertext">1 / 2</div>
+                <img id="galleryImg" src="img/Menu/mi_alma_menu-01.jpg" style="width:100%">
+            </div>
+
+            <div class="menuSlides">
+                <div class="numbertext">2 / 2</div>
+                <img id="galleryImg" src="img/Menu/mi_alma_menu-02.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusMenuSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusMenuSlides(1)">&#10095;</a>
+
+        </div>
+    </div>
+
     <script>
         function openFoodModal() {
             document.getElementById("foodModal").style.display = "block";
@@ -215,6 +248,14 @@
             document.getElementById("staffModal").style.display = "none";
         }
 
+        function openMenuModal() {
+            document.getElementById("menuModal").style.display = "block";
+        }
+
+        function closeMenuModal() {
+            document.getElementById("menuModal").style.display = "none";
+        }
+
         var foodSlideIndex = 1;
         showFoodSlides(foodSlideIndex);
 
@@ -223,6 +264,9 @@
 
         var staffSlideIndex = 1;
         showFoodSlides(staffSlideIndex);
+
+        var menuSlideIndex = 1;
+        showMenuSlides(menuSlideIndex);
 
         function plusFoodSlides(n) {
             showFoodSlides(foodSlideIndex += n);
@@ -246,6 +290,14 @@
 
         function currentStaffSlide(n) {
             showStaffSlides(staffSlideIndex = n);
+        }
+
+        function plusMenuSlides(n) {
+            showMenuSlides(menuSlideIndex += n);
+        }
+
+        function currentMenuSlide(n) {
+            showMenuSlides(menuSlideIndex = n);
         }
 
         function showFoodSlides(n) {
@@ -300,6 +352,24 @@
             slides[staffSlideIndex-1].style.display = "block";
             dots[staffSlideIndex-1].className += " active";
             captionText.innerHTML = dots[staffSlideIndex-1].alt;
+        }
+
+        function showMenuSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("menuSlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {menuSlideIndex = 1}
+            if (n < 1) {menuSlideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[menuSlideIndex-1].style.display = "block";
+            dots[menuSlideIndex-1].className += " active";
+            captionText.innerHTML = dots[menuSlideIndex-1].alt;
         }
     </script>
 </div>

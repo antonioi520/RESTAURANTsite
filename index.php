@@ -16,6 +16,7 @@
 
 <?php include("views/nav.html") ?>
 
+
 <div class="headerwrapper">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="z-index: 1;margin-top:-6.250em;">
         <div class="carousel-inner">
@@ -63,6 +64,8 @@
 <!--        </a>-->
     </div>
 </div>
+
+
 <!--==========================
   About Section
   ============================-->

@@ -3,6 +3,7 @@ body {
     background: #f7f7f7;
     color: #666666;
     font-family: "Open Sans", sans-serif;
+    min-width: 100%;;
     max-width: 100%;
     overflow-x: hidden;
 }

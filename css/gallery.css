@@ -135,7 +135,8 @@
 }
 
 #staffImg {
-    padding: 75px;
+    margin-bottom: 10px;
+    padding-top: 35px;
     object-fit: scale-down;
     max-height: 800px;
 }

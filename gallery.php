@@ -819,13 +819,68 @@
         <div class="modal-content">
 
             <div class="interiorTSlides">
-                <div class="numbertext">1 / 2</div>
-                <img id="interiorImg" src="img/Interior/3.png" style="width:100%">
+                <div class="numbertext">1 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/Concert-2.jpg" style="width:100%">
             </div>
 
             <div class="interiorTSlides">
-                <div class="numbertext">2 / 2</div>
-                <img id="interiorImg" src="img/Interior/4.png" style="width:100%">
+                <div class="numbertext">2 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/Concert-7.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">3 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/Concert-9.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">4 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/concert-37.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">5 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/concert-38.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">6 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/concert-39.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">7 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/concert-41.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">8 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/concert-42.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">9 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/concert-43.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">10 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/concert-44.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">11 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/concert-45.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">12 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/concert-46.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">13 / 13</div>
+                <img id="interiorImg" src="img/TheaterInterior/DSC_0895.jpg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusInteriorTSlides(-1)">&#10094;</a>

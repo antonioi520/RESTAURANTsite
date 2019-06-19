@@ -386,6 +386,9 @@
             <div class="column">
                 <img id="galleryImg" src="img/Staff/staff3.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(2)" class="hover-shadow cursor">
             </div>
+            <div class="column">
+                <img id="galleryImg" src="img/Staff/MiAlmaCafeOpeningCeremony-8.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(3)" class="hover-shadow cursor">
+            </div>
         </div>
     </div>
 

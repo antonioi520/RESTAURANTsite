@@ -17,13 +17,11 @@
 <?php include("views/nav.html") ?>
 
 <div class="headerwrapper">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="z-index: 1;margin-top:-100px;">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="z-index: 1;margin-top:-6.250em;">
         <div class="carousel-inner">
-
-
             <div class="carousel-item active">
-                <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">
-                <div class="carousel-caption d-none d-md-block" style="top:200px;">
+                <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:59.375em;filter:brightness(20%);object-fit: cover">
+                <div class="carousel-caption d-none d-md-block" style="top:12.500em;">
                     <center>
                         <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
                     </center>
@@ -72,7 +70,7 @@
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="section-title" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 50px;">About us</h3>
+                <h3 class="section-title" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 3.125em;">About us</h3>
                 <div class="section-title-divider"></div>
 <!--                <p class="section-description">We are a two man team from different backgrounds in programming coming together to deliver you top-notch websites and other business needs!</p>-->
             </div>
@@ -108,16 +106,16 @@
                         <strong style="color:white;letter-spacing: 0.05em;">We use only the finest of ingredients and prepare them so that they bring out the best in our food</strong><br><br><br>
                         <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
                     </div>
-                    <img src="img/FoodDrink/4.jpg" alt="food" style="height:700px;width: 1000px;object-fit: cover;filter:brightness(30%);float:left;">
+                    <img src="img/FoodDrink/4.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
                 </div>
                 <div class="col-lg-6">
                     <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%; ">
                         <img src="img/imgheader3.png">
                         <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR SERVICES</h1>
                         <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top quality servers and chefs providing every utility to assure you enjoy your time</strong><br><br><br>
-                        <a href="services.php" id="ingredientBox" style="width:240px;"><h2 id="ingredientBoxText">View Services</h2></a>
+                        <a href="services.php" id="ingredientBox" style="width:15.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
                     </div>
-                    <img src="img/Interior/interior.jpg" alt="" style="height:700px;width: 1000px;object-fit: cover;filter:brightness(30%);">
+                    <img src="img/Interior/interior.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
                 </div>
         </div>
     </div>
@@ -127,7 +125,7 @@
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="section-title" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 50px;">Contact Us</h3>
+                <h3 class="section-title" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 3.125em;">Contact Us</h3>
                 <div class="section-title-divider"></div>
                 <p class="section-description">Feel free to reach out to us and we'll get right back to you.</p>
             </div>
@@ -136,7 +134,7 @@
         <div class="row">
 
 
-            <div class="col-md-5 col-md-push-2" style="padding-bottom: 10px;">
+            <div class="col-md-5 col-md-push-2" style="padding-bottom: 0.625em;">
                 <div class="form">
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
@@ -166,17 +164,17 @@
                 <div class="info">
 
                     <div>
-                        <i class="fas fa-phone"></i><h4 style="padding-left:40px;">Phone</h4>
+                        <i class="fas fa-phone"></i><h4 style="padding-left:2.500em;">Phone</h4>
                         <p>(401) 648-0715</p>
                     </div>
-                    <div style="padding-top: 20px;">
-                        <i class="far fa-calendar-alt"></i><h4 style="padding-left:40px;">Hours</h4>
+                    <div style="padding-top: 1.250em;">
+                        <i class="far fa-calendar-alt"></i><h4 style="padding-left:2.500em;">Hours</h4>
                         <strong>Mon-Tue:</strong><p style="padding-left:0;"> Closed</p><br>
                         <strong>Wed-Thur+Sun:</strong><p style="padding-left:0;"> 12pm-10:30pm</p><br>
                         <strong>Fri-Sat:</strong><p style="padding-left:0;"> 12pm-11:30pm</p>
                     </div>
-                    <div style="padding-top: 20px;">
-                        <i class="fas fa-location-arrow"></i><h4 style="padding-left:40px;">Location</h4>
+                    <div style="padding-top: 1.250em;">
+                        <i class="fas fa-location-arrow"></i><h4 style="padding-left:2.500em;">Location</h4>
                         <p> 1017 Broad Street</p><br>
                         <p> Providence, RI 02905</p>
                     </div>

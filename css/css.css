@@ -10,13 +10,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: 400;
-    margin: 0 0 20px 0;
+    margin: 0 0 1em 0;
     padding: 0;
 }
 p {
     font-family: "Helvetica", sans-serif;
     font-weight: 400;
-    margin: 0 0 20px 0;
+    margin: 0 0 1em 0;
     padding: 0;
 }
 .nav-item a{
@@ -30,7 +30,7 @@ p {
     transition: 0.5s;
 }
 .nav-item li a{
-    padding-right:20px;
+    padding-right:1em;
 }
 .carousel.fade {
     opacity: 1;
@@ -79,7 +79,7 @@ p {
     font-family: "Georgia", 'sans-serif';
 // font-weight: 600;
     text-align: center;
-    font-size: 90px;"
+    font-size: 5.625em;
 // z-index:0;
     /*position: absolute;*/
     /*top: 17%;*/
@@ -89,7 +89,7 @@ p {
 .headertext2{
     text-align: center;
     margin-left:7%;
-    font-size: 60px;"
+    font-size: 3.750em;
 // z-index:0;
     position: absolute;
     top: 23%;
@@ -97,8 +97,9 @@ p {
     color:white;
 }
 .headerwrapper {
-    position: relative;
+    //position: relative;
     text-align: center;
+    max-width: 100%;
 }
 .headericons{
     padding-top: 1em;
@@ -110,7 +111,7 @@ p {
 }
 .iconcolor{
     margin-top: 15%;
-    font-size: 30px;
+    font-size: 1.875em;
     color: white;
     opacity: .9;
 
@@ -152,21 +153,21 @@ p {
     padding: .5em;
     max-width: 20em;
     width: 20em;
-    border: 3px solid white;
+    border: 0.188em solid white;
 //background-color: rgb(106,134,79);
     opacity: .9;
     /*left: 38.5%;*/
     /*margin-top:-15%;*/
-    border-radius: 5px;
+    border-radius: 0.313em;
 }
 #headerHours{
     transition: 0.5s;
     color:white;
-    padding-top: 15px;
+    padding-top: 0.938em;
 }
 #box:hover{
     text-decoration: none;
-    border: 3px solid deepskyblue;
+    border: 0.188em solid deepskyblue;
     background-color: deepskyblue;
     transition: 0.5s;
 }
@@ -179,15 +180,15 @@ p {
     transition: 0.5s;
     position:absolute;
     z-index: 1;
-    height:60px;
-    width: 200px;
-    border: 3px solid white;
+    height:3.750em;
+    width: 12.500em;
+    border: 0.188em solid white;
     opacity: .9;
-    border-radius: 5px;
+    border-radius: 0.313em;
 }
 #ingredientBox:hover{
     transition: 0.5s;
-    border: 3px solid deepskyblue;
+    border: 0.188em solid deepskyblue;
     background-color: deepskyblue;
     text-decoration: none;
 }
@@ -204,7 +205,7 @@ p {
 --------------------------------*/
 #contact {
     background: #f7f7f7;
-    padding: 80px 0;
+    padding: 5.000em 0;
 
 }
 
@@ -213,43 +214,43 @@ p {
 }
 
 #contact .info i {
-    font-size: 32px;
+    font-size: 2.000em;
     color: #03C4EB;
     float: left;
 }
 
 #contact .info p {
-    padding: 0 0 10px 40px;
-    line-height: 24px;
+    padding: 0 0 0.625em 2.500em;
+    line-height: 1.500em;
 }
 #contact .info p {
     display:inline;
-    padding: 0 0 10px 40px;
-    line-height: 24px;
+    padding: 0 0 0.625em 2.500em;
+    line-height: 1.500em;
 }
 #contact .info strong {
     display:inline;
-    padding: 0 0 10px 40px;
-    line-height: 24px;
+    padding: 0 0 0.625em 2.500em;
+    line-height: 1.500em;
 }
 #contact .form #sendmessage {
     color: #03C4EB;
-    border: 1px solid #03C4EB;
+    border: 0.063em solid #03C4EB;
     display: none;
     text-align: center;
-    padding: 15px;
+    padding: 0.938em;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 0.938em;
 }
 
 #contact .form #errormessage {
     color: red;
+    border: 0.063em solid red;
     display: none;
-    border: 1px solid red;
     text-align: center;
-    padding: 15px;
+    padding: 0.938em;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 0.938em;
 }
 
 #contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
@@ -259,9 +260,9 @@ p {
 #contact .form .validation {
     color: red;
     display: none;
-    margin: 0 0 20px;
+    margin: 0 0 1.250em;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 0.813em;
 }
 
 #contact .form input, #contact .form textarea {
@@ -272,7 +273,7 @@ p {
 #contact .form button[type="submit"] {
     background: #03C4EB;
     border: 0;
-    padding: 10px 24px;
+    padding: 0.625em 1.500em;
     width:100%;
     //padding: 10px 185px;
     color: #fff;
@@ -283,7 +284,7 @@ p {
     background: #25d8fc;
 }
 .section-title {
-    font-size: 32px;
+    font-size: 2em;
     color: #111;
     text-transform: uppercase;
     text-align: center;
@@ -292,30 +293,30 @@ p {
 
 .section-description {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.500em;
 }
 
 .section-title-divider {
-    width: 100px;
-    height: 3px;
+    width: 6.250em;
+    height: 0.188em;
     background: #03C4EB;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.250em;
 }
 
 .purple-title-divider {
-    width: 100px;
-    height: 3px;
+    width: 6.250em;
+    height: 0.188em;
     background: #a442f4;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.250em;
 }
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
     background: #111;
-    padding: 30px 0;
+    padding: 1.875em 0;
     color: #fff;
 }
 
@@ -324,14 +325,14 @@ p {
 }
 
 #footer .credits {
-    padding-top: 10px;
+    padding-top: 0.625em;
     text-align: center;
-    font-size: 13px;
+    font-size: 0.813em;
     color: #ccc;
 }
 .iconcolor2{
     margin-top: 15%;
-    font-size: 20px;
+    font-size: 1.250em;
     color: white;
     opacity: .9;
 
@@ -356,7 +357,7 @@ p {
 /* Get Started Section
 --------------------------------*/
 #about {
-    padding: 80px 0;
+    padding: 5.000em 0;
 }
 
 #about .about-img {
@@ -373,7 +374,7 @@ p {
     }
     #about .about-img img {
         margin-left: 0;
-        padding-bottom: 30px;
+        padding-bottom: 1.875em;
     }
 }
 
@@ -383,12 +384,12 @@ p {
 #about .about-title {
     color: #333;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.750em;
 }
 
 #about .about-text {
-    line-height: 26px;
-    margin-bottom: 15px;
+    line-height: 1.625em;
+    margin-bottom: 0.938em;
 }
 
 #about .about-text:last-child {
@@ -400,10 +401,10 @@ p {
     display: none;
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
-    padding: 6px 12px 9px 12px;
-    font-size: 16px;
-    border-radius: 2px;
-    right: 15px;
-    bottom: 15px;
+    padding: 0.375em 0.750em 0.563em 0.750em;
+    font-size: 1em;
+    border-radius: 0.125em;
+    right: 0.938em;
+    bottom: 0.938em;
     transition: background 0.5s;
 }

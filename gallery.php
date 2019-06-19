@@ -383,6 +383,46 @@
                 <div class="numbertext">60 / 70</div>
                 <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-60.jpg" style="width:100%">
             </div>
+            <div class="foodSlides">
+                <div class="numbertext">61 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-61.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">62 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-62.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">63 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-63.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">64 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-64.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">65 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-65.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">66 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-66.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">67 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-67.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">68 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-68.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">69 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-69.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">70 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-70.jpg" style="width:100%">
+            </div>
             <a class="prev" onclick="plusFoodSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusFoodSlides(1)">&#10095;</a>
         </div>

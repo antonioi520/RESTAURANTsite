@@ -149,13 +149,16 @@ h2 {
 
 }
 @media (max-width: 768px) {
+    #hero{
+        left:40px;
+    }
     #hero h1 {
         font-size: 40px;
         line-height: 40px;
     }
 
     #hero img {
-       padding-right:180px;
+       padding-right:160px;
         //padding-top: -50%;
     }
 
@@ -163,6 +166,35 @@ h2 {
         min-width:300px;
         max-width:300px;
         width:300px;
+
+    }
+
+}
+@media (max-width: 768px) {
+
+    #foodDiv h2 {
+        font-size: 20px;
+        //line-height: 40px;
+    }
+    #foodDiv p {
+        font-size:10px;
+    }
+    #foodDiv .menu-item2{
+        width:20em;
+    }
+
+}
+@media (max-width: 768px) {
+
+    #drinkDiv h2 {
+        font-size: 20px;
+    //line-height: 40px;
+    }
+    #drinkDiv p {
+        font-size:10px;
+    }
+    #drinkDiv .menu-item2{
+        width:20em;
     }
 
 }

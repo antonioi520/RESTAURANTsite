@@ -18,6 +18,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
@@ -31,9 +32,19 @@
 
 <?php include("views/nav_pages.html")?>
 
-<div class="wrapper">
-    <center><img src="img/wip.png"></center>
+<br>
+<div class="responsiveCal" id="content-desktop">
+    <center>
+        <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%2300bfff&amp;ctz=America%2FNew_York&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=Test%20Calendar" style="border-width:0" width="1200" height="800" frameborder="0" scrolling="no"></iframe>
+    </center>
 </div>
+
+<div id="content-mobile">
+    <center>
+        <iframe src="https://calendar.google.com/calendar/b/1/embed?height=500&amp;wkst=1&amp;bgcolor=%2300bfff&amp;ctz=America%2FNew_York&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=Test%20Calendar" style="border-width:0" width="350" height="650" frameborder="0" scrolling="no"></iframe>
+    </center>
+</div>
+
 
 
 <br>

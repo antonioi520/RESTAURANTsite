@@ -1,0 +1,42 @@
+#content-desktop {
+
+    display: block;
+}
+
+#content-mobile {
+
+    display: none;
+}
+
+@media (max-width:768px) {
+
+    img#hide {
+        display: none;
+    }
+
+    #content-desktop {
+        display: none;
+    }
+
+    #content-mobile {
+        display: block;
+    }
+}
+
+.responsiveCal {
+
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.responsiveCal iframe {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

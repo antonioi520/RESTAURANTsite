@@ -55,11 +55,11 @@ h2 {
     padding: .5em;
     max-width: 30em;
     width: 30em;
-    background-color: deepskyblue;
+    background-color: #5f2a5e;
 }
 
 .menu-item2 {
-    border: 2px dashed deepskyblue;
+    border: 2.5px dashed #5f2a5e;
     line-height: 1.5em;
     max-height: 15em;
     margin: 1em;
@@ -93,8 +93,8 @@ h2 {
 #fooddrinkButton{
     transition: 0.5s;
     width:90px;
-    border: 3px solid deepskyblue;
-    background-color: deepskyblue;
+    border: 3px solid #5f2a5e;
+    background-color: #5f2a5e;
     color:white;
     font-weight: bold;
 }
@@ -102,7 +102,7 @@ h2 {
     transition: 0.5s;
     border: 3px solid white;
     background-color: white;
-    color:deepskyblue;
+    color:#5f2a5e;
     font-weight: bold;
     text-decoration: none;
 }

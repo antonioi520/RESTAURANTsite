@@ -99,11 +99,52 @@ h2 {
     color:white;
     font-weight: bold;
 }
-#fooddrinkButton:hover{
+#fooddrinkButton:hover {
     transition: 0.5s;
     border: 3px solid white;
     background-color: white;
-    color:#5f2a5e;
+    color: #5f2a5e;
     font-weight: bold;
     text-decoration: none;
+}
+
+.menuHeaderBox {
+    border: 0 solid #a442f4;
+    background-color: rgba(164,66,244,0.7);
+    line-height: 1.1em;
+    max-height: 5.5em;
+    //margin: 1em;
+    padding: .5em;
+    max-width: 40em;
+    width: 35em;
+    border-radius: 5px;
+    z-index: 2323;
+}
+#purpbox{
+    transition: 0.5s;
+    border: 1px solid #a442f4;
+    background-color: rgba(164,66,244,0.7);
+    height:90px;
+    width:400px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.headerMenu{
+    color:white;
+}
+
+.menuHeaderText{
+    color:white;
+    font-size: 70px;
+    padding-bottom: 5px;
+    line-height: 1.1em;
+
+}
+.menuHeaderImage{
+    height:450px;
+    width:450px;
+    object-fit: contain;
+    filter:brightness(90%);
+
 }

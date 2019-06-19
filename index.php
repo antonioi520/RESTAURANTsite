@@ -32,16 +32,16 @@
                 </ul>
             </div>
 
-            <div class="carousel-item">
-                <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">
-                <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
-                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:26%;top:20%;object-fit: contain;filter:brightness(95%);">
-                <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>
-                <ul class="headericons">
-                    <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
-                    <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
-                </ul>
-            </div>
+<!--            <div class="carousel-item">-->
+<!--                <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">-->
+<!--                <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>-->
+<!--                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:26%;top:20%;object-fit: contain;filter:brightness(95%);">-->
+<!--                <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>-->
+<!--                <ul class="headericons">-->
+<!--                    <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>-->
+<!--                    <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>-->
+<!--                </ul>-->
+<!--            </div>-->
         </div>
 <!--        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">-->
 <!--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
@@ -105,7 +105,7 @@
                         <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top quality servers and chefs providing every utility to assure you enjoy your time</strong><br><br><br>
                         <a href="services.php" id="ingredientBox" style="width:240px;"><h2 id="ingredientBoxText">View Services</h2></a>
                     </div>
-                    <img src="img/header2.jpg" alt="" style="height:700px;width: 1000px;object-fit: cover;filter:brightness(30%);">
+                    <img src="img/Interior/interior.jpg" alt="" style="height:700px;width: 1000px;object-fit: cover;filter:brightness(30%);">
                 </div>
         </div>
     </div>

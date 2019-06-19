@@ -39,7 +39,7 @@
     </center>
 </div>
 
-<div id="content-mobile">
+<div class="responsiveCal" id="content-mobile">
     <center>
         <iframe src="https://calendar.google.com/calendar/b/1/embed?height=500&amp;wkst=1&amp;bgcolor=%2300bfff&amp;ctz=America%2FNew_York&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=Test%20Calendar" style="border-width:0" width="350" height="650" frameborder="0" scrolling="no"></iframe>
     </center>

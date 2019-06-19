@@ -210,12 +210,10 @@ img.hover-shadow {
     font-size: 70px;
     padding-bottom: 5px;
     line-height: 1.1em;
-
 }
 .galleryHeaderImage{
     height:450px;
     width:450px;
     object-fit: contain;
     filter:brightness(90%);
-
 }

@@ -33,7 +33,8 @@
 
 <div class="wrapper">
     <div class="container">
-        <h1 class="menu-heading">Mi Alma Menu</h1>
+        <center><img src="img/logo.png" style="width: 45%; height: 45%;"></center>
+        <!--h1 class="menu-heading">Mi Alma Menu</h1-->
         <br> <hr>
         <center>
             <a href="#" id="fooddrinkButton" onclick="switchToFoodMenu()">Food</a>

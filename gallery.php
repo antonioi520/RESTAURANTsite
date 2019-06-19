@@ -40,56 +40,63 @@
     <hr>
     <h2 style="text-align:left; color:black;">Food & Drink</h2>
 
-    <div class="row">
-        <div class="column">
-            <img id="galleryImg" src="img/FoodDrink/1.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(1)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img id="galleryImg" src="img/FoodDrink/2.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(2)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img id="galleryImg" src="img/FoodDrink/3.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(3)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img id="galleryImg" src="img/FoodDrink/4.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(4)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img id="galleryImg" src="img/FoodDrink/5.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(5)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img id="galleryImg" src="img/FoodDrink/6.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(6)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img id="galleryImg" src="img/FoodDrink/7.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(7)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img id="galleryImg" src="img/FoodDrink/8.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(8)" class="hover-shadow cursor">
+    <div class="gallery-border">
+        <div class="row">
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/1.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/2.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/3.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/4.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/5.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(5)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/6.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(6)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/7.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(7)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/FoodDrink/8.jpg" style="width:100%" onclick="openFoodModal();currentFoodSlide(8)" class="hover-shadow cursor">
+            </div>
         </div>
     </div>
 
+
     <br>
-    <hr>
+
     <h2 style="text-align:left; color:black;">Interior</h2>
 
-    <div class="row">
-        <div class="column">
-            <img id="galleryImg" src="img/Interior/interior.jpg" style="width:100%" onclick="openInteriorModal();currentInteriorSlide(1)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img id="galleryImg" src="img/Interior/interior2.jpg" style="width:100%" onclick="openInteriorModal();currentInteriorSlide(2)" class="hover-shadow cursor">
+    <div class="gallery-border">
+        <div class="row">
+            <div class="column">
+                <img id="galleryImg" src="img/Interior/interior.jpg" style="width:100%" onclick="openInteriorModal();currentInteriorSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/Interior/interior2.jpg" style="width:100%" onclick="openInteriorModal();currentInteriorSlide(2)" class="hover-shadow cursor">
+            </div>
         </div>
     </div>
 
     <br>
-    <hr>
+
     <h2 style="text-align:left; color:black;">Staff</h2>
 
-    <div class="row">
-        <div class="column">
-            <img id="galleryImg" src="img/Staff/staff.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(1)" class="hover-shadow cursor">
-        </div>
-        <div class="column">
-            <img id="galleryImg" src="img/Staff/staff3.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(2)" class="hover-shadow cursor">
+    <div class="gallery-border">
+        <div class="row">
+            <div class="column">
+                <img id="galleryImg" src="img/Staff/staff.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/Staff/staff3.jpg" style="width:100%" onclick="openStaffModal();currentStaffSlide(2)" class="hover-shadow cursor">
+            </div>
         </div>
     </div>
 

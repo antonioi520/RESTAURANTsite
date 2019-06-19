@@ -22,12 +22,12 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:59.375em;filter:brightness(20%);object-fit: cover">
-                <div class="carousel-caption d-none d-md-block" style="top:12.500em;">
+                <div class="carousel-caption d-md-block" id="hero" style="top:12.500em;">
                     <center>
                         <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
                     </center>
                     <center>
-                        <img src="img/logo.png" style="min-height:30%;min-width: 30%;max-height:30%;max-width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-6em;margin-bottom:4em;">
+                        <img src="img/logo.png" style="height:30%;width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-6em;margin-bottom:4em;">
                     </center>
                     <center>
                         <div href="#contact" id="box" style="margin-top: 1em">
@@ -99,12 +99,12 @@
     </div>
 </section>
 <!--images in middle -->
-<section>
+<section id="middleImages">
     <div class="wrapper">
         <div class="row">
                 <div class="col-lg-6">
                     <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%; ">
-                        <img src="img/imgheader3.png">
+                        <img src="img/imgheader3.png" style="object-fit: contain;">
                         <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR INGREDIENTS</h1>
                         <strong style="color:white;letter-spacing: 0.05em;">We use only the finest of ingredients and prepare them so that they bring out the best in our food</strong><br><br><br>
                         <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
@@ -167,19 +167,19 @@
                 <div class="info">
 
                     <div>
-                        <i class="fas fa-phone"></i><h4 style="padding-left:2.500em;">Phone</h4>
+                        <i class="fas fa-phone"></i><h4 style="padding-left:1.6em;">Phone</h4>
                         <p>(401) 648-0715</p>
                     </div>
                     <div style="padding-top: 1.250em;">
-                        <i class="far fa-calendar-alt"></i><h4 style="padding-left:2.500em;">Hours</h4>
+                        <i class="far fa-calendar-alt"></i><h4 style="padding-left:1.6em;">Hours</h4>
                         <strong>Mon-Tue:</strong><p style="padding-left:0;"> Closed</p><br>
                         <strong>Wed-Thur+Sun:</strong><p style="padding-left:0;"> 12pm-10:30pm</p><br>
                         <strong>Fri-Sat:</strong><p style="padding-left:0;"> 12pm-11:30pm</p>
                     </div>
                     <div style="padding-top: 1.250em;">
-                        <i class="fas fa-location-arrow"></i><h4 style="padding-left:2.500em;">Location</h4>
-                        <p> 1017 Broad Street</p><br>
-                        <p> Providence, RI 02905</p>
+                        <i class="fas fa-location-arrow"></i><h4 style="padding-left:1.6em;">Location</h4>
+                        <p>1017 Broad Street</p><br>
+                        <p>Providence, RI 02905</p>
                     </div>
 
 

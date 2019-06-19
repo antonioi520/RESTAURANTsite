@@ -894,13 +894,18 @@
         <div class="modal-content">
 
             <div class="staffSlides">
-                <div class="numbertext">1 / 2</div>
+                <div class="numbertext">1 / 3</div>
                 <img id="staffImg" src="img/Staff/staff.jpg" style="width:100%">
             </div>
 
             <div class="staffSlides">
-                <div class="numbertext">2 / 2</div>
+                <div class="numbertext">2 / 3</div>
                 <img id="staffImg" src="img/Staff/staff3.jpg" style="width:100%">
+            </div>
+
+            <div class="staffSlides">
+                <div class="numbertext">3 / 3</div>
+                <img id="staffImg" src="img/Staff/MiAlmaCafeOpeningCeremony-8.jpg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusStaffSlides(-1)">&#10094;</a>

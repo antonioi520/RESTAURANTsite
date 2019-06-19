@@ -23,13 +23,25 @@
 
             <div class="carousel-item active">
                 <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">
-                <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
-                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:26%;top:20%;object-fit: contain;filter:brightness(95%);">
-                <a href="#contact" id="box"><h2 id="headerHours">View Hours</h2></a>
-                <ul class="headericons">
-                    <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
-                    <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
-                </ul>
+                <div class="carousel-caption d-none d-md-block" style="top:200px;">
+                    <center>
+                        <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                    </center>
+                    <center>
+                        <img src="img/logo.png" style="min-height:30%;min-width: 30%;max-height:30%;max-width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-2em;margin-bottom:2em;">
+                    </center>
+                    <center>
+                        <div href="#contact" id="box" style="margin-top: 1em">
+                            <h2 id="headerHours">View Hours</h2>
+                        </div>
+                    </center>
+                    <center>
+                        <ul class="headericons">
+                            <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>
+                            <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>
+                        </ul>
+                    </center>
+                </div>
             </div>
 
 <!--            <div class="carousel-item">-->

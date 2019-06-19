@@ -77,13 +77,13 @@ p {
 
 .headertext{
     font-family: "Georgia", 'sans-serif';
-   // font-weight: 600;
+// font-weight: 600;
     text-align: center;
     font-size: 90px;"
-   // z-index:0;
-    position: absolute;
-    top: 17%;
-    left: 23.5%;
+// z-index:0;
+    /*position: absolute;*/
+    /*top: 17%;*/
+    /*left: 23.5%;*/
     color:white;
 }
 .headertext2{
@@ -101,9 +101,12 @@ p {
     text-align: center;
 }
 .headericons{
-    position: absolute;
-    top: 83%;
-    left: 44.7%;
+    padding-top: 1em;
+    padding-right: 2.5em;
+    text-align: center;
+    /*position: absolute;*/
+    /*top: 83%;*/
+    /*left: 44.7%;*/
 }
 .iconcolor{
     margin-top: 15%;
@@ -143,21 +146,23 @@ p {
 }
 #box{
     transition: 0.5s;
-    position:absolute;
-    z-index: 1;
-    height:90px;
-    width: 450px;
+// position:absolute;
+//line-height: 1.1em;
+    max-height: 5.5em;
+    padding: .5em;
+    max-width: 20em;
+    width: 20em;
     border: 3px solid white;
-    //background-color: rgb(106,134,79);
+//background-color: rgb(106,134,79);
     opacity: .9;
-    left: 38.5%;
-    margin-top:-15%;
+    /*left: 38.5%;*/
+    /*margin-top:-15%;*/
     border-radius: 5px;
 }
 #headerHours{
     transition: 0.5s;
     color:white;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 #box:hover{
     text-decoration: none;

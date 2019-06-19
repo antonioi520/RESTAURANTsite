@@ -11,6 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mi Alma Restaurant</title>
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1, user-scalable = no"/>
 
 
     <!-- Bootstrap -->
@@ -30,11 +31,81 @@
 
 <?php include("views/nav_pages.html")?>
 <br>
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="top:-25px;">
+    <div class="carousel-inner">
+<!--        <div class="carousel-item active">-->
+<!--            <img class="d-block w-100" src="img/FoodDrink/5.jpg" alt="First slide" style="height:600px;filter:brightness(70%);object-fit: cover">-->
+<!--        </div>-->
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="img/FoodDrink/4.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+                <div class="carousel-caption d-none d-md-block">
+                    <center>
+                        <img src="img/logo.png" class="menuHeaderImage">
+                    </center>
+                    <center>
+                    <div class="menuHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="top:-10px;">Mi Alma Menu</h1>
+                    </div>
+                    </center>
+                </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/FoodDrink/3.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <div class="carousel-caption d-none d-md-block">
+                <center>
+                    <img src="img/logo.png" class="menuHeaderImage">
+                </center>
+                <center>
+                    <div class="menuHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="color:white;">Mi Alma Menu</h1>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/FoodDrink/7.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <div class="carousel-caption d-none d-md-block">
+                <center>
+                    <img src="img/logo.png" class="menuHeaderImage">
+                </center>
+                <center>
+                    <div class="menuHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="color:white;">Mi Alma Menu</h1>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/FoodDrink/8.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <div class="carousel-caption d-none d-md-block">
+                <center>
+                    <img src="img/logo.png" class="menuHeaderImage">
+                </center>
+                <center>
+                    <div class="menuHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="color:white;">Mi Alma Menu</h1>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+
+</div>
 
 <div class="wrapper">
     <div class="container">
-        <center><img src="img/logo.png" style="width: 35%; height: 35%;"></center>
-        <!--h1 class="menu-heading">Mi Alma Menu</h1-->
+
+
+        <!--        <center><img src="img/logo.png" style="width: 35%; height: 35%;"></center>-->
+<!--        <h1 class="menu-heading">Mi Alma Menu</h1>-->
         <br> <hr>
         <center>
             <a href="#" id="fooddrinkButton" onclick="switchToFoodMenu()">Food</a>

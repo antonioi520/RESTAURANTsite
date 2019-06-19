@@ -135,45 +135,134 @@
         <div class="modal-content">
 
             <div class="foodSlides">
-                <div class="numbertext">1 / 8</div>
-                <img id="galleryImg" src="img/FoodDrink/1.jpg" style="width:100%">
+                <div class="numbertext">1 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-1.jpg" style="width:100%">
             </div>
 
             <div class="foodSlides">
-                <div class="numbertext">2 / 8</div>
-                <img id="galleryImg" src="img/FoodDrink/2.jpg" style="width:100%">
+                <div class="numbertext">2 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-2.jpg" style="width:100%">
             </div>
 
             <div class="foodSlides">
-                <div class="numbertext">3 / 8</div>
-                <img id="galleryImg" src="img/FoodDrink/3.jpg" style="width:100%">
+                <div class="numbertext">3 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-3.jpg" style="width:100%">
             </div>
 
             <div class="foodSlides">
-                <div class="numbertext">4 / 8</div>
-                <img id="galleryImg" src="img/FoodDrink/4.jpg" style="width:100%">
+                <div class="numbertext">4 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-4.jpg" style="width:100%">
             </div>
 
             <div class="foodSlides">
-                <div class="numbertext">5 / 8</div>
-                <img id="galleryImg" src="img/FoodDrink/5.jpg" style="width:100%">
+                <div class="numbertext">5 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-5.jpg" style="width:100%">
             </div>
 
             <div class="foodSlides">
-                <div class="numbertext">6 / 8</div>
-                <img id="galleryImg" src="img/FoodDrink/6.jpg" style="width:100%">
+                <div class="numbertext">6 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-6.jpg" style="width:100%">
             </div>
 
             <div class="foodSlides">
-                <div class="numbertext">7 / 8</div>
-                <img id="galleryImg" src="img/FoodDrink/7.jpg" style="width:100%">
+                <div class="numbertext">7 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-7.jpg" style="width:100%">
             </div>
 
             <div class="foodSlides">
-                <div class="numbertext">8 / 8</div>
-                <img id="galleryImg" src="img/FoodDrink/8.jpg" style="width:100%">
+                <div class="numbertext">8 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-8.jpg" style="width:100%">
             </div>
 
+            <div class="foodSlides">
+                <div class="numbertext">9 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-9.jpg" style="width:100%">
+            </div>
+
+            <div class="foodSlides">
+                <div class="numbertext">10 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-10.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">11 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-11.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">12 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-12.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">13 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-13.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">14 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-14.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">15 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-15.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">16 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-16.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">17 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-17.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">18 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-18.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">19 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-19.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">20 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-20.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">21 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-21.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">22 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-22.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">23 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-23.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">24 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-24.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">25 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-25.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">26 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-26.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">27 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-27.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">28 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-28.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">29 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-29.jpg" style="width:100%">
+            </div>
+            <div class="foodSlides">
+                <div class="numbertext">30 / 70</div>
+                <img id="galleryImg" src="img/FoodDrink/MiAlmaCafe-30.jpg" style="width:100%">
+            </div>
             <a class="prev" onclick="plusFoodSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusFoodSlides(1)">&#10095;</a>
         </div>

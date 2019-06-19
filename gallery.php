@@ -709,13 +709,103 @@
         <div class="modal-content">
 
             <div class="interiorSlides">
-                <div class="numbertext">1 / 2</div>
-                <img id="interiorImg" src="img/Interior/interior.jpg" style="width:100%">
+                <div class="numbertext">1 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-5.jpg" style="width:100%">
             </div>
 
             <div class="interiorSlides">
-                <div class="numbertext">2 / 2</div>
-                <img id="interiorImg" src="img/Interior/interior2.jpg" style="width:100%">
+                <div class="numbertext">2 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-6.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">3 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-9.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">4 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-10.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">5 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-11.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">6 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-12.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">7 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-13.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">8 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-14.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">9 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-15.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">10 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-16.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">11 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-17.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">12 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-19.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">13 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-20.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">14 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-21.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">15 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-22.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">16 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-23.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">17 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-24.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">18 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-26.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">19 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" style="width:100%">
+            </div>
+
+            <div class="interiorSlides">
+                <div class="numbertext">20 / 20</div>
+                <img id="interiorImg" src="img/Interior/MiAlmaCafeOpeningCeremony-29.jpg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusInteriorSlides(-1)">&#10094;</a>

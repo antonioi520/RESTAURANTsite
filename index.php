@@ -27,7 +27,7 @@
                         <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
                     </center>
                     <center>
-                        <img src="img/logo.png" style="min-height:30%;min-width: 30%;max-height:30%;max-width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-2em;margin-bottom:2em;">
+                        <img src="img/logo.png" style="min-height:30%;min-width: 30%;max-height:30%;max-width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-6em;margin-bottom:4em;">
                     </center>
                     <center>
                         <div href="#contact" id="box" style="margin-top: 1em">

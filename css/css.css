@@ -164,7 +164,7 @@ p {
 #headerHours{
     transition: 0.5s;
     color:white;
-    padding-top: 0.938em;
+    padding-top: 0.5em;
 }
 #box:hover{
     text-decoration: none;

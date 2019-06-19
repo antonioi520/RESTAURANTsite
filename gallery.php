@@ -397,10 +397,10 @@
     <div class="gallery-border">
         <div class="row">
             <div class="column">
-                <img id="galleryImg" src="img/Menu/mi_alma_menu-01.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(1)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/MenuThumbs/mi_alma_menu-01.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(1)" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img id="galleryImg" src="img/Menu/mi_alma_menu-02.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(2)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/MenuThumbs/mi_alma_menu-02.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(2)" class="hover-shadow cursor">
             </div>
         </div>
     </div>

@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Mi Almas Cafe</title>
+    <title>Mi Alma Restaurant</title>
 
 
     <!-- Bootstrap -->

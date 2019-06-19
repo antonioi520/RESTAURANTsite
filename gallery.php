@@ -81,7 +81,7 @@
     <br>
     <hr>
     <h2 style="text-align:left; color:black;">Food & Drink</h2>
-
+    <br>
     <div class="gallery-border">
         <div class="row">
             <div class="column">
@@ -300,7 +300,7 @@
     <br>
 
     <h2 style="text-align:left; color:black;">Interior (Cafe)</h2>
-
+    <br>
     <div class="gallery-border">
         <div class="row">
             <div class="column">
@@ -369,7 +369,7 @@
     <br>
 
     <h2 style="text-align:left; color:black;">Interior (Theater)</h2>
-
+    <br>
     <div class="gallery-border">
         <div class="row">
             <div class="column">
@@ -417,7 +417,7 @@
     <br>
 
     <h2 style="text-align:left; color:black;">Staff</h2>
-
+    <br>
     <div class="gallery-border">
         <div class="row">
             <div class="column">
@@ -434,7 +434,7 @@
 
     <br>
     <h2 style="text-align:left; color:black;">Menu</h2>
-
+    <br>
     <div class="gallery-border">
         <div class="row">
             <div class="column">

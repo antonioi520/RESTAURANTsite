@@ -122,7 +122,19 @@
 }
 
 #galleryImg {
-    margin-bottom: -4px;
+    margin-bottom: -10px;
+    object-fit: scale-down;
+    max-height: 800px;
+}
+
+#interiorImg {
+    padding: 150px;
+    object-fit: scale-down;
+    max-height: 800px;
+}
+
+#staffImg {
+    padding: 75px;
     object-fit: scale-down;
     max-height: 800px;
 }

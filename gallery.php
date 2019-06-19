@@ -156,12 +156,12 @@
 
             <div class="interiorSlides">
                 <div class="numbertext">1 / 2</div>
-                <img id="galleryImg" src="img/Interior/interior.jpg" style="width:100%">
+                <img id="interiorImg" src="img/Interior/interior.jpg" style="width:100%">
             </div>
 
             <div class="interiorSlides">
                 <div class="numbertext">2 / 2</div>
-                <img id="galleryImg" src="img/Interior/interior2.jpg" style="width:100%">
+                <img id="interiorImg" src="img/Interior/interior2.jpg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusInteriorSlides(-1)">&#10094;</a>
@@ -176,12 +176,12 @@
 
             <div class="staffSlides">
                 <div class="numbertext">1 / 2</div>
-                <img id="galleryImg" src="img/Staff/staff.jpg" style="width:100%">
+                <img id="staffImg" src="img/Staff/staff.jpg" style="width:100%">
             </div>
 
             <div class="staffSlides">
                 <div class="numbertext">2 / 2</div>
-                <img id="galleryImg" src="img/Staff/staff3.jpg" style="width:100%">
+                <img id="staffImg" src="img/Staff/staff3.jpg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusStaffSlides(-1)">&#10094;</a>

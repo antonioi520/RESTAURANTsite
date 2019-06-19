@@ -33,7 +33,8 @@
 
 <div class="wrapper">
     <div class="container">
-        <h1 class="menu-heading">Mi Alma Menu</h1>
+        <center><img src="img/logo.png" style="width: 35%; height: 35%;"></center>
+        <!--h1 class="menu-heading">Mi Alma Menu</h1-->
         <br> <hr>
         <center>
             <a href="#" id="fooddrinkButton" onclick="switchToFoodMenu()">Food</a>
@@ -43,7 +44,7 @@
         <div class="menu menu-row menu-wrap menu-center" id="foodDiv">
             <div class="appetizers">
                 <h2 style="font-weight: bolder;">APERITIVOS/APPETIZERS</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">CALAMARI FRITO
                     <span class="menu-item-price2"> $10</span>
@@ -71,7 +72,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">CARNES/MEAT</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">PECHUGA AL GRILL EN SALSA AL AJILLO
                         <span class="menu-item-price2"> $12</span>
@@ -95,7 +96,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">MARISCOS/SEAFOOD</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">CAMARONES FUSION
                         <span class="menu-item-price2"> $12</span>
@@ -116,7 +117,7 @@
             </div>
             <div class="appetizers">
                 <h2 style="font-weight: bolder;">ENSALADA/SALAD</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">ENSALADA MI ALMA
                         <span class="menu-item-price2"> $10</span>
@@ -127,7 +128,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">ARROCES/RICE</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">RISOTTO MAR CARIBE
                         <span class="menu-item-price2"> $22</span>
@@ -143,7 +144,7 @@
             </div>
             <div class="appetizers">
                 <h2 style="font-weight: bolder;">CALDOS/SOUP</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">CREMA DE AUYUAMA
                         <span class="menu-item-price2"> $6</span>
@@ -153,7 +154,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">PARA COMPARTIR/TO SHARE</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">PICADERA DE MARISCOS SEFOOD PLATTER </span>
                     <span class="menu-item-price2"> $20</span>
@@ -169,7 +170,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">PASTAS</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">LINGUINE AL SALMÓN</span>
                     <span class="menu-item-price2"> $14</span>
@@ -178,7 +179,7 @@
             </div>
             <div class="appetizers">
                 <h2 style="font-weight: bolder;">ACOMPAÑAMIENTOS/SIDES</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Tostones/Fried Plantains</span>
                     <span class="menu-item-price2" style="font-weight: bold;"> $5</span> <br>
@@ -204,7 +205,7 @@
             </div>
             <div class="appetizers">
                 <h2 style="font-weight: bolder;">PARA LOS PEQUEÑOS/KIDS</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Chicken tenders & Fries</span>
                     <span class="menu-item-price2"> $5</span> <br>
@@ -223,7 +224,7 @@
         <div class="menu menu-row menu-wrap menu-center" id="drinkDiv" style="display: none">
             <div class="appetizers">
                 <h2 style="font-weight: bolder;">SMOOTHIES</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Fruta del Bosque - Berry Blend</span>
                     <span class="menu-item-price2"> $6</span> <br>
@@ -243,7 +244,7 @@
             </div>
             <div class="appetizers">
                 <h2 style="font-weight: bolder;">OTRAS BEBIDAS</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Refrescos - Soda</span>
                     <span class="menu-item-price2"> $2</span> <br>
@@ -255,7 +256,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">CERVEZAS/BEER</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Presidente</span>
                     <span class="menu-item-price2"> $6</span> <br>
@@ -281,7 +282,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">VINO TINTO/RED WINE</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Woodbridge by Robert Mondavi Cabernet Sauvignon </span>
                     <span class="menu-item-price2"> $25</span> <br>
@@ -295,7 +296,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">ESPUMANTE/SPARKLING</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Prosecco Lunetta </span>
                     <span class="menu-item-price2"> $25</span> <br>
@@ -307,7 +308,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">BLANCO/WHITE WINE</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Woodbridge by Robert Mondavi Chardonay </span>
                     <span class="menu-item-price2"> $25</span> <br>
@@ -319,7 +320,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">COCKTAILS</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Classic Margarita </span>
                     <span class="menu-item-price2"> $9</span>
@@ -368,7 +369,7 @@
             </div>
             <div class="entrees">
                 <h2 style="font-weight: bolder;">ROSADO/ROSE WINE</h2>
-                <div class="section-title-divider"></div>
+                <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Beringer White Zinfandel </span>
                     <span class="menu-item-price2"> $25</span> <br>

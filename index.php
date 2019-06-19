@@ -105,7 +105,7 @@
                         <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top quality servers and chefs providing every utility to assure you enjoy your time</strong><br><br><br>
                         <a href="#" id="ingredientBox" style="width:240px;"><h2 id="ingredientBoxText">View Services</h2></a>
                     </div>
-                    <img src="img/Staff/staff3.jpg" alt="" style="height:700px;width: 1000px;object-fit: cover;filter:brightness(30%);">
+                    <img src="img/header2.jpg" alt="" style="height:700px;width: 1000px;object-fit: cover;filter:brightness(30%);">
                 </div>
         </div>
     </div>

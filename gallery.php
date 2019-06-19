@@ -72,7 +72,7 @@
 
     <br>
 
-    <h2 style="text-align:left; color:black;">Interior</h2>
+    <h2 style="text-align:left; color:black;">Interior (Cafe)</h2>
 
     <div class="gallery-border">
         <div class="row">
@@ -81,6 +81,21 @@
             </div>
             <div class="column">
                 <img id="galleryImg" src="img/Interior/interior2.jpg" style="width:100%" onclick="openInteriorModal();currentInteriorSlide(2)" class="hover-shadow cursor">
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <h2 style="text-align:left; color:black;">Interior (Theater)</h2>
+
+    <div class="gallery-border">
+        <div class="row">
+            <div class="column">
+                <img id="galleryImg" src="img/Interior/3.png" style="width:100%" onclick="openInteriorTModal();currentInteriorTSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/Interior/4.png" style="width:100%" onclick="openInteriorTModal();currentInteriorTSlide(2)" class="hover-shadow cursor">
             </div>
         </div>
     </div>
@@ -183,6 +198,26 @@
         </div>
     </div>
 
+    <div id="interiorTModal" class="modal">
+        <span class="close cursor" onclick="closeInteriorTModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="interiorTSlides">
+                <div class="numbertext">1 / 2</div>
+                <img id="interiorImg" src="img/Interior/3.png" style="width:100%">
+            </div>
+
+            <div class="interiorTSlides">
+                <div class="numbertext">2 / 2</div>
+                <img id="interiorImg" src="img/Interior/4.png" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusInteriorTSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusInteriorTSlides(1)">&#10095;</a>
+
+        </div>
+    </div>
+
     <div id="staffModal" class="modal">
         <span class="close cursor" onclick="closeStaffModal()">&times;</span>
         <div class="modal-content">
@@ -240,6 +275,14 @@
             document.getElementById("interiorModal").style.display = "none";
         }
 
+        function openInteriorTModal() {
+            document.getElementById("interiorTModal").style.display = "block";
+        }
+
+        function closeInteriorTModal() {
+            document.getElementById("interiorTModal").style.display = "none";
+        }
+
         function openStaffModal() {
             document.getElementById("staffModal").style.display = "block";
         }
@@ -260,10 +303,13 @@
         showFoodSlides(foodSlideIndex);
 
         var interiorSlideIndex = 1;
-        showFoodSlides(interiorSlideIndex);
+        showInteriorSlides(interiorSlideIndex);
+
+        var interiorTSlideIndex = 1;
+        showInteriorTSlides(interiorTSlideIndex);
 
         var staffSlideIndex = 1;
-        showFoodSlides(staffSlideIndex);
+        showStaffSlides(staffSlideIndex);
 
         var menuSlideIndex = 1;
         showMenuSlides(menuSlideIndex);
@@ -282,6 +328,14 @@
 
         function currentInteriorSlide(n) {
             showInteriorSlides(interiorSlideIndex = n);
+        }
+
+        function plusInteriorTSlides(n) {
+            showInteriorTSlides(interiorTSlideIndex += n);
+        }
+
+        function currentInteriorTSlide(n) {
+            showInteriorTSlides(interiorTSlideIndex = n);
         }
 
         function plusStaffSlides(n) {
@@ -334,6 +388,24 @@
             slides[interiorSlideIndex-1].style.display = "block";
             dots[interiorSlideIndex-1].className += " active";
             captionText.innerHTML = dots[interiorSlideIndex-1].alt;
+        }
+
+        function showInteriorTSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("interiorTSlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {interiorTSlideIndex = 1}
+            if (n < 1) {interiorTSlideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[interiorTSlideIndex-1].style.display = "block";
+            dots[interiorTSlideIndex-1].className += " active";
+            captionText.innerHTML = dots[interiorTSlideIndex-1].alt;
         }
 
         function showStaffSlides(n) {

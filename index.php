@@ -7,7 +7,6 @@
  */
 ?>
 
-
 <?php include("views/header.html") ?>
 
 
@@ -112,7 +111,7 @@
                         <strong style="color:white;letter-spacing: 0.05em;">We use fresh ingredients of the highest quality and prepare them expertly, ensuring a quality dining experience.</strong><br><br><br>
                         <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
                     </div>
-                    <img src="img/FoodDrink/4.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
+                    <img src="img/FoodDrink/MiAlmaCafe-3.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
                 </div>
                 <div class="col-lg-6">
                     <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%;">
@@ -122,7 +121,7 @@
                             to ensure that our customers leave satisfied.</strong><br><br><br>
                         <a href="services.php" id="ingredientBox" style="width:15.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
                     </div>
-                    <img src="img/Interior/interior.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
+                    <img src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
                 </div>
         </div>
     </div>
@@ -139,13 +138,11 @@
         </div>
 
         <div class="row">
-
-
             <div class="col-md-5 col-md-push-2" style="padding-bottom: 0.625em;">
                 <div class="form">
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
-                    <form action="" method="post" role="form" class="contactForm">
+                    <form action="send_email.php" method="post" role="form" class="contactForm">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>
@@ -162,7 +159,16 @@
                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
                         </div>
-                        <div class="text-center"><button type="submit">Disabled</button></div>
+
+                        <!-- captcha-->
+                        <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
+                        <br>
+                        <input type="text" name="captcha_code" size="10" maxlength="6" />
+                        <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false"><br>[Refresh]</a>
+                        <br>
+                        <br>
+
+                        <div class="text-center"><button value="Submit" type="submit">Submit</button></div>
                     </form>
                 </div>
             </div>
@@ -185,8 +191,6 @@
                         <p>1017 Broad Street</p><br>
                         <p>Providence, RI 02905</p>
                     </div>
-
-
 
                 </div>
             </div>

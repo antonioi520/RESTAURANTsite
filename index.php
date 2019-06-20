@@ -142,7 +142,7 @@
                 <div class="form">
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
-                    <form action="send_email.php" method="post" role="form" class="contactForm">
+                    <form action="send_email.php" method="post" role="form" class="contactForm" id="myForm">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>
@@ -203,6 +203,22 @@
 
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 <?php include("views/includebottom.html") ?>
+
+<script type="text/javascript">
+    var frm = $('#myForm');
+    frm.submit(function (ev) {
+        $.ajax({
+            type: frm.attr('method'),
+            url: frm.attr('action'),
+            data: frm.serialize(),
+            success: function (data) {
+                alert('ok');
+            }
+        });
+
+        ev.preventDefault();
+    });
+</script>
 
 </body>
 </html>

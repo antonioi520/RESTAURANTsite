@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
             echo "We are very sorry, but there were error(s) found with the form you submitted. ";
             echo "These errors appear below.<br /><br />";
             echo $error."<br /><br />";
-            echo "Please go back and fix these errors.<br /><br />";
+            echo "Please fix these before resubmitting.<br /><br />";
             die();
     }
 

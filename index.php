@@ -7,8 +7,6 @@
  */
 ?>
 
-<?php include("send_email.php") ?>
-
 <?php include("views/header.html") ?>
 
 

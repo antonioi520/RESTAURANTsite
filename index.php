@@ -7,6 +7,7 @@
  */
 ?>
 
+<?php include("send_email.php") ?>
 
 <?php include("views/header.html") ?>
 
@@ -139,13 +140,11 @@
         </div>
 
         <div class="row">
-
-
             <div class="col-md-5 col-md-push-2" style="padding-bottom: 0.625em;">
                 <div class="form">
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
-                    <form action="" method="post" role="form" class="contactForm">
+                    <form action="send_email.php" method="post" role="form" class="contactForm">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>
@@ -162,7 +161,7 @@
                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
                         </div>
-                        <div class="text-center"><button type="submit">Disabled</button></div>
+                        <div class="text-center"><button value="Submit" type="submit">Submit</button></div>
                     </form>
                 </div>
             </div>

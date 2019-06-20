@@ -112,7 +112,7 @@
                         <strong style="color:white;letter-spacing: 0.05em;">We use fresh ingredients of the highest quality and prepare them expertly, ensuring a quality dining experience.</strong><br><br><br>
                         <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
                     </div>
-                    <img src="img/FoodDrink/4.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
+                    <img src="img/FoodDrink/MiAlmaCafe-3.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
                 </div>
                 <div class="col-lg-6">
                     <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%;">
@@ -122,7 +122,7 @@
                             to ensure that our customers leave satisfied.</strong><br><br><br>
                         <a href="services.php" id="ingredientBox" style="width:15.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
                     </div>
-                    <img src="img/Interior/interior.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
+                    <img src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
                 </div>
         </div>
     </div>
@@ -185,8 +185,6 @@
                         <p>1017 Broad Street</p><br>
                         <p>Providence, RI 02905</p>
                     </div>
-
-
 
                 </div>
             </div>

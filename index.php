@@ -161,12 +161,12 @@
                         </div>
 
                         <!-- captcha-->
-                        <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
+                        <!--img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
                         <br>
                         <input type="text" name="captcha_code" size="10" maxlength="6" />
                         <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false"><br>[Refresh]</a>
                         <br>
-                        <br>
+                        <br-->
 
                         <div class="text-center"><button value="Submit" type="submit">Submit</button></div>
                     </form>

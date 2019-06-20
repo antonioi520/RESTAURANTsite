@@ -101,15 +101,15 @@
 </div>
 
 
-    <div class="container">
+    <div class="container" id="topofMenu">
 
 
         <!--        <center><img src="img/logo.png" style="width: 35%; height: 35%;"></center>-->
 <!--        <h1 class="menu-heading">Mi Alma Menu</h1>-->
         <br> <hr>
         <center>
-            <a href="#" id="fooddrinkButton" onclick="switchToFoodMenu()">Food</a>
-            <a href="#" id="fooddrinkButton" onclick="switchToDrinkMenu()">Drinks</a>
+            <a href="#topofMenu" id="fooddrinkButton" onclick="switchToFoodMenu()">Food</a>
+            <a href="#topofMenu" id="fooddrinkButton" onclick="switchToDrinkMenu()">Drinks</a>
         </center>
         <br>
         <div class="menu menu-row menu-wrap menu-center" id="foodDiv">

@@ -463,6 +463,14 @@ p {
         font-weight:normal;
     }
 
+}
+
+@media (max-width: 768px) {
+    .about-img img {
+        min-height: 400px;
+        max-height: 400px;
+        height:400px;
+    }
 
 
 }

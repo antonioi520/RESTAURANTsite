@@ -70,7 +70,4 @@ if(isset($_POST['email']))
      
     Your message has been sent, thank you!
      
-    <?php
-
 }
-?>

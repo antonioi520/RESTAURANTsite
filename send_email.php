@@ -1,4 +1,5 @@
 <?php session_start(); ?>
+<!-- the captcha needs the above line -->
 
 <?php
 if(isset($_POST['email']))
@@ -48,6 +49,7 @@ if(isset($_POST['email']))
         died($error_message);
     }
 
+    // it was recommended to have this after form submission error checks
     include_once $_SERVER['DOCUMENT_ROOT'] . '/securimage/securimage.php';
 
     $securimage = new Securimage();

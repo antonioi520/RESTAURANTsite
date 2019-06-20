@@ -160,6 +160,7 @@
                             <div class="validation"></div>
                         </div>
 
+                        <!-- captcha-->
                         <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
                         <br>
                         <input type="text" name="captcha_code" size="10" maxlength="6" />

@@ -212,7 +212,7 @@
             url: frm.attr('action'),
             data: frm.serialize(),
             success: function (data) {
-                alert('Your message has been sent, thank you!');
+                //alert('Your message has been sent, thank you!');
                 $("#myForm")[0].reset();
                 document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
                 return false;

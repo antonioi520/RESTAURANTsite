@@ -144,7 +144,7 @@
                     <div id="errormessage"></div>
                     <form action="send_email.php" method="post" role="form" class="contactForm" id="myForm">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="min-length:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
@@ -212,7 +212,10 @@
             url: frm.attr('action'),
             data: frm.serialize(),
             success: function (data) {
-                alert('ok');
+                alert('Your message has been sent, thank you!');
+                $("#myForm")[0].reset();
+                document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
+                return false;
             }
         });
 

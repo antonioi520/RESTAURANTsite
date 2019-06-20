@@ -1,4 +1,4 @@
-<!--?php session_start(); ?-->
+<?php session_start(); ?>
 <!-- the captcha needs the above line -->
 
 <?php
@@ -26,7 +26,7 @@ if(isset($_POST['email'])) {
     }
 
     $name = $_POST['name'];
-    $email_host = 'antonio@antonioisabella.com'
+    $email_host = 'antonio@antonioisabella.com';
     $email_from = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
@@ -53,7 +53,7 @@ if(isset($_POST['email'])) {
     }
 
     // it was recommended to have this after form submission error checks
-    include_once $_SERVER['DOCUMENT_ROOT'] . '/securimage/securimage.php';
+    include_once 'securimage/securimage.php';
 
     $securimage = new Securimage();
 
@@ -64,6 +64,7 @@ if(isset($_POST['email'])) {
         echo "Please go <a href='javascript:history.go(-1)'>back</a> and try again.";
         exit;
     }
+
 
     $email_message = "Form details below.\n\n";
 

@@ -80,7 +80,8 @@
     <h1 class="menu-heading">Gallery</h1>
     <br>
     <hr>
-    <h2 style="text-align:left; color:black;">Food & Drink</h2>
+    <h2 style="text-align:center; color:black;padding-bottom:5px;">Food & Drinks</h2>
+    <div class="section-title-divider" style="margin-bottom:-10px;"></div>
     <br>
     <div class="gallery-border">
         <div class="row">
@@ -299,7 +300,8 @@
 
     <br>
 
-    <h2 style="text-align:left; color:black;">Interior (Cafe)</h2>
+    <h2 style="text-align:center; color:black;padding-bottom:5px;">Interior (Cafe)</h2>
+    <div class="section-title-divider" style="margin-bottom:-10px;"></div>
     <br>
     <div class="gallery-border">
         <div class="row">
@@ -368,7 +370,8 @@
 
     <br>
 
-    <h2 style="text-align:left; color:black;">Interior (Theater)</h2>
+    <h2 style="text-align:center; color:black;padding-bottom:5px;">Interior (Theater)</h2>
+    <div class="section-title-divider" style="margin-bottom:-10px;"></div>
     <br>
     <div class="gallery-border">
         <div class="row">
@@ -416,7 +419,8 @@
 
     <br>
 
-    <h2 style="text-align:left; color:black;">Staff</h2>
+    <h2 style="text-align:center; color:black;padding-bottom:5px;">Staff</h2>
+    <div class="section-title-divider" style="margin-bottom:-10px;"></div>
     <br>
     <div class="gallery-border">
         <div class="row">
@@ -433,7 +437,8 @@
     </div>
 
     <br>
-    <h2 style="text-align:left; color:black;">Menu</h2>
+    <h2 style="text-align:center; color:black;padding-bottom:5px;">Menu</h2>
+    <div class="section-title-divider" style="margin-bottom:-10px;"></div>
     <br>
     <div class="gallery-border">
         <div class="row">

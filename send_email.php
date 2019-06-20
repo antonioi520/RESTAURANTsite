@@ -54,30 +54,32 @@ if(isset($_POST['email']))
 
     $securimage = new Securimage();
 
+    // exit on failure, else send form to email
     if ($securimage->check($_POST['captcha_code']) == false) {
         // the code was incorrect
         echo "The security code entered was incorrect.<br /><br />";
         echo "Please go <a href='javascript:history.go(-1)'>back</a> and try again.";
         exit;
     }
+    else {
+        $email_message = "Form details below.\n\n";
 
-    $email_message = "Form details below.\n\n";
+        function clean_string($string) {
+            $bad = array("content-type","bcc:","to:","cc:","href");
+            return str_replace($bad,"",$string);
+        }
 
-    function clean_string($string) {
-        $bad = array("content-type","bcc:","to:","cc:","href");
-        return str_replace($bad,"",$string);
+        $email_message .= "Name: ".clean_string($name)."\n";
+        $email_message .= "Email: ".clean_string($email_from)."\n";
+        $email_message .= "Subject: ".clean_string($subject)."\n";
+        $email_message .= "Message: ".clean_string($message)."\n";
+
+        // create email headers
+        $headers = 'From: '.$email_from."\r\n".
+            'Reply-To: '.$email_from."\r\n" .
+            'X-Mailer: PHP/' . phpversion();
+        @mail($email_to, $email_subject, $email_message, $headers);
     }
-
-    $email_message .= "Name: ".clean_string($name)."\n";
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Subject: ".clean_string($subject)."\n";
-    $email_message .= "Message: ".clean_string($message)."\n";
-
-    // create email headers
-    $headers = 'From: '.$email_from."\r\n".
-        'Reply-To: '.$email_from."\r\n" .
-        'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers);
 
     ?>
      

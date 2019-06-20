@@ -86,12 +86,15 @@
             </div>
 
             <div class="col-md-6 about-content">
-                <h2 class="about-title">We provide great food and services WIP</h2>
+                <h2 class="about-title">We provide excellent food and quality services for our customers.</h2>
                 <p class="about-text">
-                    Mi Alma Cafe is a Latin fusion restaurant brought to Broad Street alongside the newly renovated Bomes Theatre. WIP
+                    Mi Alma Cafe is a Latin fusion restaurant brought to Broad Street alongside the newly renovated Bomes Theatre,
+                    boasting a luxurious interior, quality ingredients and outstanding service provided by a hard-working staff!
                 </p>
                 <p class="about-text">
-                    Providing food, events, and concerts, we go out of our way to ensure you experience a fun, top quality stay! WIP
+                    Services provided at Mi Alma Cafe include an array of Dominican/Latin cuisine, events and
+                    live concerts. We go out of our way to ensure that your time spent at Mi Alma Cafe is
+                    memorable and of the highest quality!
                 </p>
                 <h3 style="font-weight: bold;color: #333;">Find Us</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.4541081971906!2d-71.41585268432019!3d41.79697697846551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e44f893f923a5f%3A0x86f9ff49752031d1!2s1017+Broad+St%2C+Providence%2C+RI+02905!5e0!3m2!1sen!2sus!4v1560838747202!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;max-width:100%" allowfullscreen></iframe>            </div>
@@ -106,7 +109,7 @@
                     <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%;">
                         <img src="img/imgheader3.png" style="object-fit: contain;">
                         <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR INGREDIENTS</h1>
-                        <strong style="color:white;letter-spacing: 0.05em;">We use only the finest of ingredients and prepare them so that they bring out the best in our food</strong><br><br><br>
+                        <strong style="color:white;letter-spacing: 0.05em;">We use fresh ingredients of the highest quality and prepare them expertly, ensuring a quality dining experience.</strong><br><br><br>
                         <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
                     </div>
                     <img src="img/FoodDrink/4.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
@@ -115,7 +118,8 @@
                     <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%;">
                         <img src="img/imgheader3.png">
                         <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR SERVICES</h1>
-                        <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top quality servers and chefs providing every utility to assure you enjoy your time</strong><br><br><br>
+                        <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top notch servers and chefs providing every utility at our disposal
+                            to ensure that our customers leave satisfied.</strong><br><br><br>
                         <a href="services.php" id="ingredientBox" style="width:15.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
                     </div>
                     <img src="img/Interior/interior.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">

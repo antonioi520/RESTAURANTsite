@@ -164,7 +164,7 @@
                         <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
                         <br>
                         <input type="text" name="captcha_code" size="10" maxlength="6" />
-                        <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false">[ Different Image ]</a>
+                        <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false"><br>[Refresh]</a>
                         <br>
                         <br>
 

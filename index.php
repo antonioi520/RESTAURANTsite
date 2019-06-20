@@ -159,6 +159,14 @@
                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
                         </div>
+
+                        <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
+                        <br>
+                        <input type="text" name="captcha_code" size="10" maxlength="6" />
+                        <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false">[ Different Image ]</a>
+                        <br>
+                        <br>
+
                         <div class="text-center"><button value="Submit" type="submit">Submit</button></div>
                     </form>
                 </div>

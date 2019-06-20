@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <?php
 if(isset($_POST['email']))
 
@@ -44,6 +46,17 @@ if(isset($_POST['email']))
 
     if(strlen($error_message) > 0) {
         died($error_message);
+    }
+
+    include_once $_SERVER['DOCUMENT_ROOT'] . '/securimage/securimage.php';
+
+    $securimage = new Securimage();
+
+    if ($securimage->check($_POST['captcha_code']) == false) {
+        // the code was incorrect
+        echo "The security code entered was incorrect.<br /><br />";
+        echo "Please go <a href='javascript:history.go(-1)'>back</a> and try again.";
+        exit;
     }
 
     $email_message = "Form details below.\n\n";

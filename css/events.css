@@ -27,6 +27,10 @@
 #hero{
     //top: 436px;
 }
+#video{
+    width: 640px;
+    height: 352px;
+}
 @media (max-width: 768px) {
     #hero{
         //left:40px;
@@ -49,5 +53,11 @@
 @media (max-width: 768px) {
     .arrowRemove span{
       display:none;
+    }
+}
+@media (max-width: 768px) {
+    #videoRow video{
+        width:350px;
+        height:200px;
     }
 }

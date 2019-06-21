@@ -71,12 +71,18 @@
         </a>
     </div>
 </div>
+<center>
+    <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
+</center>
 
+<hr style="margin-bottom:0px;">
 <section id="about">
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="section-title" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 3.125em;">Services</h3>
+                <center>
+                    <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 10px;">Services</h1>
+                <center>
                 <div class="section-title-divider"></div>
                 <!--                <p class="section-description">We are a two man team from different backgrounds in programming coming together to deliver you top-notch websites and other business needs!</p>-->
             </div>
@@ -85,34 +91,34 @@
     <div class="container about-container wow fadeInUp">
         <div class="row">
             <div class="col-lg-6 about-img">
-                <img src="img/Staff/MiAlmaCafeOpeningCeremony-8.jpg" alt="" style="height:600px;object-fit: cover;" id="aboutImg">
+                <img src="img/Staff/MiAlmaCafeOpeningCeremony-8.jpg" alt="" style="height:auto;object-fit: cover;" id="aboutImg">
             </div>
 
             <div class="col-md-6 about-content">
 
-                <h2 class="about-title">Chef's Recommendations</h2>
-                <p class="about-text">
+                <h2 class="about-title" style="margin-bottom: 10px;">Chef's Recommendations</h2>
+                <p class="about-text" style="padding-left:2px;">
                     Be sure to ask your server about the chef's recommendation for the day!
                 </p>
 
                 <br>
 
-                <h2 class="about-title">Weekly Specials</h2>
-                <p class="about-text">
+                <h2 class="about-title" style="margin-bottom: 10px;">Weekly Specials</h2>
+                <p class="about-text" style="padding-left:2px;">
                     Don't forget to ask staff about the weekly special next time you dine with us!
                 </p>
 
                 <br>
 
-                <h2 class="about-title">À La Carte</h2>
-                <p class="about-text">
+                <h2 class="about-title" style="margin-bottom: 10px;">À La Carte</h2>
+                <p class="about-text" style="padding-left:2px;">
                     Come in and order your food à la carte.
                 </p>
 
                 <br>
 
-                <h2 class="about-title">Take Out</h2>
-                <p class="about-text">
+                <h2 class="about-title" style="margin-bottom: 10px;">Take Out</h2>
+                <p class="about-text" style="padding-left:3px;">
                     Give us a call at (401) 648-0715 and we'll prepare your order ahead of time for you! When it's ready,
                     pick it up on location at 1017 Broad Street Providence, RI 02905.
                 </p>
@@ -153,7 +159,9 @@
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="section-title" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 3.125em;">Catering</h3>
+                <center>
+                    <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 10px;">Catering</h1>
+                    <center>
                 <div class="section-title-divider"></div>
                 <!--                <p class="section-description">We are a two man team from different backgrounds in programming coming together to deliver you top-notch websites and other business needs!</p>-->
             </div>

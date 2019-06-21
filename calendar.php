@@ -32,14 +32,14 @@
 <?php include("views/nav_pages.html")?>
 
 </div>
-<section id="about">
+<section id="about" style="padding-bottom:10px;">
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-md-12">
                 <center>
-                    <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 10px;">Calendar</h1>
+                    <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 0px;">Calendar</h1>
                     <center>
-                        <div class="section-title-divider"></div>
+                        <div class="section-title-divider" style="margin-bottom: 0;"></div>
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@
 <div id="content-mobile">
     <center>
         <iframe src="https://calendar.google.com/calendar/embed?height=800&amp;wkst=1&amp;bgcolor=%2300bfff&amp;ctz=America%2FNew_York&amp;src=eW91bmdsdWJhY2t1cEBnbWFpbC5jb20&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showCalendars=0"
-                style="border:solid 1px #777" width="35" height="650" frameborder="0" scrolling="no"></iframe>
+                style="border:solid 1px #777" width="350" height="650" frameborder="0" scrolling="no"></iframe>
     </center>
 </div>
 

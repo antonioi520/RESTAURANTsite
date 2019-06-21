@@ -29,16 +29,28 @@
 <body>
 <!-- Header -->
 
-
 <?php include("views/nav_pages.html")?>
 
-<br>
+</div>
+<section id="about">
+    <div class="container wow fadeInUp">
+        <div class="row">
+            <div class="col-md-12">
+                <center>
+                    <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 10px;">Calendar</h1>
+                    <center>
+                        <div class="section-title-divider"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <div class="container">
     <div class="col-md-4"></div>
     <div class="responsiveCal" id="content-desktop">
         <center>
-            <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%2300bfff&amp;ctz=America%2FNew_York&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=Test%20Calendar"
-                    style="border-width:0" width="1200" height="800" frameborder="0" scrolling="no"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?height=800&amp;wkst=1&amp;bgcolor=%2300bfff&amp;ctz=America%2FNew_York&amp;src=eW91bmdsdWJhY2t1cEBnbWFpbC5jb20&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showCalendars=0"
+                    style="border:solid 1px #777" width="1200" height="800" frameborder="0" scrolling="no"></iframe>
         </center>
     </div>
     <div class="col-md-4"></div>
@@ -46,8 +58,8 @@
 
 <div id="content-mobile">
     <center>
-        <iframe src="https://calendar.google.com/calendar/b/1/embed?height=500&amp;wkst=1&amp;bgcolor=%2300bfff&amp;ctz=America%2FNew_York&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=Test%20Calendar"
-                style="border-width:0" width="350" height="650" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?height=800&amp;wkst=1&amp;bgcolor=%2300bfff&amp;ctz=America%2FNew_York&amp;src=eW91bmdsdWJhY2t1cEBnbWFpbC5jb20&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showCalendars=0"
+                style="border:solid 1px #777" width="35" height="650" frameborder="0" scrolling="no"></iframe>
     </center>
 </div>
 

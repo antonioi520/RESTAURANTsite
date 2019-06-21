@@ -45,9 +45,10 @@
  */
 
 // Remove the "//" from the following line for debugging problems
-// error_reporting(E_ALL); ini_set('display_errors', 1);
+//error_reporting(E_ALL); ini_set('display_errors', 1);
 
 require_once dirname(__FILE__) . '/securimage.php';
+
 
 $img = new Securimage();
 
@@ -69,6 +70,8 @@ $img = new Securimage();
 //                                             rand(128, 255));  // random signature color
 
 // see securimage.php for more options that can be set
+
+$img->image_signature = 'Mi Alma';
 
 // set namespace if supplied to script via HTTP GET
 if (!empty($_GET['namespace'])) $img->setNamespace($_GET['namespace']);

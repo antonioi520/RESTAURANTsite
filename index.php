@@ -24,7 +24,7 @@
                 <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:59.375em;filter:brightness(20%);object-fit: cover;">
                 <div class="carousel-caption d-md-block" id="hero" style="top:150px;">
                     <center>
-                        <h1 class="headertext" style="margin-bottom: 190px;">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                        <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
                     </center>
                     <center>
                         <img src="img/logo.png" style="height:30%;width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-6em;margin-bottom:10px;">

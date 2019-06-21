@@ -71,12 +71,13 @@
         </a>
     </div>
 </div>
-
+<div class="container">
 <center>
     <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
 </center>
 
 <hr style="margin-bottom:0px;">
+</div>
 <section id="about">
     <div class="container wow fadeInUp">
         <div class="row">
@@ -131,7 +132,7 @@
     </div>
 </section>
 
-<section id="middleImages">
+<!--<section id="middleImages">
     <div class="wrapper">
         <div class="row" style="overflow: hidden;">
             <div class="col-lg-6">
@@ -139,7 +140,6 @@
                     <img src="img/imgheader3.png" style="object-fit: contain;">
                     <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0; text-align: center;">CATERING AT THE BOMES THEATER</h1>
                     <strong style="color:white;letter-spacing: 0.05em;"></strong><br><br><br>
-                    <!--a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a-->
                 </div>
                 <img class="testy" src="img/TheaterInterior/concert-41.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
             </div>
@@ -148,9 +148,20 @@
                     <img src="img/imgheader3.png">
                     <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0; text-align: center;">CATERING FOR PERSONAL EVENTS</h1>
                     <strong style="color:white;letter-spacing: 0.05em;"></strong><br><br><br>
-                    <!--a href="services.php" id="ingredientBox" style="width:15.000em;"><h2 id="ingredientBoxText">View Services</h2></a-->
                 </div>
                 <img class="testy" src="img/FoodDrink/MiAlmaCafe-23.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
+            </div>
+        </div>
+    </div>
+</section>-->
+<!--==========================
+  Subscrbe Section
+  ============================-->
+<section id="subscribe">
+    <div class="container wow fadeInUp">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/imgheader3.png" style="text-align: center;display: block;margin:auto;">
             </div>
         </div>
     </div>

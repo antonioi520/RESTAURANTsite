@@ -316,9 +316,14 @@ p {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-    background: #111;
+    //background: #111;
+    background-image: url("../img/Interior/dvsup.png");
     padding: 1.875em 0;
     color: #fff;
+    //filter:brightness(30%);
+}
+#credits {
+
 }
 
 #footer .copyright {
@@ -478,6 +483,40 @@ p {
         padding-left:15px;
     }
 }
+@media (max-width: 768px) {
+    .footerDates{
+        margin-left:12px;
+    }
+    .footerDates p {
+        font-size:8px;
+
+    }
+}
+@media (max-width: 768px) {
+    .testy{
+        min-width: 0px;
+        max-width: 768px;
+    }
+}
+.footerLinks{
+    text-align: center;
+    font-size: 12px;
+    display:inline;
+    padding-right:20px;
+    padding-left:20px;
+    color:white;
+}
+.footerLinks a{
+    color:white;
+    text-decoration: underline;
+}
+
+.footerLinks a:hover{
+    text-decoration: none;
+    color:deepskyblue;
+}
+
+
 input.invalid {
     border-color: red;
 }

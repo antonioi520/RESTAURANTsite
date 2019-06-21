@@ -254,3 +254,8 @@ img.hover-shadow {
     }
 
 }
+@media (max-width: 768px) {
+    .arrowRemove span{
+        display:none;
+    }
+}

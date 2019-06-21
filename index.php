@@ -22,17 +22,17 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:59.375em;filter:brightness(20%);object-fit: cover;">
-                <div class="carousel-caption d-md-block" id="hero" style="top:12.500em;">
+                <div class="carousel-caption d-md-block" id="hero" style="top:150px;">
                     <center>
                         <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
                     </center>
                     <center>
-                        <img src="img/logo.png" style="height:30%;width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-6em;margin-bottom:4em;">
+                        <img src="img/logo.png" style="height:30%;width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-6em;margin-bottom:10px;">
                     </center>
                     <center>
-                        <div href="#contact" id="box" style="margin-top: 1em">
+                        <a href="#contact" id="box" style="margin-top: 1em;display:block">
                             <h2 id="headerHours">View Hours</h2>
-                        </div>
+                        </a>
                     </center>
                     <center>
                         <ul class="headericons">

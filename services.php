@@ -31,14 +31,14 @@
 
 
 <?php include("views/nav_pages.html")?>
-
+<BR>
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="top:-25px;">
     <div class="carousel-inner">
         <!--        <div class="carousel-item active">-->
         <!--            <img class="d-block w-100" src="img/FoodDrink/5.jpg" alt="First slide" style="height:600px;filter:brightness(70%);object-fit: cover">-->
         <!--        </div>-->
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/FoodDrink/MiAlmaCafe-25.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <img class="d-block w-100" src="img/TheaterInterior/concert-37.jpg" alt="Second slide" style="height:600px;filter:brightness(50%);object-fit: cover">
             <div class="carousel-caption d-md-block d-flex justify-content-center"  id="hero">
 
                 <center>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/Interior/interior2.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-12.jpg" alt="Third slide" style="height:600px;filter:brightness(50%);object-fit: cover">
             <div class="carousel-caption d-md-block d-flex justify-content-center "  id="hero">
 
                 <center>
@@ -71,12 +71,20 @@
         </a>
     </div>
 </div>
+<div class="container">
+<center>
+    <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
+</center>
 
+<hr style="margin-bottom:0px;">
+</div>
 <section id="about">
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="section-title" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 3.125em;">Services</h3>
+                <center>
+                    <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 10px;">Services</h1>
+                <center>
                 <div class="section-title-divider"></div>
                 <!--                <p class="section-description">We are a two man team from different backgrounds in programming coming together to deliver you top-notch websites and other business needs!</p>-->
             </div>
@@ -85,46 +93,46 @@
     <div class="container about-container wow fadeInUp">
         <div class="row">
             <div class="col-lg-6 about-img">
-                <img src="img/Staff/MiAlmaCafeOpeningCeremony-8.jpg" alt="" style="height:600px;object-fit: cover;" id="aboutImg">
+                <img src="img/Staff/MiAlmaCafeOpeningCeremony-8.jpg" alt="" style="height:auto;object-fit: cover;" id="aboutImg">
             </div>
 
             <div class="col-md-6 about-content">
 
-                <h2 class="about-title">Chef's Recommendations</h2>
-                <p class="about-text">
+                <h2 class="about-title" style="margin-bottom: 10px;">Chef's Recommendations</h2>
+                <p class="about-text" style="padding-left:2px;">
                     Be sure to ask your server about the chef's recommendation for the day!
                 </p>
 
                 <br>
 
-                <h2 class="about-title">Weekly Specials</h2>
-                <p class="about-text">
+                <h2 class="about-title" style="margin-bottom: 10px;">Weekly Specials</h2>
+                <p class="about-text" style="padding-left:2px;">
                     Don't forget to ask staff about the weekly special next time you dine with us!
                 </p>
 
                 <br>
 
-                <h2 class="about-title">À La Carte</h2>
-                <p class="about-text">
+                <h2 class="about-title" style="margin-bottom: 10px;">À La Carte</h2>
+                <p class="about-text" style="padding-left:2px;">
                     Come in and order your food à la carte.
                 </p>
 
                 <br>
 
-                <h2 class="about-title">Take Out</h2>
-                <p class="about-text">
+                <h2 class="about-title" style="margin-bottom: 10px;">Take Out</h2>
+                <p class="about-text" style="padding-left:3px;">
                     Give us a call at (401) 648-0715 and we'll prepare your order ahead of time for you! When it's ready,
                     pick it up on location at 1017 Broad Street Providence, RI 02905.
                 </p>
 
-                <a href="menu.php" id="menuBox"><h2 id="menuBoxText">View Menu</h2></a>
+                <a href="menu" id="menuBox"><h2 id="menuBoxText">View Menu</h2></a>
 
             </div>
         </div>
     </div>
 </section>
 
-<section id="middleImages">
+<!--<section id="middleImages">
     <div class="wrapper">
         <div class="row" style="overflow: hidden;">
             <div class="col-lg-6">
@@ -132,7 +140,6 @@
                     <img src="img/imgheader3.png" style="object-fit: contain;">
                     <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0; text-align: center;">CATERING AT THE BOMES THEATER</h1>
                     <strong style="color:white;letter-spacing: 0.05em;"></strong><br><br><br>
-                    <!--a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a-->
                 </div>
                 <img class="testy" src="img/TheaterInterior/concert-41.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
             </div>
@@ -141,9 +148,20 @@
                     <img src="img/imgheader3.png">
                     <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0; text-align: center;">CATERING FOR PERSONAL EVENTS</h1>
                     <strong style="color:white;letter-spacing: 0.05em;"></strong><br><br><br>
-                    <!--a href="services.php" id="ingredientBox" style="width:15.000em;"><h2 id="ingredientBoxText">View Services</h2></a-->
                 </div>
                 <img class="testy" src="img/FoodDrink/MiAlmaCafe-23.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
+            </div>
+        </div>
+    </div>
+</section>-->
+<!--==========================
+  Subscrbe Section
+  ============================-->
+<section id="subscribe">
+    <div class="container wow fadeInUp">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/imgheader3.png" style="text-align: center;display: block;margin:auto;">
             </div>
         </div>
     </div>
@@ -153,7 +171,9 @@
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="section-title" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 3.125em;">Catering</h3>
+                <center>
+                    <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 10px;">Catering</h1>
+                    <center>
                 <div class="section-title-divider"></div>
                 <!--                <p class="section-description">We are a two man team from different backgrounds in programming coming together to deliver you top-notch websites and other business needs!</p>-->
             </div>

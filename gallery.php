@@ -18,7 +18,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
-    <link href="css/menu.css" rel="stylesheet">
+<!--    <link href="css/menu.css" rel="stylesheet">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
@@ -31,7 +31,7 @@
 
 
 <?php include("views/nav_pages.html")?>
-
+<br>
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="top:-25px;">
     <div class="carousel-inner">
         <!--        <div class="carousel-item active">-->
@@ -40,25 +40,26 @@
         <div class="carousel-item active">
             <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-13.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
             <div class="carousel-caption d-none d-md-block">
-                <center>
+               <!-- <center>
                     <img src="img/logo.png" class="galleryHeaderImage">
+                </center>-->
+                <center>
+                    <div class="galleryHeaderBox">
+                        <h1 class="menu-heading galleryHeaderText">Gallery</h1>
+                    </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-23.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
             <div class="carousel-caption d-none d-md-block">
-                <center>
-                    <img src="img/logo.png" class="galleryHeaderImage">
-                </center>
+
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
             <div class="carousel-caption d-none d-md-block">
-                <center>
-                    <img src="img/logo.png" class="galleryHeaderImage">
-                </center>
+
             </div>
         </div>
     </div>
@@ -76,8 +77,10 @@
 
 
 <div class="container">
-    <br>
-    <h1 class="menu-heading">Gallery</h1>
+<!--    <h1 class="menu-heading">Gallery</h1>-->
+    <center>
+        <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
+    </center>
     <br>
     <hr>
     <h2 style="text-align:center; color:black;padding-bottom:5px;">Food & Drinks</h2>

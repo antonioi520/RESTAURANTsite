@@ -492,6 +492,12 @@ p {
 
     }
 }
+@media (max-width: 768px) {
+    .testy{
+        min-width: 0px;
+        max-width: 768px;
+    }
+}
 .footerLinks{
     text-align: center;
     font-size: 12px;

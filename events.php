@@ -172,9 +172,9 @@
         <h5 class="" style="text-align: center;font-size: 17px;">Celebrate your next special occasion with us</h5>
         <div class="section-title-divider" style="width:300px;"></div>
     </div>
-    <div class="row" style="display: inline; padding-top: -10px;">
+    <div class="row" id="videoRow" style="display: inline; padding-top: -10px;">
         <center>
-            <video width="640" height="352" style="margin-bottom: 30px" controls>
+            <video id="video" style="margin-bottom: 30px" controls>
                 <source src="vid/event_video.MP4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

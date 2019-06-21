@@ -9,10 +9,10 @@ if(isset($_POST['email'])) {
 
     function died($error)
     {
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-        echo "These errors appear below.<br /><br />";
-        echo $error . "<br /><br />";
-        echo "Please fix before resubmitting.<br /><br />";
+        //echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        //echo "These errors appear below.<br /><br />";
+        //echo $error . "<br /><br />";
+        //echo "Please fix before resubmitting.<br /><br />";
         die();
     }
 
@@ -60,8 +60,8 @@ if(isset($_POST['email'])) {
     // exit on failure, else send form to email
     if ($securimage->check($_POST['captcha_code']) == false) {
         // the code was incorrect
-        echo "The security code entered was incorrect.<br /><br />";
-        echo "Please go <a href='javascript:history.go(-1)'>back</a> and try again.";
+        //echo "The security code entered was incorrect.<br /><br />";
+        //echo "Please go <a href='javascript:history.go(-1)'>back</a> and try again.";
         exit;
     }
 

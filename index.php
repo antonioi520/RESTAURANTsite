@@ -142,7 +142,7 @@
                 <div class="form">
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage">One or more of your entries appears to be invalid, please try again.</div>
-                    <form action="send_email.php" method="post" role="form" class="contactForm" id="myForm">
+                    <form action="" method="post" role="form" class="contactForm" id="myForm">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" minlength="2"  required />
                             <div class="validation"></div>
@@ -209,16 +209,18 @@
     frm.submit(function (ev) {
         $.ajax({
             type: frm.attr('method'),
-            url: frm.attr('action'),
+            url: "send_email.php",
             data: frm.serialize(),
             success: function (data) {
                 //alert('Your message has been sent, thank you!');
+                $("#sendmessage").show();
                 $("#myForm")[0].reset();
                 document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
                 return false;
             }
-            error: function (error){
-                alert(error);
+            error: function()
+            {
+                $("#errormessage").show();
             }
         });
 

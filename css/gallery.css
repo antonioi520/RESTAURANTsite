@@ -280,24 +280,26 @@ img.hover-shadow {
     .mySlides {
         display: none;
         object-fit: scale-down;
-        max-height: 275px;
+        max-height: 285px;
     }
 
     #galleryImg {
         margin-bottom: 2px;
         object-fit: scale-down;
-        max-height: 275px;
+        max-height: 285px;
     }
 
     #interiorImg {
-        margin-bottom: 2px;
+        margin-bottom: 0px;
+        margin-top: -30px;
         object-fit: scale-down;
-        max-height: 275px;
+        max-height: 285px;
     }
 
     #staffImg {
-        margin-bottom: 2px;
+        margin-bottom: 0px;
+        margin-top: -30px;
         object-fit: scale-down;
-        max-height: 275px;
+        max-height: 285px;
     }
 }

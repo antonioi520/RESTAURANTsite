@@ -22,11 +22,11 @@ if(isset($_POST['email'])) {
         !isset($_POST['subject']) ||
         !isset($_POST['message'])
     ) {
-        died('The message you entered does not appear to be valid.');
+        died('One or more of your entries appears to be invalid, please try again.');
     }
 
     $name = $_POST['name'];
-    $email_host = 'antonio@antonioisabella.com';
+    $email_host = 'do-not-reply@MiAlmaCafe.com';
     $email_from = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
@@ -41,7 +41,7 @@ if(isset($_POST['email'])) {
     $string_exp = "/^[A-Za-z .'-]+$/";
 
     if (!preg_match($string_exp, $name)) {
-        $error_message .= 'Please enter at least 4 characters.<br />';
+        $error_message .= 'Please enter a valid name.<br />';
     }
 
     if (strlen($message) < 2) {

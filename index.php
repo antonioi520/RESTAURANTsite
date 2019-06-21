@@ -141,7 +141,7 @@
             <div class="col-md-5 col-md-push-2" style="padding-bottom: 0.625em;">
                 <div class="form">
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
-                    <div id="errormessage"></div>
+                    <div id="errormessage">One or more of your entries appears to be invalid, please try again.</div>
                     <form action="send_email.php" method="post" role="form" class="contactForm" id="myForm">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="min-length:4" data-msg="Please enter at least 4 chars" />
@@ -216,6 +216,9 @@
                 $("#myForm")[0].reset();
                 document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
                 return false;
+            }
+            error: function (error){
+                alert(error);
             }
         });
 

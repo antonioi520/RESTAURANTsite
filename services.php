@@ -83,7 +83,7 @@
         <div class="row">
             <div class="col-md-12">
                 <center>
-                    <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 10px;">Services</h1>
+                    <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 10px;">Highlights</h1>
                 <center>
                 <div class="section-title-divider"></div>
                 <!--                <p class="section-description">We are a two man team from different backgrounds in programming coming together to deliver you top-notch websites and other business needs!</p>-->

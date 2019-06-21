@@ -69,7 +69,7 @@
                     Give us a call at (401) 648-0715 and we'll prepare your order for you! Pick it up on location at 1017 Broad Street Providence, RI 02905.
                 </p>
 
-                <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
+                <a href="menu.php" id="menuBox"><h2 id="menuBoxText">View Menu</h2></a>
 
             </div>
         </div>

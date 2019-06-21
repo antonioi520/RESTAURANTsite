@@ -17,8 +17,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
-    <link href="css/gallery.css" rel="stylesheet">
-    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/events.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
@@ -39,87 +38,123 @@
         <!--        </div>-->
         <div class="carousel-item active">
             <img class="d-block w-100" src="img/Events/Concert-15.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+                <!--<center>
+                    <img src="img/logo.png" style="padding-bottom: 200px;" class="eventHeaderImage"">
+                </center>-->
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
-                </center>
-                <!--center>
-                    <div class="menuHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="top:-10px;">Events</h1>
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
-                </center-->
+                </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Concert-16.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                    </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Concert-29.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                    </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Concert-29.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                    </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Concert-31.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                    </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-24.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                    </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-25.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                    </div>
                 </center>
-                <center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-26.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                    </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-27.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                    </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-28.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+
                 <center>
-                    <img src="img/logo.png" style="width: 67%; height: 67%;">
+                    <div class="eventHeaderBox">
+                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                    </div>
                 </center>
             </div>
         </div>
@@ -134,8 +169,66 @@
     </a>
 </div>
 
-<div class="wrapper">
-    <center><img src="img/wip.png"></center>
+<div class="container">
+<!--    <center><img src="img/wip.png"></center>-->
+    <center>
+    <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
+    </center>
+    <hr style="margin-bottom:0px;">
+    <div class="col-md-6"></div>
+    <div class="row" style="display: inline;padding-top: -10px;" >
+        <h1 style="text-align: center; color:#1b1b1b;">Our upcoming <strong>Events</strong></h1>
+<!--        <div class="section-title-divider"></div>-->
+    </div>
+    <div class="row" style="display:inline;">
+        <div class="card-deck" style="width:75%;margin:auto;">
+            <div class="card" style="border-color: deepskyblue">
+                <img class="card-img-top" src="img/Events/event1.JPG" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Miss Dominican Republic 2019</h5>
+                    <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">The Coronation Ceremony of Miss Dominican Republic of Rhode Island 2019 & the presentation of Carnavalito by Emerson Brito
+                        <br><br>
+                        <strong>Date: June 23rd</strong><br>
+                        <strong>Tickets: $15</strong><br>
+                        <strong>Start: 4pm</strong><br>
+                    <small class=" d-flex justify-content-center">Formal Attire Preferred</small>
+                    </p>
+
+                </div>
+                <div class="card-footer" style="background-color: deepskyblue;height:50px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold;">The Bomes Theater, 1017 Broad Street, Providence</small>
+                </div>
+            </div>
+            <div class="card" style="border-color: deepskyblue">
+                <img class="card-img-top" src="img/Events/event2.JPG" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Miss Dominican Republic 2019</h5>
+                    <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">The Coronation Ceremony of Miss Dominican Republic of Rhode Island 2019 & the presentation of Carnavalito by Emerson Brito
+                        <br><br>
+                        <strong>Date: June 23rd</strong><br>
+                        <strong>Tickets: $15</strong><br>
+                        <strong>Start: 4pm</strong><br>
+                        <small class=" d-flex justify-content-center">Formal Attire Preferred</small>
+                    </p>
+
+                </div>
+                <div class="card-footer" style="background-color: deepskyblue;height:50px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold;">The Bomes Theater, 1017 Broad Street, Providence</small>
+                </div>
+            </div>
+<!--            <div class="card">-->
+<!--                <img class="card-img-top" src="..." alt="Card image cap" style="height:500px;object-fit: contain;">-->
+<!--                <div class="card-body">-->
+<!--                    <h5 class="card-title">Card title</h5>-->
+<!--                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>-->
+<!--                </div>-->
+<!--                <div class="card-footer">-->
+<!--                    <small class="text-muted">Last updated 3 mins ago</small>-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+    </div>
+    <div class="col-md-6"></div>
 </div>
 
 

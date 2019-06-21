@@ -102,7 +102,9 @@
 
 
     <div class="container" id="topofMenu">
-
+        <center>
+            <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
+        </center>
 
         <!--        <center><img src="img/logo.png" style="width: 35%; height: 35%;"></center>-->
 <!--        <h1 class="menu-heading">Mi Alma Menu</h1>-->

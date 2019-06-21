@@ -1,0 +1,19 @@
+.eventHeaderImage{
+    height:450px;
+    width:450px;
+    object-fit: contain;
+    filter:brightness(90%);
+
+}
+.eventHeaderBox {
+    border: 0 solid deepskyblue;
+    background-color: rgba(0,191,255,0.4);
+    line-height: 1.1em;
+    max-height: 6.5em;
+//margin: 1em;
+    padding: .1em;
+
+    width: 45em;
+    border-radius: 5px;
+    z-index: 2323;
+}

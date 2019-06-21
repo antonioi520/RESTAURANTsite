@@ -17,6 +17,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
+    <link href="css/services.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
@@ -31,7 +32,45 @@
 
 <?php include("views/nav_pages.html")?>
 
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="top:-25px;">
+    <div class="carousel-inner">
+        <!--        <div class="carousel-item active">-->
+        <!--            <img class="d-block w-100" src="img/FoodDrink/5.jpg" alt="First slide" style="height:600px;filter:brightness(70%);object-fit: cover">-->
+        <!--        </div>-->
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="img/FoodDrink/MiAlmaCafe-25.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <div class="carousel-caption d-md-block d-flex justify-content-center"  id="hero">
 
+                <center>
+                    <div class="serviceHeaderBox">
+                        <h1 class="serviceHeaderText">Services</h1>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/Interior/interior2.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <div class="carousel-caption d-md-block d-flex justify-content-center "  id="hero">
+
+                <center>
+                    <div class="serviceHeaderBox">
+                        <h1 class="serviceHeaderText">Services</h1>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="arrowRemove">
+        <a class="carousel-control-prev .d-none .d-md-block" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon .d-none .d-md-block" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
 
 <section id="about">
     <div class="container wow fadeInUp">

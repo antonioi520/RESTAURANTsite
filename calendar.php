@@ -45,8 +45,6 @@
     </div>
 </section>
 
-
-<br>
 <div class="container">
     <div class="col-md-4"></div>
     <div class="responsiveCal" id="content-desktop">

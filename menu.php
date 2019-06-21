@@ -74,7 +74,7 @@
         <div class="carousel-item">
             <img class="d-block w-100" src="img/FoodDrink/8.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
             <div class="carousel-caption d-md-block" id="hero" style="">
-                
+
                 <center>
                     <div class="menuHeaderBox">
                         <h1 class="menu-heading menuHeaderText" style="color:white;">Mi Alma Menu</h1>

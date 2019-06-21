@@ -44,7 +44,7 @@
                 </center>-->
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
@@ -56,7 +56,7 @@
 
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText" >RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
@@ -68,7 +68,7 @@
 
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
@@ -80,7 +80,7 @@
 
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
@@ -92,7 +92,7 @@
 
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
@@ -104,7 +104,7 @@
 
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
@@ -116,7 +116,7 @@
 
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
@@ -128,7 +128,7 @@
 
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
@@ -140,7 +140,7 @@
 
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
@@ -152,7 +152,7 @@
 
                 <center>
                     <div class="eventHeaderBox">
-                        <h1 class="menu-heading menuHeaderText" style="margin-bottom: 0px; font-size: 60px;font-weight: bold;">RESTAURANT EVENTS</h1>
+                        <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
                         <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>

@@ -31,14 +31,14 @@
 
 
 <?php include("views/nav_pages.html")?>
-
+<BR>
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="top:-25px;">
     <div class="carousel-inner">
         <!--        <div class="carousel-item active">-->
         <!--            <img class="d-block w-100" src="img/FoodDrink/5.jpg" alt="First slide" style="height:600px;filter:brightness(70%);object-fit: cover">-->
         <!--        </div>-->
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/FoodDrink/MiAlmaCafe-25.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <img class="d-block w-100" src="img/TheaterInterior/concert-37.jpg" alt="Second slide" style="height:600px;filter:brightness(50%);object-fit: cover">
             <div class="carousel-caption d-md-block d-flex justify-content-center"  id="hero">
 
                 <center>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/Interior/interior2.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
+            <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-12.jpg" alt="Third slide" style="height:600px;filter:brightness(50%);object-fit: cover">
             <div class="carousel-caption d-md-block d-flex justify-content-center "  id="hero">
 
                 <center>
@@ -71,6 +71,7 @@
         </a>
     </div>
 </div>
+
 <center>
     <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
 </center>

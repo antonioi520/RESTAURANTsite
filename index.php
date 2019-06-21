@@ -159,12 +159,16 @@
                             <textarea class="form-control" name="message" rows="5"  placeholder="Message" minlength="2" required></textarea>
                             <div class="validation"></div>
                         </div>
-
-                        <!-- captcha-->
-                        <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
-                        <br>
-                        <input type="text" name="captcha_code" size="10" maxlength="6" required />
-                        <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false"><br>[Refresh]</a>
+                        <div class="form-group">
+                            <!-- captcha-->
+                            <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
+                            <br>
+                            <br>
+                            <input class="form-control" style="width: 50%; float: left;" placeholder="Enter captcha" type="text" name="captcha_code" size="10" maxlength="6" required />
+                            <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false">
+                                <img src="img/refresh.png" width="8%" height="8%" style="float: left; padding-left: 4px;">
+                            </a>
+                        </div>
                         <br>
                         <br>
 

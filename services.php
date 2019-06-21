@@ -53,14 +53,14 @@
                 <br>
                 <h2 class="about-title">Chef's Recommendations</h2>
                 <p class="about-text">
-                    Be sure to ask your server about the chef's recommendation.
+                    Be sure to ask your server about the chef's recommendation for the day!
                 </p>
 
                 <br>
 
                 <h2 class="about-title">Weekly Specials</h2>
                 <p class="about-text">
-                    Don't forget to ask staff about the weekly special next time you come in!
+                    Don't forget to ask staff about the weekly special next time you dine with us!
                 </p>
 
                 <br>
@@ -132,15 +132,15 @@
                 <p class="about-text">
                     At Mi Alma Restaurant, we provide an array of catering services for our customers.
                     If you are looking to host an event at the Bomes Theater, we can also
-                    cater for your event!
+                    cater for your event there!
                 </p>
 
                 <br>
 
                 <h2 class="about-title">Catering for personal events</h2>
                 <p class="about-text">
-                    Our catering services are not limited to just events hosted at the Bomes Theater, we also cater for various other events including weddings
-                    and parties.
+                    Our catering services are not limited to just events hosted on location at the Bomes Theater, we also
+                    cater for various other events including weddings, family gatherings and parties.
                 </p>
 
                 <br>

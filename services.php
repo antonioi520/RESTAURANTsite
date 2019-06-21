@@ -125,7 +125,7 @@
                     pick it up on location at 1017 Broad Street Providence, RI 02905.
                 </p>
 
-                <a href="menu.php" id="menuBox"><h2 id="menuBoxText">View Menu</h2></a>
+                <a href="menu" id="menuBox"><h2 id="menuBoxText">View Menu</h2></a>
 
             </div>
         </div>

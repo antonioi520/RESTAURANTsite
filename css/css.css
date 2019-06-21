@@ -478,3 +478,9 @@ p {
         padding-left:15px;
     }
 }
+input.invalid {
+    border-color: red;
+}
+textarea.invalid {
+    border-color: red;
+}

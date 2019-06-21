@@ -144,19 +144,19 @@
                     <div id="errormessage">One or more of your entries appears to be invalid, please try again.</div>
                     <form action="send_email.php" method="post" role="form" class="contactForm" id="myForm">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="min-length:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" minlength="2"  required />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"  required />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" minlength="4"  required />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <textarea class="form-control" name="message" rows="5"  placeholder="Message" minlength="2" required></textarea>
                             <div class="validation"></div>
                         </div>
 
@@ -225,29 +225,23 @@
         ev.preventDefault();
     });
 </script>
+<script>
+    var invalidClassName = 'invalid'
+    var inputs = document.querySelectorAll('input, select, textarea')
+    inputs.forEach(function (input) {
+        // Add a css class on submit when the input is invalid.
+        input.addEventListener('invalid', function () {
+            input.classList.add(invalidClassName)
+        })
 
+        // Remove the class when the input becomes valid.
+        // 'input' will fire each time the user types
+        input.addEventListener('input', function () {
+            if (input.validity.valid) {
+                input.classList.remove(invalidClassName)
+            }
+        })
+    })
+</script>
 </body>
 </html>
-
-
-<!--<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/header2.jpg" class="d-block w-100" alt="..." style="height:800px;">
-        </div>
-        <div class="carousel-item">
-            <img src="https://www.freecomputerwallpapers.net/wallpapers/honolulu_zoo_wallpaper-1920x1080.jpg" class="d-block w-100" alt="..." style="height:650px;">
-        </div>
-        <div class="carousel-item">
-            <img src="https://localtvkfor.files.wordpress.com/2019/03/okc-zoo-giraffe-feeding.jpg?quality=85&strip=all&w=1920" class="d-block w-100" alt="..." style="height:650px;">
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>-->

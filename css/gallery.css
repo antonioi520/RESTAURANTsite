@@ -47,6 +47,8 @@
     background-color: black;
 }
 
+
+
 /* Modal Content */
 .modal-content {
     position: relative;
@@ -258,5 +260,44 @@ img.hover-shadow {
 @media (max-width: 768px) {
     .arrowRemove span{
         display:none;
+    }
+}
+
+@media (max-height: 401px) {
+
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        display: block;
+        background-color: #2c2c2d;
+        margin: auto;
+        padding: 2px;
+        width: 90%;
+        max-height: 295px;
+        max-width: 1600px;
+    }
+
+    .mySlides {
+        display: none;
+        object-fit: scale-down;
+        max-height: 275px;
+    }
+
+    #galleryImg {
+        margin-bottom: 2px;
+        object-fit: scale-down;
+        max-height: 275px;
+    }
+
+    #interiorImg {
+        margin-bottom: 2px;
+        object-fit: scale-down;
+        max-height: 275px;
+    }
+
+    #staffImg {
+        margin-bottom: 2px;
+        object-fit: scale-down;
+        max-height: 275px;
     }
 }

@@ -235,3 +235,22 @@ img.hover-shadow {
     border-radius: 5px;
     z-index: 2323;
 }
+@media (max-width: 768px) {
+    #hero{
+    //left:40px;
+        top:400px;
+    }
+    #hero h1 {
+        margin-top: 10px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #hero .galleryHeaderBox{
+        min-width:20em;
+        max-width:20em;
+        width:20em;
+
+    }
+
+}

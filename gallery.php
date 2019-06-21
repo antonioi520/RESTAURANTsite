@@ -39,7 +39,7 @@
         <!--        </div>-->
         <div class="carousel-item active">
             <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-13.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block d-flex justify-content-center" id="hero">
                <!-- <center>
                     <img src="img/logo.png" class="galleryHeaderImage">
                 </center>-->
@@ -52,14 +52,28 @@
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-23.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
-
+            <div class="carousel-caption d-md-block d-flex justify-content-center" id="hero">
+                <!-- <center>
+                     <img src="img/logo.png" class="galleryHeaderImage">
+                 </center>-->
+                <center>
+                    <div class="galleryHeaderBox">
+                        <h1 class="menu-heading galleryHeaderText">Gallery</h1>
+                    </div>
+                </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block">
-
+            <div class="carousel-caption d-md-block d-flex justify-content-center" id="hero">
+                <!-- <center>
+                     <img src="img/logo.png" class="galleryHeaderImage">
+                 </center>-->
+                <center>
+                    <div class="galleryHeaderBox">
+                        <h1 class="menu-heading galleryHeaderText">Gallery</h1>
+                    </div>
+                </center>
             </div>
         </div>
     </div>

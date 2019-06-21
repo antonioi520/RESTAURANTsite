@@ -71,8 +71,6 @@ $img = new Securimage();
 
 // see securimage.php for more options that can be set
 
-$img->image_signature = 'Mi Alma';
-
 // set namespace if supplied to script via HTTP GET
 if (!empty($_GET['namespace'])) $img->setNamespace($_GET['namespace']);
 

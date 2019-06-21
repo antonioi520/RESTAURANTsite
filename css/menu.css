@@ -154,7 +154,8 @@ h2 {
         top:400px;
     }
     #hero h1 {
-        font-size: 40px;
+        margin-top: 20px;
+        font-size: 50px;
         line-height: 40px;
     }
 

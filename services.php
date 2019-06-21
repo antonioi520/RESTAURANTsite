@@ -50,7 +50,7 @@
             </div>
 
             <div class="col-md-6 about-content">
-                <br>
+
                 <h2 class="about-title">Chef's Recommendations</h2>
                 <p class="about-text">
                     Be sure to ask your server about the chef's recommendation for the day!
@@ -127,7 +127,7 @@
             </div>
 
             <div class="col-md-6 about-content">
-                <br> <br>
+
                 <h2 class="about-title">Catering at the Bomes Theater</h2>
                 <p class="about-text">
                     At Mi Alma Restaurant, we provide an array of catering services for our customers.

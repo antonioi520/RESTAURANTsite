@@ -502,6 +502,7 @@ p {
 }
 .footerLinks a{
     color:white;
+    text-decoration: underline;
 }
 
 .footerLinks a:hover{

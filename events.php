@@ -39,9 +39,7 @@
         <div class="carousel-item active">
             <img class="d-block w-100" src="img/Events/Concert-15.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
             <div class="carousel-caption d-md-block d-flex justify-content-center"  id="hero">
-                <!--<center>
-                    <img src="img/logo.png" style="padding-bottom: 200px;" class="eventHeaderImage"">
-                </center>-->
+
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">Events</h1>
@@ -166,12 +164,22 @@
     <center>
     <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
     </center>
+
     <hr style="margin-bottom:0px;">
     <div class="col-md-6"></div>
     <div class="row" style="display: inline;padding-top: -10px;" >
         <h1 style="text-align: center; color:#1b1b1b;margin-bottom: 3px;">Our upcoming <strong>Events</strong></h1>
         <h5 class="" style="text-align: center;font-size: 17px;">Celebrate your next special occasion with us</h5>
         <div class="section-title-divider" style="width:300px;"></div>
+    </div>
+    <div class="row" style="display: inline; padding-top: -10px;">
+        <center>
+            <video width="640" height="352" style="margin-bottom: 30px" controls>
+                <source src="vid/event_video.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <!--img src="img/logo.png" style="padding-bottom: 200px;" class="eventHeaderImage""-->
+        </center>
     </div>
     <div class="row" style="display:inline;">
         <div class="card-deck" style="width:75%;margin:auto;">

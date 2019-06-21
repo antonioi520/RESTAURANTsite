@@ -88,12 +88,12 @@
             <div class="col-md-6 about-content">
                 <h2 class="about-title">We provide excellent food and quality services for our customers.</h2>
                 <p class="about-text">
-                    Mi Alma Cafe is a Latin fusion restaurant brought to Broad Street alongside the newly renovated Bomes Theatre,
+                    Mi Alma Restaurant is a Latin fusion restaurant brought to Broad Street alongside the newly renovated Bomes Theatre,
                     boasting a luxurious interior, quality ingredients and outstanding service provided by a hard-working staff!
                 </p>
                 <p class="about-text">
-                    Services provided at Mi Alma Cafe include an array of Dominican/Latin cuisine, events and
-                    live concerts. We go out of our way to ensure that your time spent at Mi Alma Cafe is
+                    Services provided at Mi Alma Restaurant include an array of Dominican/Latin cuisine, events and
+                    live concerts. We go out of our way to ensure that your time spent at Mi Alma Restaurant is
                     memorable and of the highest quality!
                 </p>
                 <h3 style="font-weight: bold;color: #333;">Find Us</h3>

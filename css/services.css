@@ -1,0 +1,53 @@
+.serviceHeaderImage{
+    height:450px;
+    width:450px;
+    object-fit: contain;
+    filter:brightness(90%);
+
+}
+.serviceHeaderBox {
+    border: 0 solid deepskyblue;
+    background-color: rgba(0,191,255,0.4);
+    line-height: 1.1em;
+    max-height: 5em;
+//margin: 1em;
+    padding: .1em;
+
+    width: 20em;
+    border-radius: 5px;
+    z-index: 2323;
+}
+.serviceHeaderText{
+    font-family: 'Satisfy', cursive;
+    color:white;
+    font-size: 70px;
+    padding-bottom: 5px;
+    line-height: 1.1em;
+}
+#hero{
+//top: 436px;
+}
+@media (max-width: 768px) {
+    #hero{
+    //left:40px;
+        top:400px;
+    }
+    #hero h1 {
+        margin-top: 25px;
+        font-size: 50px;
+        line-height: 30px;
+    }
+
+    #hero .serviceHeaderBox{
+        min-width:15em;
+        max-width:15em;
+        width:15em;
+
+    }
+
+}
+@media (max-width: 768px) {
+    .arrowRemove span{
+        display:none;
+    }
+}

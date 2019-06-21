@@ -202,6 +202,32 @@ p {
     transition: 0.5s;
     color:white;
 }
+
+#menuBox{
+    transition: 0.5s;
+    position:absolute;
+    z-index: 1;
+    height:3.750em;
+    width: 12.500em;
+    border: 0.188em solid deepskyblue;
+    opacity: .9;
+    border-radius: 0.313em;
+}
+#menuBox:hover{
+    transition: 0.5s;
+    border: 0.188em solid deepskyblue;
+    background-color: deepskyblue;
+    text-decoration: none;
+}
+#menuBoxText{
+    padding-top:5%;
+    color:deepskyblue;
+    padding-left:8%;
+}
+#menuBoxText:hover{
+    transition: 0.5s;
+    color:white;
+}
 /* Contact Section
 --------------------------------*/
 #contact {
@@ -414,7 +440,7 @@ p {
     bottom: 0.938em;
     transition: background 0.5s;
 }
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     #header .bg-blackish {
         background-color:rgba(20, 20, 20, 1);
         opacity: 1;
@@ -438,7 +464,7 @@ p {
 
 
 }
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     #hero h1 {
         font-size: 40px;
         line-height: 40px;
@@ -456,7 +482,7 @@ p {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     #middleImages img {
         width:200px;
     }
@@ -470,7 +496,7 @@ p {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     .about-img img {
         min-height: 400px;
         max-height: 400px;
@@ -478,12 +504,12 @@ p {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     .credits ul {
         padding-left:15px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     .footerDates{
         margin-left:12px;
     }
@@ -492,10 +518,10 @@ p {
 
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     .testy{
         min-width: 0px;
-        max-width: 768px;
+        max-width: 812px;
     }
 }
 .footerLinks{

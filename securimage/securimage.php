@@ -523,7 +523,7 @@ class Securimage
      * The color of the signature text
      * @var Securimage_Color|string
      */
-    public $signature_color = '#707070';
+    public $signature_color = '#00bfff';
 
     /**
      * The path to the ttf font file to use for the signature text.

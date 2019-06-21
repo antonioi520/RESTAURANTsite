@@ -140,7 +140,7 @@
                 <h2 class="about-title">Catering for personal events</h2>
                 <p class="about-text">
                     Our catering services are not limited to just events hosted on location at the Bomes Theater, we also
-                    cater for various other events including weddings, family gatherings and parties.
+                    cater for various other events including weddings, banquets, family gatherings and parties.
                 </p>
 
                 <br>

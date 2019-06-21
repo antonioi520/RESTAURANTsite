@@ -30,9 +30,9 @@
                         <img src="img/logo.png" style="height:30%;width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-6em;margin-bottom:10px;">
                     </center>
                     <center>
-                        <div href="#contact" id="box" style="margin-top: 1em">
+                        <a href="#contact" id="box" style="margin-top: 1em;display:block">
                             <h2 id="headerHours">View Hours</h2>
-                        </div>
+                        </a>
                     </center>
                     <center>
                         <ul class="headericons">

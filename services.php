@@ -123,12 +123,12 @@
     <div class="container about-container wow fadeInUp">
         <div class="row">
             <div class="col-lg-6 about-img">
-                <img src="img/FoodDrink/MiAlmaCafe-2.jpg" alt="" style="width:500px;object-fit: cover;" id="aboutImg">
+                <img src="img/FoodDrink/MiAlmaCafe-2.jpg" alt="" style="width:520px;object-fit: cover;" id="aboutImg">
             </div>
 
             <div class="col-md-6 about-content">
                 <br> <br>
-                <h2 class="about-title">Catering at the Bomes Theater.</h2>
+                <h2 class="about-title">Catering at the Bomes Theater</h2>
                 <p class="about-text">
                     At Mi Alma Restaurant, we provide an array of catering services for our customers.
                     If you are looking to host an event at the Bomes Theater, we can also
@@ -137,7 +137,7 @@
 
                 <br>
 
-                <h2 class="about-title">Catering for personal events.</h2>
+                <h2 class="about-title">Catering for personal events</h2>
                 <p class="about-text">
                     Our catering services are not limited to just events hosted at the Bomes Theater, we also cater for various other events including weddings
                     and parties.

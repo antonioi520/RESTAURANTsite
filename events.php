@@ -38,122 +38,122 @@
         <!--        </div>-->
         <div class="carousel-item active">
             <img class="d-block w-100" src="img/Events/Concert-15.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption d-md-block d-flex justify-content-center"  id="hero">
                 <!--<center>
                     <img src="img/logo.png" style="padding-bottom: 200px;" class="eventHeaderImage"">
                 </center>-->
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Concert-16.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption d-md-block d-flex justify-content-center "  id="hero">
 
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText" >RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Concert-29.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption  d-md-block d-flex justify-content-center" id="hero">
 
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Concert-29.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption  d-md-block d-flex justify-content-center"  id="hero">
 
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Concert-31.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption  d-md-block d-flex justify-content-center"  id="hero">
 
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-24.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption  d-md-block d-flex justify-content-center"  id="hero">
 
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-25.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption  d-md-block d-flex justify-content-center"  id="hero">
 
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-26.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption  d-md-block d-flex justify-content-center"  id="hero">
 
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-27.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption  d-md-block d-flex justify-content-center"  id="hero">
 
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/Events/Optimo%20Concert-28.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-none d-md-block" style="top: 436px;">
+            <div class="carousel-caption  d-md-block d-flex justify-content-center"  id="hero">
 
                 <center>
                     <div class="eventHeaderBox">
                         <h1 class="eventHeaderText">RESTAURANT EVENTS</h1>
-                        <h5 class="menu-heading menuHeaderText">Celebrate your next special occasion with us</h5>
+                        <h5 class="eventHeaderLittleText">Celebrate your next special occasion with us</h5>
                     </div>
                 </center>
             </div>

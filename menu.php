@@ -38,7 +38,7 @@
 <!--        </div>-->
         <div class="carousel-item active">
             <img class="d-block w-100" src="img/FoodDrink/4.jpg" alt="Second slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-                <div class="carousel-caption d-md-block" id="hero" style="">
+                <div class="carousel-caption d-md-block d-flex justify-content-center" id="hero" style="">
                     <!--<center>
                         <img src="img/logo.png" class="menuHeaderImage" style="padding-bottom: 200px;">
                     </center>-->
@@ -51,7 +51,7 @@
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/FoodDrink/3.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-md-block" id="hero" style="">
+            <div class="carousel-caption d-md-block d-flex justify-content-center" id="hero" style="">
 
                 <center>
                     <div class="menuHeaderBox">
@@ -62,7 +62,7 @@
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/FoodDrink/7.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-md-block" id="hero" style="">
+            <div class="carousel-caption d-md-block d-flex justify-content-center" id="hero" style="">
 
                 <center>
                     <div class="menuHeaderBox">
@@ -73,7 +73,7 @@
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="img/FoodDrink/8.jpg" alt="Third slide" style="height:600px;filter:brightness(70%);object-fit: cover">
-            <div class="carousel-caption d-md-block" id="hero" style="">
+            <div class="carousel-caption d-md-block d-flex justify-content-center" id="hero" style="">
 
                 <center>
                     <div class="menuHeaderBox">

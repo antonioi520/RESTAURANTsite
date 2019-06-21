@@ -75,7 +75,7 @@
 
 
 
-<div class="wrapper">
+<div class="container">
     <br>
     <h1 class="menu-heading">Gallery</h1>
     <br>

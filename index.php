@@ -163,7 +163,7 @@
                         <!-- captcha-->
                         <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
                         <br>
-                        <input type="text" name="captcha_code" size="10" maxlength="6" />
+                        <input type="text" name="captcha_code" size="10" maxlength="6" required />
                         <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false"><br>[Refresh]</a>
                         <br>
                         <br>
@@ -217,7 +217,7 @@
                 $("#myForm")[0].reset();
                 document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
                 return false;
-            }
+            },
             error: function()
             {
                 $("#errormessage").show();

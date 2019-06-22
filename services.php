@@ -18,6 +18,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
     <link href="css/services.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
@@ -204,14 +205,14 @@
                     cater for various other events including weddings, banquets, family gatherings and parties.
                 </p>
 
-                <br>
+                <br id="content-desktop">
 
             </div>
         </div>
     </div>
 </section>
 
-<br>
+<br id="content-desktop">
 <?php include("views/footer.html")?>
 
 <!-- Optional JavaScript -->

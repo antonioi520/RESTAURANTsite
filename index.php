@@ -230,6 +230,8 @@
             }
         });
 
+        // apparently success/error are deprecated, try .done() and .fail() next
+
         ev.preventDefault();
     });
 </script>

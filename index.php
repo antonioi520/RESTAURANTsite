@@ -227,6 +227,8 @@
             error: function()
             {
                 $("#errormessage").show();
+                document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
+                return false;
             }
         });
 

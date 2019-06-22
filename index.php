@@ -104,27 +104,27 @@
 <!--images in middle -->
 <section id="middleImages">
     <div class="wrapper">
-        <div class="row" style="overflow: hidden;">
-                <div class="col-lg-6">
-                    <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:20%;">
-                        <img src="img/imgheader3.png" style="object-fit: contain;">
-                        <h1 style="color:white;font-weight: bolder;padding-top: 10%;margin-bottom: 0;">OUR INGREDIENTS</h1>
-                        <strong style="color:white;letter-spacing: 0.05em;">We use fresh ingredients of the highest quality and prepare them expertly, ensuring a quality dining experience.</strong><br><br><br>
-                        <a href="menu.php" id="ingredientBox" style="height: 4.000em;"><h2 id="ingredientBoxText">View Menu</h2></a>
-                    </div>
-                    <img class="testy" src="img/FoodDrink/MiAlmaCafe-3.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
+        <div class="row">
+            <div class="col-lg-6">
+                <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:20%;">
+                    <img src="img/imgheader3.png" style="object-fit: contain;">
+                    <h1 style="color:white;font-weight: bolder;padding-top: 10%;margin-bottom: 0;">OUR INGREDIENTS</h1>
+                    <strong style="color:white;letter-spacing: 0.05em;">We use fresh ingredients of the highest quality and prepare them expertly, ensuring a quality dining experience.</strong><br><br><br>
+                    <a href="menu.php" id="ingredientBox" style="height: 4.000em;"><h2 id="ingredientBoxText">View Menu</h2></a>
                 </div>
-                <div class="col-lg-6">
-                    <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:20%;">
-                        <img src="img/imgheader3.png">
-                        <h1 style="color:white;font-weight: bolder;padding-top: 10%;margin-bottom: 0;">OUR SERVICES</h1>
-                        <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top notch servers and chefs providing every utility at our disposal
-                            to ensure that our customers leave satisfied.</strong><br><br><br>
-                        <a href="services.php" id="ingredientBox" style="width:15.000em; height: 4.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
-                    </div>
-                    <img class="testy" src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
+                <img class="testy" src="img/FoodDrink/MiAlmaCafe-3.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
+            </div>
+            <div class="col-lg-6">
+                <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:20%;">
+                    <img src="img/imgheader3.png">
+                    <h1 style="color:white;font-weight: bolder;padding-top: 10%;margin-bottom: 0;">OUR SERVICES</h1>
+                    <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top notch servers and chefs providing every utility at our disposal
+                        to ensure that our customers leave satisfied.</strong><br><br><br>
+                    <a href="services.php" id="ingredientBox" style="width:15.000em; height: 4.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
                 </div>
-        </div>
+                <img class="testy" src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
+            </div>
+        </iv>
     </div>
 </section>
 <!--contact-->

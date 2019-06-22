@@ -96,7 +96,7 @@
                     live concerts. We go out of our way to ensure that your time spent at Mi Alma Restaurant is
                     memorable and of the highest quality!
                 </p>
-                <h3 style="font-weight: bold;color: #333;margin-bottom: 14px;">Find Us</h3>
+                <h3 style="font-weight: bold;color: #333;margin-bottom: 14px;">Find Us:</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.4541081971906!2d-71.41585268432019!3d41.79697697846551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e44f893f923a5f%3A0x86f9ff49752031d1!2s1017+Broad+St%2C+Providence%2C+RI+02905!5e0!3m2!1sen!2sus!4v1560838747202!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;max-width:100%" allowfullscreen></iframe>            </div>
         </div>
     </div>
@@ -106,21 +106,21 @@
     <div class="wrapper">
         <div class="row" style="overflow: hidden;">
                 <div class="col-lg-6">
-                    <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%;">
+                    <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:20%;">
                         <img src="img/imgheader3.png" style="object-fit: contain;">
-                        <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR INGREDIENTS</h1>
+                        <h1 style="color:white;font-weight: bolder;padding-top: 10%;margin-bottom: 0;">OUR INGREDIENTS</h1>
                         <strong style="color:white;letter-spacing: 0.05em;">We use fresh ingredients of the highest quality and prepare them expertly, ensuring a quality dining experience.</strong><br><br><br>
-                        <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
+                        <a href="menu.php" id="ingredientBox" style="height: 4.000em;"><h2 id="ingredientBoxText">View Menu</h2></a>
                     </div>
                     <img class="testy" src="img/FoodDrink/MiAlmaCafe-3.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
                 </div>
                 <div class="col-lg-6">
-                    <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:10%;">
+                    <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:20%;">
                         <img src="img/imgheader3.png">
-                        <h1 style="color:white;font-weight: bolder;padding-top: 2%;margin-bottom: 0;">OUR SERVICES</h1>
+                        <h1 style="color:white;font-weight: bolder;padding-top: 10%;margin-bottom: 0;">OUR SERVICES</h1>
                         <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top notch servers and chefs providing every utility at our disposal
                             to ensure that our customers leave satisfied.</strong><br><br><br>
-                        <a href="services.php" id="ingredientBox" style="width:15.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
+                        <a href="services.php" id="ingredientBox" style="width:15.000em; height: 4.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
                     </div>
                     <img class="testy" src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
                 </div>
@@ -181,7 +181,7 @@
             <div class="col-md-3"></div>
             <div class="col-md-4 col-md-push-2">
                 <div class="info">
-
+                    <br id="content-mobile">
                     <div>
                         <i class="fas fa-phone"></i><h4 style="padding-left:1.6em;">Phone</h4>
                         <p>(401) 648-0715</p>
@@ -227,8 +227,12 @@
             error: function()
             {
                 $("#errormessage").show();
+                document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
+                return false;
             }
         });
+
+        // apparently success/error are deprecated, try .done() and .fail() next
 
         ev.preventDefault();
     });

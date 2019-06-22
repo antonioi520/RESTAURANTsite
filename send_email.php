@@ -13,7 +13,7 @@ if(isset($_POST['email'])) {
         //echo "These errors appear below.<br /><br />";
         //echo $error . "<br /><br />";
         //echo "Please fix before resubmitting.<br /><br />";
-        die();
+        die($error);
     }
 
     // validation
@@ -30,6 +30,7 @@ if(isset($_POST['email'])) {
     $email_from = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
+    $captcha = $_POST['captcha'];
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -57,15 +58,21 @@ if(isset($_POST['email'])) {
 
     $securimage = new Securimage();
 
+    // captcha validation
+    if (!isset($_POST['captcha'])
+    ) {
+        died('Please enter a security code.');
+    }
+
     // exit on failure, else send form to email
     if ($securimage->check($_POST['captcha_code']) == false) {
         // the code was incorrect
         $error_message .= 'The security code entered was incorrect.<br />';
+        died($error_message);
         //echo "The security code entered was incorrect.<br /><br />";
         //echo "Please go <a href='javascript:history.go(-1)'>back</a> and try again.";
         exit;
     }
-
 
     $email_message = "Form details below.\n\n";
 

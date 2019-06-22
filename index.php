@@ -110,7 +110,7 @@
                         <img src="img/imgheader3.png" style="object-fit: contain;">
                         <h1 style="color:white;font-weight: bolder;padding-top: 10%;margin-bottom: 0;">OUR INGREDIENTS</h1>
                         <strong style="color:white;letter-spacing: 0.05em;">We use fresh ingredients of the highest quality and prepare them expertly, ensuring a quality dining experience.</strong><br><br><br>
-                        <a href="menu.php" id="ingredientBox"><h2 id="ingredientBoxText">View Menu</h2></a>
+                        <a href="menu.php" id="ingredientBox" style="height: 4.000em;"><h2 id="ingredientBoxText">View Menu</h2></a>
                     </div>
                     <img class="testy" src="img/FoodDrink/MiAlmaCafe-3.jpg" alt="food" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);float:left;">
                 </div>

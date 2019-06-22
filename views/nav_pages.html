@@ -30,6 +30,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="calendar" style="padding-right:1.250em">Calendar</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="Warning()" style="padding-right:1.250em">Theater</a>
+                </li>
             </ul>
             <ul class="navbar-nav md-auto ">
                 <li class="nav-item actions">
@@ -44,3 +47,25 @@
 
     </nav>
 </header>
+
+<div id="content-ipad">
+    <div class="alert alert-danger" id="warning" role="alert" style="position:fixed;width:100%;opacity: 1;z-index:2; height: 50px; display: none;">
+        <p style="text-align: center;">The Bomes Theater website is unavailable at this time, sorry!</p>
+    </div>
+</div>
+
+<script>
+    var warning = document.getElementById("warning");
+
+    function Warning() {
+        if (warning.style.display === "none")
+        {
+            warning.style.display = "block";
+        }
+        else if (warning.style.display === "block")
+        {
+            warning.style.display = "none";
+        }
+    }
+
+</script>

@@ -527,7 +527,7 @@ p {
     }
 }
 
-/* iPhone XR 1792x828px at 326ppi vertical orientation*/
+/* iPhone XR 1792x828px at 326ppi vertical orientation
 @media only screen
 and (device-width : 414px)
 and (device-height : 896px)
@@ -535,9 +535,9 @@ and (-webkit-device-pixel-ratio : 2) {
     div {
         max-width: 414px;
     }
-}
+}*/
 
-/* iPhone XR 1792x828px at 326ppi horizontal orientation*/
+/* iPhone XR 1792x828px at 326ppi horizontal orientation
 @media only screen
 and (device-width : 896px)
 and (device-height : 414px)
@@ -545,7 +545,7 @@ and (-webkit-device-pixel-ratio : 2) {
     div {
         max-width: 896px;
     }
-}
+}*/
 
 /* iPhone XS 2436x1125px at 458ppi vertical orientation*/
 @media only screen

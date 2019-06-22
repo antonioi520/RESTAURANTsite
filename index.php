@@ -162,19 +162,20 @@
                         </div>
                         <div class="form-group">
                             <!-- captcha-->
-                            <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
+                            <div class="g-recaptcha" data-sitekey="6LfyMaoUAAAAAGI59fbDwBbcF9dY-4Yp8vEmbBsf" data-callback="recaptchaCallback"></div>
+                            <!--<img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
                             <br>
                             <br>
                             <input class="form-control" style="width: 50%; float: left;" placeholder="Enter captcha" type="text" name="captcha_code" size="10" maxlength="6" required />
                             <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false">
                                 <img id="content-desktop" src="img/refresh_sm.png" width="9%" height="9%" style="float: left; padding-left: 4px;">
                                 <img id="content-mobile" src="img/refresh_sm.png" width="13%" height="13%" style="float: left; padding-left: 4px;">
-                            </a>
+                            </a>-->
                         </div>
                         <br>
                         <br>
 
-                        <div class="text-center"><button value="Submit" type="submit">Submit</button></div>
+                        <div class="text-center"><button value="Submit" type="submit" onclick="recaptchaCallbackSubmit()">Submit</button></div>
                     </form>
                 </div>
             </div>
@@ -219,15 +220,16 @@
             data: frm.serialize(),
             success: function (data) {
                 //alert('Your message has been sent, thank you!');
-                $("#sendmessage").show();
-                $("#myForm")[0].reset();
-                document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
+               // $("#sendmessage").show();
+                //$("#myForm")[0].reset();
+               // grecaptcha.reset();
+                //document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
                 return false;
             },
             error: function()
             {
                 $("#errormessage").show();
-                document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
+                //document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
                 return false;
             }
         });
@@ -254,6 +256,27 @@
             }
         })
     })
+</script>
+<script>
+    function recaptchaCallbackSubmit(){
+        //var response = grecaptcha.getResponse().length;
+        if(grecaptcha.getResponse().length > 0){
+            //captcha validated and got response code
+            $("#sendmessage").show();
+            $("#errormessage").hide();
+           // $("#myForm")[0].reset();
+            grecaptcha.reset();
+            //document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random();
+            return false;
+        }else{
+            $("#myForm")[0].reset();
+            grecaptcha.reset();
+            $("#errormessage").show();
+            $("#sendmessage").hide();
+
+            return false;
+        }
+    }
 </script>
 </body>
 </html>

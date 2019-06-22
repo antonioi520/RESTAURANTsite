@@ -4,7 +4,7 @@
 <?php
 if(isset($_POST['email'])) {
 
-    $email_to = "younglubackup@gmail.com";
+    $email_to = "prodoson@gmail.com";
     $email_subject = "Mi Alma Cafe - " . $_POST['subject'];
 
     function died($error)
@@ -54,25 +54,25 @@ if(isset($_POST['email'])) {
     }
 
     // it was recommended to have this after form submission error checks
-    include_once 'securimage/securimage.php';
+    /*include_once 'securimage/securimage.php';
 
-    $securimage = new Securimage();
+    $securimage = new Securimage();*/
 
     // captcha validation
-    if (!isset($_POST['captcha'])
+    /*if (!isset($_POST['captcha'])
     ) {
         died('Please enter a security code.');
-    }
+    }*/
 
     // exit on failure, else send form to email
-    if ($securimage->check($_POST['captcha_code']) == false) {
+    /*if ($securimage->check($_POST['captcha_code']) == false) {
         // the code was incorrect
         $error_message .= 'The security code entered was incorrect.<br />';
         died($error_message);
         //echo "The security code entered was incorrect.<br /><br />";
         //echo "Please go <a href='javascript:history.go(-1)'>back</a> and try again.";
         exit;
-    }
+    }*/
 
     $email_message = "Form details below.\n\n";
 

@@ -42,6 +42,7 @@
                     <h1 class="" style="font-family: 'Satisfy', cursive;letter-spacing: 0.05em;font-size: 70px;color:black;margin-bottom: 0px;">Calendar</h1>
                     <center>
                         <div class="section-title-divider" style="margin-bottom: 0;"></div>
+                        <br id="content-mobile">
             </div>
         </div>
     </div>

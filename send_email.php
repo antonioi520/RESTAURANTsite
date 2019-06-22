@@ -30,6 +30,7 @@ if(isset($_POST['email'])) {
     $email_from = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
+    $captcha = $_POST['captcha'];
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -56,6 +57,12 @@ if(isset($_POST['email'])) {
     include_once 'securimage/securimage.php';
 
     $securimage = new Securimage();
+
+    // captcha validation
+    if (!isset($_POST['captcha'])
+    ) {
+        died('Please enter a security code.');
+    }
 
     // exit on failure, else send form to email
     if ($securimage->check($_POST['captcha_code']) == false) {

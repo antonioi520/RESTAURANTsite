@@ -318,8 +318,8 @@
                 <div class="menu-item2">
                     <span class="menu-item-title2">Refrescos - Soda</span>
                     <span class="menu-item-price2"> $2</span> <br>
-
                     <p class="menu-item-description2">Sprite - Coca Cola - Diet Coke - Ginger Ale - Country Club.</p> <br>
+
                     <span class="menu-item-title2">Agua Carbonatadas - Sparkling Water</span>
                     <span class="menu-item-price2"> $2</span> <br>
                 </div>
@@ -334,7 +334,7 @@
                     <span class="menu-item-title2">Presidente Light</span>
                     <span class="menu-item-price2"> $6</span> <br>
 
-                    <span class="menu-item-title2">Corono</span>
+                    <span class="menu-item-title2">Corona</span>
                     <span class="menu-item-price2"> $6</span> <br>
 
                     <span class="menu-item-title2">Modelo</span>
@@ -346,7 +346,7 @@
                     <span class="menu-item-title2">Stella Artois</span>
                     <span class="menu-item-price2"> $6</span> <br>
 
-                    <span class="menu-item-title2">Blue moon</span>
+                    <span class="menu-item-title2">Blue Moon</span>
                     <span class="menu-item-price2"> $6</span> <br>
                 </div>
             </div>
@@ -389,6 +389,37 @@
                 </div>
             </div>
             <div class="entrees">
+                <h2 style="font-weight: bolder;">JUGOS/JUICES</h2>
+                <div class="purple-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Limón - Lemon</span>
+                    <span class="menu-item-price2"> $4</span> <br>
+
+                    <span class="menu-item-title2">Chinola - Passion Fruit</span>
+                    <span class="menu-item-price2"> $4</span> <br>
+
+                    <span class="menu-item-title2">Piña - Pineapple</span>
+                    <span class="menu-item-price2"> $4</span> <br>
+
+                    <span class="menu-item-title2">Naranja - Orange</span>
+                    <span class="menu-item-price2"> $3</span> <br>
+
+                    <span class="menu-item-title2">Manzana - Apple Juice</span>
+                    <span class="menu-item-price2"> $3</span> <br>
+
+                    <span class="menu-item-title2">Morir Sonando - Orange Julius</span>
+                    <span class="menu-item-price2"> $4</span> <br>
+                </div>
+            </div>
+            <div class="entrees">
+                <h2 style="font-weight: bolder;">ROSADO/ROSE WINE</h2>
+                <div class="purple-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Beringer White Zinfandel </span>
+                    <span class="menu-item-price2"> $25</span> <br>
+                </div>
+            </div>
+            <div class="entrees">
                 <h2 style="font-weight: bolder;">COCKTAILS</h2>
                 <div class="purple-title-divider"></div>
                 <div class="menu-item2">
@@ -412,7 +443,7 @@
                     <p class="menu-item-description2">Tinta - Peach - Chinola</p>
                 </div>
                 <div class="menu-item2">
-                    <span class="menu-item-title2">Peaach Moscow Mule </span>
+                    <span class="menu-item-title2">Peach Moscow Mule </span>
                     <span class="menu-item-price2"> $10</span>
                     <p class="menu-item-description2">Vodka, ginger beer, pure de peach y jugo de limón.</p>
                 </div>
@@ -438,14 +469,8 @@
                 </div>
             </div>
             <div class="entrees">
-                <h2 style="font-weight: bolder;">ROSADO/ROSE WINE</h2>
+                <h2 style="font-weight: bolder;">IMPORTANT</h2>
                 <div class="purple-title-divider"></div>
-                <div class="menu-item2">
-                    <span class="menu-item-title2">Beringer White Zinfandel </span>
-                    <span class="menu-item-price2"> $25</span> <br>
-                </div>
-            </div>
-            <div class="entrees">
                 <div class="menu-item2">
                     <span class="menu-item-name">20% de gratificación será agregado a los grupos de o más personas.
             <br> <br>

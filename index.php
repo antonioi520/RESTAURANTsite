@@ -120,7 +120,7 @@
                         <h1 style="color:white;font-weight: bolder;padding-top: 10%;margin-bottom: 0;">OUR SERVICES</h1>
                         <strong style="color:white;letter-spacing: 0.05em;">Our staff consists of our top notch servers and chefs providing every utility at our disposal
                             to ensure that our customers leave satisfied.</strong><br><br><br>
-                        <a href="services.php" id="ingredientBox" style="width:15.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
+                        <a href="services.php" id="ingredientBox" style="width:15.000em; height: 4.000em;"><h2 id="ingredientBoxText">View Services</h2></a>
                     </div>
                     <img class="testy" src="img/Interior/MiAlmaCafeOpeningCeremony-27.jpg" alt="" style="height:43.750em;width: 62.500em;object-fit: cover;filter:brightness(30%);">
                 </div>

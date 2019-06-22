@@ -119,13 +119,13 @@
                     <span class="menu-item-title2">CALAMARI FRITO
                     <span class="menu-item-price2"> $10</span>
                         <BR> FRIED CALAMARI </span>
-                    <p class="menu-item-description2">Cherry pepper y salsa marinara.<br> Cherry Pepper and marinara sauce.</p>
+                    <p class="menu-item-description2">Cherry pepper y salsa marinara.<br> Cherry pepper and marinara sauce.</p>
                 </div>
                 <div class="menu-item2">
-                    <span class="menu-item-title" style="color:black;font-weight: bolder">COCKTAIL DE CAMARAONES
+                    <span class="menu-item-title" style="color:black;font-weight: bolder">COCKTAIL DE CAMARONES
                         <span class="menu-item-price" style="float:right;color:black"> $12</span>
                         <BR>SHRIMP COCKTAIL </span>
-                    <p class="menu-item-description" style="color:black">Con aguacate.<br> With avacado.</p>
+                    <p class="menu-item-description" style="color:black">Con aguacate.<br> With avocado.</p>
                 </div>
                 <div class="menu-item2">
                     <span class="menu-item-title" style="color:black;font-weight: bolder">EMPANADAS DE CARNE MECHADA
@@ -168,21 +168,21 @@
                 <h2 style="font-weight: bolder;">MARISCOS/SEAFOOD</h2>
                 <div class="purple-title-divider"></div>
                 <div class="menu-item2">
-                    <span class="menu-item-title2">CAMARONES FUSION
+                    <span class="menu-item-title2">CAMARONES FUSIÓN
                         <span class="menu-item-price2"> $12</span>
                         <BR> FUSION SHRIMP </span>
 
                     <p class="menu-item-description2">Con gajos de papa y mantequilla picante. <br> With potato wedges and spicy butter. </p>
                 </div>
                 <div class="menu-item2">
-                    <span class="menu-item-title2">SALMON AL GRILL CON CHIMICHURRI DE OLIVA </span>
+                    <span class="menu-item-title2">SALMON AL GRILL CON CHIMICHURRI DE OLIVAS </span>
                     <span class="menu-item-price2" style="font-weight: bold;"> $18</span>
-                    <p class="menu-item-description2">Acompañado con puré de papa y grean beans. <br> Served with mashed potatos and green beans. </p>
+                    <p class="menu-item-description2">Acompañado con puré de papa y grean beans. <br> Served with mashed potatoes and green beans. </p>
                 </div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">PULPO MEDITERRANEO </span>
                     <span class="menu-item-price2" style="font-weight: bold;"> $16</span>
-                    <p class="menu-item-description2">Con papa al limón y salsa romesco. With lime potato and romesco sauce.</p>
+                    <p class="menu-item-description2">Con papa al limón y salsa romesco. With lime, potato and romesco sauce.</p>
                 </div>
             </div>
             <div class="appetizers">
@@ -192,7 +192,7 @@
                     <span class="menu-item-title2">ENSALADA MI ALMA
                         <span class="menu-item-price2"> $10</span>
                         <BR> MI ALMA SALAD </span>
-                    <p class="menu-item-description2">Mezcla de lechuga, tiras de steak, tomaates asados, zanahorias asadas, y parmesano. Aderezo de oregano fresco. <br>
+                    <p class="menu-item-description2">Mezcla de lechuga, tiras de steak, tomates asados, zanahorias asadas, y parmesano. Aderezo de orégano fresco. <br>
                     Lettuce mix, steak tips, roasted tomatoes, roasted carrots, parmesan. Fresh orégano dressing.</p>
                 </div>
             </div>
@@ -202,12 +202,12 @@
                 <div class="menu-item2">
                     <span class="menu-item-title2">RISOTTO MAR CARIBE
                         <span class="menu-item-price2"> $22</span>
-                        <BR> CARIBEAN SEAS RISOTTO </span>
+                        <BR> CARIBBEAN SEA RISOTTO </span>
                     <p class="menu-item-description2">Camarones, calamares, pulpo en salsa pomodoro y parmesano. <br>
                     Shrimp, calamari, octopus in pomodoro sauce and parmesan.</p>
                 </div>
                 <div class="menu-item2">
-                    <span class="menu-item-title2">RISOTTO DE AURAMA Y CHURRASCO </span>
+                    <span class="menu-item-title2">RISOTTO DE AUYAMA Y CHURRASCO </span>
                     <span class="menu-item-price2"> $16</span>
                     <p class="menu-item-description2"></p>
                 </div>
@@ -216,7 +216,7 @@
                 <h2 style="font-weight: bolder;">CALDOS/SOUP</h2>
                 <div class="purple-title-divider"></div>
                 <div class="menu-item2">
-                    <span class="menu-item-title2">CREMA DE AUYUAMA
+                    <span class="menu-item-title2">CREMA DE AUYAMA
                         <span class="menu-item-price2"> $6</span>
                         <BR> DOMINICAN PUMPKIN CREAM </span>
                     <p class="menu-item-description2">Con tope de parmesano rallado. <br> With parmesan.</p>
@@ -226,7 +226,7 @@
                 <h2 style="font-weight: bolder;">PARA COMPARTIR/TO SHARE</h2>
                 <div class="purple-title-divider"></div>
                 <div class="menu-item2">
-                    <span class="menu-item-title2">PICADERA DE MARISCOS SEFOOD PLATTER </span>
+                    <span class="menu-item-title2">PICADERA DE MARISCOS <br> SEAFOOD PLATTER </span>
                     <span class="menu-item-price2"> $20</span>
                     <p class="menu-item-description2">Calamares, camarones, pescado, papas fritas. <br> Calamari, shrimp, fish, French fries.</p>
                 </div>
@@ -235,7 +235,7 @@
                         <span class="menu-item-price2"> $18</span>
                         <BR> FRIED PLATTER </span>
                     <p class="menu-item-description2">Res frito, longaniza, chuleta ahumada, queso, y tostones. <br>
-                        Fried beef, longaniza, smoked pork chops, cheese, and fried plantains.</p>
+                        Fried beef, longaniza, smoked pork chops, cheese and fried plantains.</p>
                 </div>
             </div>
             <div class="entrees">
@@ -455,8 +455,8 @@
         </div>
 
         <br>
-        <span class="menu-item-name">IMPORTANTE: Algunos articulos vienen crudo o parcialmente cocinando y puede incrementar el risego de enfermedades por alimentos.
-        Los consumidores que son especialmente vulnerables sólo debe de comer cames, mariscos y otras comida de animales completamenta cocinados.
+        <span class="menu-item-name">IMPORTANTE: Algunos artículos vienen crudo o parcialmente cocinando y puede incrementar el riesgo de enfermedades por alimentos.
+        Los consumidores que son especialmente vulnerables sólo debe de comer carnes, mariscos y otras comida de animales completamente cocinados.
         Por favor notifiquemos inmediantamente de cualquier alergia que usted tenga.
         <br> <br>
         IMPORTANT: Some menu items are raw or partially cooked and can increase your risk of food borne illness. Consumers who are especially

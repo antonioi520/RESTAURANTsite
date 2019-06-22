@@ -567,7 +567,7 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 }
 
-/* iPhone XS Max 2688x1242px at 458ppi vertical orientation*/
+/* iPhone XS Max 2688x1242px at 458ppi vertical orientation
 @media only screen
 and (device-width : 414px)
 and (device-height : 896px)
@@ -575,9 +575,9 @@ and (-webkit-device-pixel-ratio : 3) {
     div {
         max-width: 414px;
     }
-}
+}*/
 
-/* iPhone XS Max 2688x1242px at 458ppi horizontal orientation*/
+/* iPhone XS Max 2688x1242px at 458ppi horizontal orientation
 @media only screen
 and (device-width : 896px)
 and (device-height : 414px)
@@ -585,7 +585,7 @@ and (-webkit-device-pixel-ratio : 3) {
     div {
         max-width: 896px;
     }
-}
+} */
 
 .footerLinks{
     text-align: center;

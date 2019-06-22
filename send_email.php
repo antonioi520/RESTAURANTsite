@@ -13,7 +13,7 @@ if(isset($_POST['email'])) {
         //echo "These errors appear below.<br /><br />";
         //echo $error . "<br /><br />";
         //echo "Please fix before resubmitting.<br /><br />";
-        die();
+        die($error);
     }
 
     // validation

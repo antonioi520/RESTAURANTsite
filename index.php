@@ -181,7 +181,7 @@
             <div class="col-md-3"></div>
             <div class="col-md-4 col-md-push-2">
                 <div class="info">
-
+                    <br id="content-mobile">
                     <div>
                         <i class="fas fa-phone"></i><h4 style="padding-left:1.6em;">Phone</h4>
                         <p>(401) 648-0715</p>

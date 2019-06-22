@@ -547,7 +547,7 @@ and (-webkit-device-pixel-ratio : 2) {
     }
 }*/
 
-/* iPhone XS 2436x1125px at 458ppi vertical orientation*/
+/* iPhone XS 2436x1125px at 458ppi vertical orientation
 @media only screen
 and (device-width : 375px)
 and (device-height : 812px)
@@ -555,9 +555,9 @@ and (-webkit-device-pixel-ratio : 3) {
     div {
         max-width: 375px;
     }
-}
+} */
 
-/* iPhone XS 2436x1125px at 458ppi horizontal orientation*/
+/* iPhone XS 2436x1125px at 458ppi horizontal orientation
 @media only screen
 and (device-width : 812px)
 and (device-height : 375px)
@@ -565,7 +565,7 @@ and (-webkit-device-pixel-ratio : 3) {
     div {
         max-width: 812px;
     }
-}
+}*/
 
 /* iPhone XS Max 2688x1242px at 458ppi vertical orientation
 @media only screen

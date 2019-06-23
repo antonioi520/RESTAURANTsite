@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
+@font-face {
+    font-family: 'Satisfy';
+    src: url('https://fonts.googleapis.com/css?family=Satisfy'); /* IE9 Compat Modes */
+    src: url('https://fonts.googleapis.com/css?family=Satisfy') format('embedded-opentype'), /* IE6-IE8 */
+    url('https://fonts.googleapis.com/css?family=Satisfy') format('woff'), /* Modern Browsers */
+    url('https://fonts.googleapis.com/css?family=Satisfy')  format('truetype'), /* Safari, Android, iOS */
+    url('https://fonts.googleapis.com/css?family=Satisfy') format('svg'); /* Legacy iOS */
+}
+
 h2 {
     font-size:2.0em;
     margin-bottom:0;
@@ -40,7 +49,7 @@ h2 {
 }
 
 .menu-heading {
-    font-family: 'Satisfy', cursive;
+    font-family:  'Satisfy', cursive;
     font-size: calc(2em + 3vw);
     margin-bottom: 0;
     text-align: center;
@@ -148,7 +157,7 @@ h2 {
     filter:brightness(90%);
 
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     #hero{
         //left:40px;
         top:400px;
@@ -171,34 +180,94 @@ h2 {
     }
 
 }
-@media (max-width: 768px) {
+
+@media (max-width: 896px) {
 
     #foodDiv h2 {
         font-size: 19px;
-        //line-height: 40px;
+    //line-height: 40px;
     }
     #foodDiv p {
-        font-size:14px;
+        font-size:15px;
     }
     #foodDiv .menu-item2{
         width:24em;
     }
 
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
 
     #drinkDiv h2 {
         font-size: 19px;
     //line-height: 40px;
     }
     #drinkDiv p {
-        font-size:14px;
+        font-size:15px;
     }
     #drinkDiv .menu-item2{
         width:24em;
     }
 
 }
+
+@media (max-width: 375px) {
+
+    #foodDiv h2 {
+        font-size: 20px;
+    //line-height: 40px;
+    }
+    #foodDiv p {
+        font-size:12px;
+    }
+    #foodDiv .menu-item2{
+        width:20em;
+    }
+
+}
+@media (max-width: 375px) {
+
+    #drinkDiv h2 {
+        font-size: 20px;
+    //line-height: 40px;
+    }
+    #drinkDiv p {
+        font-size:12px;
+    }
+    #drinkDiv .menu-item2{
+        width:20em;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    #foodDiv h2 {
+        font-size: 20px;
+    //line-height: 40px;
+    }
+    #foodDiv p {
+        font-size:12px;
+    }
+    #foodDiv .menu-item2{
+        width:18em;
+    }
+
+}
+@media (max-width: 320px) {
+
+    #drinkDiv h2 {
+        font-size: 20px;
+    //line-height: 40px;
+    }
+    #drinkDiv p {
+        font-size:12px;
+    }
+    #drinkDiv .menu-item2{
+        width:18em;
+    }
+
+}
+
 @media (max-width: 768px) {
     .arrowRemove span{
         display:none;

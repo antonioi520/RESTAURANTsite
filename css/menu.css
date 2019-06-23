@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
+@font-face {
+    src('fonts/Satisfy.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 h2 {
     font-size:2.0em;
     margin-bottom:0;
@@ -148,7 +152,7 @@ h2 {
     filter:brightness(90%);
 
 }
-@media (max-width: 320px) {
+@media (max-width: 896px) {
     #hero{
         //left:40px;
         top:400px;

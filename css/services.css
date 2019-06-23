@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url('https://fonts.googleapis.com/css?family=Satisfy'); /* IE9 Compat Modes */
+    src: url('https://fonts.googleapis.com/css?family=Satisfy') format('embedded-opentype'), /* IE6-IE8 */
+    url('https://fonts.googleapis.com/css?family=Satisfy') format('woff'), /* Modern Browsers */
+    url('https://fonts.googleapis.com/css?family=Satisfy')  format('truetype'), /* Safari, Android, iOS */
+    url('https://fonts.googleapis.com/css?family=Satisfy') format('svg'); /* Legacy iOS */
+}
+
 .serviceHeaderImage{
     height:450px;
     width:450px;

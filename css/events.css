@@ -61,3 +61,28 @@
         height:200px;
     }
 }
+
+#content-desktop {
+
+    display: block;
+}
+
+#content-mobile {
+
+    display: none;
+}
+
+@media (max-width:812px) {
+
+    img#hide {
+        display: none;
+    }
+
+    #content-desktop {
+        display: none;
+    }
+
+    #content-mobile {
+        display: block;
+    }
+}

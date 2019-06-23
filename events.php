@@ -184,7 +184,7 @@
         </center>
     </div>
     <div class="row" style="display:inline;">
-        <div class="card-deck" style="width:75%;margin:auto;">
+        <div class="card-deck" style="width:80%;margin:auto;">
             <div class="card" style="border-color: deepskyblue">
                 <img class="card-img-top" src="img/Events/event1.JPG" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
@@ -198,8 +198,14 @@
                     </p>
 
                 </div>
-                <div class="card-footer" style="background-color: deepskyblue;height:50px;">
-                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold;">The Bomes Theater, 1017 Broad Street, Providence</small>
+                <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                        The Bomes Theater, 1017 Broad Street, Providence, RI 02905</small>
+                </div>
+
+                <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                        The Bomes Theater, 1017 Broad Street, Providence, RI 02905</small>
                 </div>
             </div>
             <div class="card" style="border-color: deepskyblue">
@@ -215,8 +221,14 @@
                     </p>
 
                 </div>
-                <div class="card-footer" style="background-color: deepskyblue;height:50px;">
-                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold;">The Bomes Theater, 1017 Broad Street, Providence</small>
+                <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                        The Bomes Theater, 1017 Broad Street, Providence, RI 02905</small>
+                </div>
+
+                <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                        The Bomes Theater, 1017 Broad Street, Providence, RI 02905</small>
                 </div>
             </div>
 <!--            <div class="card">-->
@@ -235,7 +247,7 @@
 </div>
 
 
-<br>
+<br id="content-desktop">
 <?php include("views/footer.html")?>
 
 <!-- Optional JavaScript -->

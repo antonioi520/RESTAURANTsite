@@ -146,7 +146,7 @@
                 <div class="menu-item2">
                     <span class="menu-item-title2">PECHUGA AL GRILL EN SALSA AL AJILLO
                         <span class="menu-item-price2"> $12</span>
-                        <BR> GRILLED CHICKEN BREAST IN GARLIC SAUCE </span>
+                        <BR> GRILLED CHICKEN BREAST IN GARLIC <br id="content-mobile"> SAUCE </span>
 
                     <p class="menu-item-description2">Con puré de papa.<br> With mashed potatoes.</p>
                 </div>
@@ -293,6 +293,22 @@
         </div>
         <div class="menu menu-row menu-wrap menu-center" id="drinkDiv" style="display: none">
             <div class="appetizers">
+                <h2 style="font-weight: bolder;">OTRAS BEBIDAS</h2>
+                <div class="purple-title-divider"></div>
+                <div class="menu-item2">
+                    <span class="menu-item-title2">Refrescos - Soda</span>
+                    <span class="menu-item-price2"> $2</span> <br>
+                    <!--p class="menu-item-description2" id="content-desktop">Sprite - Coca Cola - Diet Coke - Ginger Ale - Country Club.</p>
+                    <br id="content-desktop"-->
+                    <p class="menu-item-description2">Sprite <br>
+                        Coca Cola <br> Diet Coke <br> Ginger Ale <br> Country Club</p>
+                    <br>
+
+                    <span class="menu-item-title2">Agua Carbonatadas - Sparkling Water</span>
+                    <span class="menu-item-price2"> $2</span> <br>
+                </div>
+            </div>
+            <div class="appetizers">
                 <h2 style="font-weight: bolder;">SMOOTHIES</h2>
                 <div class="purple-title-divider"></div>
                 <div class="menu-item2">
@@ -310,18 +326,6 @@
 
                     <span class="menu-item-title2">Piña Colada Virgen</span>
                     <span class="menu-item-price2"> $5</span> <br>
-                </div>
-            </div>
-            <div class="appetizers">
-                <h2 style="font-weight: bolder;">OTRAS BEBIDAS</h2>
-                <div class="purple-title-divider"></div>
-                <div class="menu-item2">
-                    <span class="menu-item-title2">Refrescos - Soda</span>
-                    <span class="menu-item-price2"> $2</span> <br>
-                    <p class="menu-item-description2">Sprite - Coca Cola - Diet Coke - Ginger Ale - Country Club.</p> <br>
-
-                    <span class="menu-item-title2">Agua Carbonatadas - Sparkling Water</span>
-                    <span class="menu-item-price2"> $2</span> <br>
                 </div>
             </div>
             <div class="entrees">
@@ -354,13 +358,13 @@
                 <h2 style="font-weight: bolder;">VINO TINTO/RED WINE</h2>
                 <div class="purple-title-divider"></div>
                 <div class="menu-item2">
-                    <span class="menu-item-title2">Woodbridge by Robert Mondavi Cabernet Sauvignon </span>
+                    <span class="menu-item-title2">Woodbridge by Robert Mondavi <br id="content-mobile"> Cabernet Sauvignon </span>
                     <span class="menu-item-price2"> $25</span> <br>
-                    <span class="menu-item-title2">Woodbridge by Robert Mondavi Merlot </span>
+                    <span class="menu-item-title2">Woodbridge by Robert Mondavi <br id="content-mobile"> Merlot </span>
                     <span class="menu-item-price2"> $25</span> <br>
                     <span class="menu-item-title2">Decoy Pinot Noir </span>
                     <span class="menu-item-price2"> $45</span> <br>
-                    <span class="menu-item-title2">Casillero del Diablo Reserva Cabernet Sauvignon </span>
+                    <span class="menu-item-title2">Casillero del Diablo Reserva <br id="content-mobile"> Cabernet Sauvignon </span>
                     <span class="menu-item-price2"> $30</span>
                 </div>
             </div>
@@ -439,7 +443,8 @@
                 </div>
                 <div class="menu-item2">
                     <span class="menu-item-title2">Sangria </span>
-                    <span class="menu-item-price2"> $9 <br> Pitcher - $26</span>
+                    <span class="menu-item-price2"> $9</span> <br>
+                    <span class="menu-item-price2"> Pitcher - $26</span>
                     <p class="menu-item-description2">Tinta - Peach - Chinola</p>
                 </div>
                 <div class="menu-item2">
@@ -469,7 +474,7 @@
                 </div>
             </div>
             <div class="entrees">
-                <h2 style="font-weight: bolder;">IMPORTANT</h2>
+                <h2 style="font-weight: bolder;">IMPORTANTE/IMPORTANT</h2>
                 <div class="purple-title-divider"></div>
                 <div class="menu-item2">
                     <span class="menu-item-name">20% de gratificación será agregado a los grupos de o más personas.

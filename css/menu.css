@@ -174,33 +174,58 @@ h2 {
 @media (max-width: 768px) {
 
     #foodDiv h2 {
-        font-size: 20px;
+        font-size: 19px;
         //line-height: 40px;
     }
     #foodDiv p {
-        font-size:10px;
+        font-size:14px;
     }
     #foodDiv .menu-item2{
-        width:20em;
+        width:24em;
     }
 
 }
 @media (max-width: 768px) {
 
     #drinkDiv h2 {
-        font-size: 20px;
+        font-size: 19px;
     //line-height: 40px;
     }
     #drinkDiv p {
-        font-size:10px;
+        font-size:14px;
     }
     #drinkDiv .menu-item2{
-        width:20em;
+        width:24em;
     }
 
 }
 @media (max-width: 768px) {
     .arrowRemove span{
         display:none;
+    }
+}
+
+#content-desktop {
+
+    display: block;
+}
+
+#content-mobile {
+
+    display: none;
+}
+
+@media (max-width:812px) {
+
+    img#hide {
+        display: none;
+    }
+
+    #content-desktop {
+        display: none;
+    }
+
+    #content-mobile {
+        display: block;
     }
 }

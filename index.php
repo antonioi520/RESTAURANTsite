@@ -103,7 +103,7 @@
 </section>
 <!--images in middle -->
 <section id="middleImages">
-    <div class="wrapper">
+    <div class="wrapper" id="iphone">
         <div class="row" style="overflow: hidden;">
             <div class="col-lg-6">
                 <div style="margin: auto;width: 50%;position: absolute;z-index: 1;left:25%;top:20%;">

@@ -247,7 +247,7 @@ img.hover-shadow {
     border-radius: 5px;
     z-index: 2323;
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     #hero{
     //left:40px;
         top:400px;
@@ -267,13 +267,13 @@ img.hover-shadow {
     }
 
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     .arrowRemove span{
         display:none;
     }
 }
 
-@media (max-height: 401px) {
+@media (max-height: 414px) {
 
     /* Modal Content */
     .modal-content {

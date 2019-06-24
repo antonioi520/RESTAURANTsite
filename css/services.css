@@ -80,13 +80,13 @@
     border: 2px solid #03C4EB;
 }
 
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     #subscribe img{
         width:300px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     #hero{
     //left:40px;
         top:400px;
@@ -105,7 +105,7 @@
     }
 
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     .arrowRemove span{
         display:none;
     }

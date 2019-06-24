@@ -18,6 +18,16 @@
     display: none;
 }
 
+#content-desktop896 {
+
+    display: block;
+}
+
+#content-mobile896 {
+
+    display: none;
+}
+
 @media (max-width:500px) {
 
     img#hide {
@@ -29,6 +39,17 @@
     }
 
     #content-mobile {
+        display: block;
+    }
+}
+
+@media (max-width:896px) {
+
+    #content-desktop896 {
+        display: none;
+    }
+
+    #content-mobile896 {
         display: block;
     }
 }

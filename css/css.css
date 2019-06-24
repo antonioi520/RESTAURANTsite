@@ -411,13 +411,20 @@ p {
     max-width: 100%;
 }
 
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     #about .about-img {
         height: auto;
+        margin: 0 auto;
+        position: center;
     }
     #about .about-img img {
-        margin-left: 0;
+        margin: 0 auto;
         padding-bottom: 1.875em;
+        position: center;
+    }
+    #about .about-content {
+        margin: 0 auto;
+        position: center;
     }
 }
 
@@ -451,7 +458,7 @@ p {
     bottom: 0.938em;
     transition: background 0.5s;
 }
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     #header .bg-blackish {
         background-color:rgba(20, 20, 20, 1);
         opacity: 1;
@@ -475,7 +482,7 @@ p {
 
 
 }
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     #hero h1 {
         font-size: 40px;
         line-height: 40px;
@@ -494,7 +501,7 @@ p {
 
 }
 
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     #middleImages img {
         width:200px;
     }
@@ -508,7 +515,7 @@ p {
 
 }
 
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     .about-img img {
         min-height: 400px;
         max-height: 400px;
@@ -516,12 +523,12 @@ p {
     }
 }
 
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     .credits ul {
         padding-left:15px;
     }
 }
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     .footerDates{
         margin-left:12px;
     }
@@ -530,10 +537,11 @@ p {
 
     }
 }
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     .testy{
         min-width: 0px;
-        max-width: 812px;
+        max-width: 896px;
+        overflow: hidden;
     }
 }
 
@@ -541,9 +549,33 @@ p {
 @media only screen
 and (device-width : 414px)
 and (device-height : 896px)
-and (-webkit-device-pixel-ratio : 2) {
-    div {
+and (-webkit-device-pixel-ratio : 1) {
+    #iphone {
         max-width: 414px;
+        overflow: hidden;
+    }
+}
+
+/* iPhone XR 1792x828px at 326ppi horizontal orientation*/
+@media only screen
+and (device-width : 896px)
+and (device-height : 414px)
+and (-webkit-device-pixel-ratio : 1) {
+    #iphone {
+        max-width: 896px;
+        overflow: hidden;
+    }
+}
+
+
+/* iPhone XR 1792x828px at 326ppi vertical orientation*/
+@media only screen
+and (device-width : 414px)
+and (device-height : 896px)
+and (-webkit-device-pixel-ratio : 2) {
+    #iphone {
+        max-width: 414px;
+        overflow: hidden;
     }
 }
 
@@ -552,18 +584,66 @@ and (-webkit-device-pixel-ratio : 2) {
 and (device-width : 896px)
 and (device-height : 414px)
 and (-webkit-device-pixel-ratio : 2) {
-    div {
+    #iphone {
         max-width: 896px;
+        overflow: hidden;
     }
 }
+
+/* HORIZONTAL MIDDLE IMAGE FIX FOR IPHONE*/
+@media (max-width: 896px)
+and (-webkit-device-pixel-ratio : 1) {
+    #iphone {
+        max-width: 896px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 896px)
+and (-webkit-device-pixel-ratio : 2) {
+    #iphone {
+        max-width: 896px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 896px)
+and (-webkit-device-pixel-ratio : 3) {
+    #iphone {
+        max-width: 896px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 812px)
+and (-webkit-device-pixel-ratio : 1) {
+    #iphone {
+        max-width: 812px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 812px)
+and (-webkit-device-pixel-ratio : 2) {
+    #iphone {
+        max-width: 896px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    #iphone {
+        max-width: 812px;
+        overflow: hidden;
+    }
+}
+/* HORIZONTAL MIDDLE IMAGE FIX FOR IPHONE*/
+
 
 /* iPhone XS 2436x1125px at 458ppi vertical orientation*/
 @media only screen
 and (device-width : 375px)
 and (device-height : 812px)
 and (-webkit-device-pixel-ratio : 3) {
-    div {
+    #iphone {
         max-width: 375px;
+        overflow: hidden;
     }
 }
 
@@ -572,8 +652,53 @@ and (-webkit-device-pixel-ratio : 3) {
 and (device-width : 812px)
 and (device-height : 375px)
 and (-webkit-device-pixel-ratio : 3) {
-    div {
+    #iphone {
         max-width: 812px;
+        overflow: hidden;
+    }
+}
+
+/* iPhone XS 2436x1125px at 458ppi vertical orientation*/
+@media only screen
+and (device-width : 375px)
+and (device-height : 812px)
+and (-webkit-device-pixel-ratio : 2) {
+    #iphone {
+        max-width: 375px;
+        overflow: hidden;
+    }
+}
+
+/* iPhone XS 2436x1125px at 458ppi horizontal orientation*/
+@media only screen
+and (device-width : 812px)
+and (device-height : 375px)
+and (-webkit-device-pixel-ratio : 2) {
+    #iphone {
+        max-width: 812px;
+        overflow: hidden;
+    }
+}
+
+/* iPhone XS 2436x1125px at 458ppi vertical orientation*/
+@media only screen
+and (device-width : 375px)
+and (device-height : 812px)
+and (-webkit-device-pixel-ratio : 1) {
+    #iphone {
+        max-width: 375px;
+        overflow: hidden;
+    }
+}
+
+/* iPhone XS 2436x1125px at 458ppi horizontal orientation*/
+@media only screen
+and (device-width : 812px)
+and (device-height : 375px)
+and (-webkit-device-pixel-ratio : 1) {
+    #iphone {
+        max-width: 812px;
+        overflow: hidden;
     }
 }
 
@@ -582,8 +707,9 @@ and (-webkit-device-pixel-ratio : 3) {
 and (device-width : 414px)
 and (device-height : 896px)
 and (-webkit-device-pixel-ratio : 3) {
-    div {
+    #iphone {
         max-width: 414px;
+        overflow: hidden;
     }
 }
 
@@ -592,8 +718,9 @@ and (-webkit-device-pixel-ratio : 3) {
 and (device-width : 896px)
 and (device-height : 414px)
 and (-webkit-device-pixel-ratio : 3) {
-    div {
+    #iphone {
         max-width: 896px;
+        overflow: hidden;
     }
 }
 

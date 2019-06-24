@@ -4,8 +4,8 @@
 <?php
 if(isset($_POST['email'])) {
 
-    $email_to = "younglubackup@gmail.com";
-    $email_subject = "Mi Alma Cafe - " . $_POST['subject'];
+    $email_to = "MiAlmaRestaurant1@gmail.com";
+    $email_subject = "Mi Alma Restaurant - " . $_POST['subject'];
 
     function died($error)
     {
@@ -26,7 +26,7 @@ if(isset($_POST['email'])) {
     }
 
     $name = $_POST['name'];
-    $email_host = 'do-not-reply@MiAlmaCafe.com';
+    $email_host = 'do-not-reply@MiAlmaRestaurant.com';
     $email_from = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];

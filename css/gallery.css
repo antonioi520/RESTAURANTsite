@@ -64,7 +64,7 @@
     display: block;
     background-color: #2c2c2d;
     margin: auto;
-    padding: 40px;
+    padding: 30px;
     width: 90%;
     max-height: 900px;
     max-width: 1600px;
@@ -247,7 +247,7 @@ img.hover-shadow {
     border-radius: 5px;
     z-index: 2323;
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     #hero{
     //left:40px;
         top:400px;
@@ -267,13 +267,54 @@ img.hover-shadow {
     }
 
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     .arrowRemove span{
         display:none;
     }
 }
 
-@media (max-height: 401px) {
+@media (max-height: 414px) {
+
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        display: block;
+        background-color: #2c2c2d;
+        margin: auto;
+        padding: 2px;
+        width: 90%;
+        max-height: 315px;
+        max-width: 1600px;
+    }
+
+    .mySlides {
+        display: none;
+        object-fit: scale-down;
+        max-height: 305px;
+    }
+
+    #galleryImg {
+        margin-bottom: 2px;
+        object-fit: scale-down;
+        max-height: 305px;
+    }
+
+    #interiorImg {
+        margin-bottom: 0px;
+        margin-top: -30px;
+        object-fit: scale-down;
+        max-height: 305px;
+    }
+
+    #staffImg {
+        margin-bottom: 0px;
+        margin-top: -30px;
+        object-fit: scale-down;
+        max-height: 305px;
+    }
+}
+
+@media (max-height: 360px) {
 
     /* Modal Content */
     .modal-content {
@@ -311,5 +352,46 @@ img.hover-shadow {
         margin-top: -30px;
         object-fit: scale-down;
         max-height: 285px;
+    }
+}
+
+@media (max-height: 320px) {
+
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        display: block;
+        background-color: #2c2c2d;
+        margin: auto;
+        padding: 2px;
+        width: 90%;
+        max-height: 275px;
+        max-width: 1600px;
+    }
+
+    .mySlides {
+        display: none;
+        object-fit: scale-down;
+        max-height: 265px;
+    }
+
+    #galleryImg {
+        margin-bottom: 2px;
+        object-fit: scale-down;
+        max-height: 265px;
+    }
+
+    #interiorImg {
+        margin-bottom: 0px;
+        margin-top: -30px;
+        object-fit: scale-down;
+        max-height: 265px;
+    }
+
+    #staffImg {
+        margin-bottom: 0px;
+        margin-top: -30px;
+        object-fit: scale-down;
+        max-height: 265px;
     }
 }

@@ -18,6 +18,16 @@
     display: none;
 }
 
+#content-desktop896 {
+
+    display: block;
+}
+
+#content-mobile896 {
+
+    display: none;
+}
+
 @media (max-width:500px) {
 
     img#hide {

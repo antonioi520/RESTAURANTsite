@@ -95,8 +95,14 @@
     </div>
     <div class="container about-container wow fadeInUp">
         <div class="row">
-            <div class="col-lg-6 about-img">
+            <div class="col-lg-6 about-img" id="content-desktop896">
                 <img src="img/Staff/MiAlmaCafeOpeningCeremony-8.jpg" alt="" style="height:auto;object-fit: cover;" id="aboutImg">
+            </div>
+
+            <div class="col-lg-6 about-img" id="content-mobile896">
+                <center>
+                    <img src="img/Staff/MiAlmaCafeOpeningCeremony-8.jpg" alt="" style="height:auto;object-fit: cover;" id="aboutImg">
+                </center>
             </div>
 
             <div class="col-md-6 about-content">
@@ -184,8 +190,14 @@
     </div>
     <div class="container about-container wow fadeInUp">
         <div class="row">
-            <div class="col-lg-6 about-img">
+            <div class="col-lg-6 about-img" id="content-desktop896">
                 <img src="img/FoodDrink/MiAlmaCafe-2.jpg" alt="" style="width:520px; height: 330px; object-fit: cover;" id="aboutImg">
+            </div>
+
+            <div class="col-lg-6 about-img" id="content-mobile896">
+                <center>
+                    <img src="img/FoodDrink/MiAlmaCafe-2.jpg" alt="" style="width:520px; height: 330px; object-fit: cover;" id="aboutImg">
+                </center>
             </div>
 
             <div class="col-md-6 about-content">

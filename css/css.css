@@ -543,7 +543,8 @@ and (device-width : 414px)
 and (device-height : 896px)
 and (-webkit-device-pixel-ratio : 2) {
     div {
-        max-width: 414px;
+        max-width: 500px;
+        overflow: hidden;
     }
 }
 
@@ -553,7 +554,8 @@ and (device-width : 896px)
 and (device-height : 414px)
 and (-webkit-device-pixel-ratio : 2) {
     div {
-        max-width: 896px;
+        max-width: 920px;
+        overflow: hidden;
     }
 }
 
@@ -563,7 +565,8 @@ and (device-width : 375px)
 and (device-height : 812px)
 and (-webkit-device-pixel-ratio : 3) {
     div {
-        max-width: 375px;
+        max-width: 400px;
+        overflow: hidden;
     }
 }
 
@@ -573,7 +576,8 @@ and (device-width : 812px)
 and (device-height : 375px)
 and (-webkit-device-pixel-ratio : 3) {
     div {
-        max-width: 812px;
+        max-width: 870px;
+        overflow: hidden;
     }
 }
 
@@ -583,7 +587,8 @@ and (device-width : 414px)
 and (device-height : 896px)
 and (-webkit-device-pixel-ratio : 3) {
     div {
-        max-width: 414px;
+        max-width: 500px;
+        overflow: hidden;
     }
 }
 
@@ -593,7 +598,8 @@ and (device-width : 896px)
 and (device-height : 414px)
 and (-webkit-device-pixel-ratio : 3) {
     div {
-        max-width: 896px;
+        max-width: 920px;
+        overflow: hidden;
     }
 }
 

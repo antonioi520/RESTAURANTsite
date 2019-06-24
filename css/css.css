@@ -411,7 +411,7 @@ p {
     max-width: 100%;
 }
 
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     #about .about-img {
         height: auto;
     }
@@ -451,7 +451,7 @@ p {
     bottom: 0.938em;
     transition: background 0.5s;
 }
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     #header .bg-blackish {
         background-color:rgba(20, 20, 20, 1);
         opacity: 1;
@@ -475,7 +475,7 @@ p {
 
 
 }
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     #hero h1 {
         font-size: 40px;
         line-height: 40px;
@@ -494,7 +494,7 @@ p {
 
 }
 
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     #middleImages img {
         width:200px;
     }
@@ -508,7 +508,7 @@ p {
 
 }
 
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     .about-img img {
         min-height: 400px;
         max-height: 400px;
@@ -516,12 +516,12 @@ p {
     }
 }
 
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     .credits ul {
         padding-left:15px;
     }
 }
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     .footerDates{
         margin-left:12px;
     }
@@ -530,10 +530,10 @@ p {
 
     }
 }
-@media (max-width: 812px) {
+@media (max-width: 896px) {
     .testy{
         min-width: 0px;
-        max-width: 812px;
+        max-width: 896px;
         overflow: hidden;
     }
 }

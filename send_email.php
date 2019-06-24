@@ -26,7 +26,7 @@ if(isset($_POST['email'])) {
     }
 
     $name = $_POST['name'];
-    $email_host = 'do-not-reply@MiAlmaCafe.com';
+    $email_host = 'do-not-reply@MiAlmaRestaurant.com';
     $email_from = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];

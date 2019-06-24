@@ -355,7 +355,7 @@ img.hover-shadow {
     }
 }
 
-@media (max-height: 360px) {
+@media (max-height: 320px) {
 
     /* Modal Content */
     .modal-content {

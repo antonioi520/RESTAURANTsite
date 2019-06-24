@@ -534,6 +534,7 @@ p {
     .testy{
         min-width: 0px;
         max-width: 812px;
+        overflow: hidden;
     }
 }
 

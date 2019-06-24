@@ -334,6 +334,15 @@ p {
     margin-bottom: 2.500em;
 }
 
+.navbar-toggler {
+    padding: 0.25rem 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+}
+
 .section-title-divider {
     width: 6.250em;
     height: 0.188em;

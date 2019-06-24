@@ -80,8 +80,14 @@
     </div>
     <div class="container about-container wow fadeInUp">
         <div class="row">
-            <div class="col-lg-6 about-img">
+            <div class="col-lg-6 about-img" id="content-desktop896">
                 <img src="img/Staff/staff.jpg" alt="" style="height:638px;object-fit: cover;" id="aboutImg">
+            </div>
+
+            <div class="col-lg-6 about-img" id="content-mobile896">
+                <center>
+                    <img src="img/Staff/staff.jpg" alt="" style="height:638px;object-fit: cover;" id="aboutImg">
+                </center>
             </div>
 
             <div class="col-md-6 about-content">

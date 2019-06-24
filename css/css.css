@@ -622,7 +622,7 @@ and (-webkit-device-pixel-ratio : 1) {
 @media (max-width: 812px)
 and (-webkit-device-pixel-ratio : 2) {
     #iphone {
-        max-width: 896px;
+        max-width: 812px;
         overflow: hidden;
     }
 }

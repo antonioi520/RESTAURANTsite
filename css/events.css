@@ -40,7 +40,7 @@
     width: 640px;
     height: 352px;
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     #hero{
         //left:40px;
         top:400px;
@@ -59,12 +59,12 @@
     }
 
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     .arrowRemove span{
       display:none;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     #videoRow video{
         width:300px;
         height:200px;
@@ -81,7 +81,7 @@
     display: none;
 }
 
-@media (max-width:812px) {
+@media (max-width:896px) {
 
     img#hide {
         display: none;

@@ -33,6 +33,17 @@
     }
 }
 
+@media (max-width:896px) {
+
+    #content-desktop896 {
+        display: none;
+    }
+
+    #content-mobile896 {
+        display: block;
+    }
+}
+
 @media (max-width:1190px) {
 
     #content-ipad {

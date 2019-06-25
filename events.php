@@ -180,10 +180,12 @@
             <!--img src="img/logo.png" style="padding-bottom: 200px;" class="eventHeaderImage""-->
         </center>
     </div>
-    <div class="row" id="content-desktop896">
-        <div class="card-deck" style="width:48%;margin:auto;">
+
+    <div class="row" style="display:inline;">
+        <div class="card-deck" style="width:80%;margin:auto;">
+            <div class="col-md-3"></div>
             <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/event3.jpeg" alt="Card image cap" style="height:793px;object-fit: contain;">
+                <img class="card-img-top" src="img/Events/event3.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
                     <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">El Varon De La Bachata</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">Music by DJ Travieso
@@ -205,36 +207,13 @@
                         The Bomes Theater, 1017 Broad Street, Providence, RI 02905</small>
                 </div>
             </div>
-            </div>
+            <div class="col-md-3"></div>
+
         </div>
     </div>
-<div class="row" id="content-mobile896" style="display:inline;">
-    <div class="card-deck" style="width:80%;margin:auto;">
-        <div class="card" style="border-color: deepskyblue">
-            <img class="card-img-top" src="img/Events/event3.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
-            <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">El Varon De La Bachata</h5>
-                <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">Music by DJ Travieso
-                    <br><br>
-                    <strong>Date: June 28rd</strong><br>
-                    <strong>Tickets: $30</strong><br>
-                    <strong>Start: 9pm</strong><br>
-                    <strong>End: 1am</strong><br>
-                </p>
+    <div class="col-md-6"></div>
 
-            </div>
-            <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
-                <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
-                    The Bomes Theater, 1017 Broad Street, Providence, RI 02905</small>
-            </div>
 
-            <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
-                <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
-                    The Bomes Theater, 1017 Broad Street, Providence, RI 02905</small>
-            </div>
-        </div>
-    </div>
-</div>
 </div>
     <div class="col-md-6"></div>
 </div>

@@ -192,7 +192,7 @@
                     <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">El Varon De La Bachata</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">Music by DJ Travieso
                         <br><br>
-                        <strong>Date: June 28rd</strong><br>
+                        <strong>Date: June 28th</strong><br>
                         <strong>Tickets: $30</strong><br>
                         <strong>Start: 9pm</strong><br>
                         <strong>End: 1am</strong><br>

@@ -21,7 +21,7 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="z-index: 1;margin-top:-6.250em;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/Interior/interior2.jpg" class="d-block w-100" alt="..." style="height:59.375em;filter:brightness(20%);object-fit: cover;">
+                <img src="img/Interior/MiAlmaCafeOpeningCeremony-22.jpg" class="d-block w-100" alt="..." style="height:59.375em;filter:brightness(20%);object-fit: cover;">
                 <div class="carousel-caption d-md-block" id="hero" style="top:150px;">
                     <center>
                         <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
@@ -42,26 +42,7 @@
                     </center>
                 </div>
             </div>
-
-<!--            <div class="carousel-item">-->
-<!--                <img src="img/Interior/interior.jpg" class="d-block w-100" alt="..." style="height:950px;filter:brightness(20%);object-fit: cover">-->
-<!--                <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>-->
-<!--                <img src="img/logo.png" style="height:30%;width: 30%;margin: 180px;position: absolute;z-index: 1;left:26%;top:20%;object-fit: contain;filter:brightness(95%);">-->
-<!--                <a href="#" id="box"><h2 id="headerHours">View Hours</h2></a>-->
-<!--                <ul class="headericons">-->
-<!--                    <li style="display: inline;padding:0.5em;"> <div id="test"><a href="https://www.facebook.com/Mi-Alma-1150016415172344/" target="_blank" class="circleborder"><i class="fab fa-facebook-f iconcolor"></i></a></div></li>-->
-<!--                    <li style="display: inline;"><div id="test"><a href="https://www.instagram.com/mialmacafe/?hl=en" target="_blank" class="circleborder"> <i class="fab fa-instagram iconcolor"></i></a></div></li>-->
-<!--                </ul>-->
-<!--            </div>-->
         </div>
-<!--        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">-->
-<!--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-<!--            <span class="sr-only">Previous</span>-->
-<!--        </a>-->
-<!--        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">-->
-<!--            <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-<!--            <span class="sr-only">Next</span>-->
-<!--        </a>-->
     </div>
 </div>
 

@@ -160,7 +160,6 @@
 </div>
 
 <div class="container">
-    <!--    <center><img src="img/wip.png"></center>-->
     <center>
         <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
     </center>
@@ -209,7 +208,7 @@
             </div>
         </div>
     </div>
-<div class="row" id="content-mobile896">
+<div class="row" id="content-mobile896" style="display:inline;">
     <div class="card-deck" style="width:80%;margin:auto;">
         <div class="card" style="border-color: deepskyblue">
             <img class="card-img-top" src="img/Events/event3.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">

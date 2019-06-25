@@ -225,18 +225,16 @@
     <div class="col-md-6"></div>
     <div class="row" style="display: inline;padding-top: -10px;" >
         <h1 style="text-align: center; color:#1b1b1b;margin-bottom: 3px;">Our past <strong>Events</strong></h1>
-        <h5 class="" style="text-align: center;font-size: 17px;">Celebrate your next special occasion with us</h5>
         <div class="section-title-divider" style="width:300px;"></div>
     </div>
-    <div class="row" id="videoRow" style="display: inline; padding-top: -10px;">
+    <!--<div class="row" id="videoRow" style="display: inline; padding-top: -10px;">
         <center>
             <video id="video" style="margin-bottom: 30px" controls>
                 <source src="vid/event_video.MP4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <!--img src="img/logo.png" style="padding-bottom: 200px;" class="eventHeaderImage""-->
         </center>
-    </div>
+    </div>-->
     <div class="row" style="display:inline;">
         <div class="card-deck" style="width:80%;margin:auto;">
             <div class="card" style="border-color: deepskyblue">

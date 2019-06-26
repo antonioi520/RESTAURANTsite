@@ -376,7 +376,7 @@
             <a class="next" onclick="plusFoodSlides(1)">&#10095;</a>
 
             <!-- Caption text -->
-            <div class="caption-container">
+            <div class="caption-container" style="height: 25px;">
                 <p id="caption"></p>
             </div>
 

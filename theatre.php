@@ -45,41 +45,44 @@
 
 <?php include("views/nav_pages.html")?>
 <BR>
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="top:-25px;">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block w-100" src="img/TheaterInterior/concert-41.jpg" alt="Second slide" style="height:600px;filter:brightness(50%);object-fit: cover">
-            <div class="carousel-caption d-md-block d-flex justify-content-center"  id="hero">
+<div id="content-desktop896">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="top:-25px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/TheaterInterior/concert-41.jpg" alt="Second slide" style="height:600px;filter:brightness(50%);object-fit: cover">
+                <div class="carousel-caption d-md-block d-flex justify-content-center"  id="hero">
 
-                <center>
-                    <div class="serviceHeaderBox" style="width:530px; height: 75px;">
-                        <h1 class="serviceHeaderText">The Bomes Theatre</h1>
-                    </div>
-                </center>
+                    <center>
+                        <div class="serviceHeaderBox" style="width:530px; height: 75px;">
+                            <h1 class="serviceHeaderText">The Bomes Theatre</h1>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/TheaterInterior/concert-42.jpg" alt="Third slide" style="height:600px;filter:brightness(50%);object-fit: cover">
+                <div class="carousel-caption d-md-block d-flex justify-content-center "  id="hero">
+
+                    <center>
+                        <div class="serviceHeaderBox" style="width:530px; height: 75px;">
+                            <h1 class="serviceHeaderText">The Bomes Theatre</h1>
+                        </div>
+                    </center>
+                </div>
             </div>
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="img/TheaterInterior/concert-42.jpg" alt="Third slide" style="height:600px;filter:brightness(50%);object-fit: cover">
-            <div class="carousel-caption d-md-block d-flex justify-content-center "  id="hero">
-
-                <center>
-                    <div class="serviceHeaderBox" style="width:530px; height: 75px; ">
-                        <h1 class="serviceHeaderText">The Bomes Theatre</h1>
-                    </div>
-                </center>
-            </div>
+        <div class="arrowRemove">
+            <a class="carousel-control-prev .d-none .d-md-block" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon .d-none .d-md-block" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
-    <div class="arrowRemove">
-        <a class="carousel-control-prev .d-none .d-md-block" href="#carouselExampleFade" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-            <span class="carousel-control-next-icon .d-none .d-md-block" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+
 </div>
 <div class="container">
 <center>

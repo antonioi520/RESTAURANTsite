@@ -105,7 +105,7 @@
 </div>
 
 
-    <div class="container" id="topofMenu">
+    <div class="container" id="">
         <center>
             <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
         </center>
@@ -116,7 +116,10 @@
             <a href="#topofMenu" id="fooddrinkButton" onclick="switchToDrinkMenu()">Drinks</a>
         </center>
         <br>
+        <img src="img/menualma.jpg" class="menuImgTop" alt="drink menu" style=""><br>
+        <div id="topofMenu"></div>
         <div class="menu menu-row menu-wrap menu-center" id="foodDiv">
+
             <div class="appetizers">
                 <h2 style="font-weight: bolder;">APERITIVOS/APPETIZERS</h2>
                 <div class="purple-title-divider"></div>

@@ -178,17 +178,15 @@
     <div class="col-md-6"></div>
     <div class="row" style="display: inline;padding-top: -10px;" >
         <h1 style="text-align: center; color:#1b1b1b;margin-bottom: 3px;">Our upcoming <strong>Events</strong></h1>
-        <h5 class="" style="text-align: center;font-size: 17px;">Celebrate your next special occasion with us</h5>
+        <h5 class="" style="text-align: center;font-size: 17px;">Celebrate your next special occasion with us.</h5>
         <div class="section-title-divider" style="width:300px;"></div>
     </div>
     <div class="row" id="videoRow" style="display: inline; padding-top: -10px;">
-        <!--center>
-            <video id="video" style="margin-bottom: 30px" controls>
-                <source src="vid/event_video2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <!--img src="img/logo.png" style="padding-bottom: 200px;" class="eventHeaderImage"">
-        </center-->
+        <center>
+            <iframe id="galleryVid" width="67%" height="430px" src="https://www.youtube.com/embed/1V5h9hi-lf0?rel=0&amp;showinfo=0"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </center>
     </div>
 
     <div class="row">

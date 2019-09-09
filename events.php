@@ -225,7 +225,7 @@
     <div class="col-md-6"></div>
 </div>
 
-
+<br>
 <br id="content-desktop">
 <?php include("views/footer.html")?>
 

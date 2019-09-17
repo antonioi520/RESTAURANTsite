@@ -209,7 +209,7 @@
                         <br><br>
                         <strong>Date: Saturday, September 21st</strong><br>
                         <strong>Start: 6pm</strong><br>
-                        <strong>End: 1am</strong><br>
+                        <strong>End: 1am</strong><br><br>
                     </p>
 
                 </div>
@@ -256,6 +256,7 @@
 <div class="col-md-6"></div>
 </div>
 
+<br><br>
 
 <div class="container">
     <div class="col-md-6"></div>
@@ -283,7 +284,7 @@
                         Miércoles de sushi.<br>
                         Call Keiry for reservations: 401-215-7824.
                         <br><br>
-                        <strong>Date: Every Sunday</strong><br>
+                        <strong>Date: Every Sunday</strong><br><br><br>
                         <!--strong>Start: 12pm</strong><br>
                         <!--strong>End: </strong><br-->
                     </p>
@@ -329,7 +330,7 @@
     <div class="col-md-6"></div>
 </div>
 
-<div class="container">
+<!--div class="container">
     <center>
         <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
     </center>
@@ -381,7 +382,7 @@
     </div>
     <div class="col-md-6"></div>
 
-</div>
+</div-->
     <div class="col-md-6"></div>
 </div>
 

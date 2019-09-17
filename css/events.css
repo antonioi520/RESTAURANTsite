@@ -69,6 +69,9 @@
         width:300px;
         height:200px;
     }
+    #galleryVid{
+        width:100%;
+    }
 }
 
 #content-desktop {

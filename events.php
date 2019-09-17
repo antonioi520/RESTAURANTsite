@@ -182,23 +182,22 @@
         <div class="section-title-divider" style="width:300px;"></div>
     </div>
 
-    <div class="row" id="videoRow" style="display: inline; padding-top: -10px;">
+    <h2 style="text-align: center;color:black;margin-bottom: 5px;font-weight: 600">Special Events</h2>
+
+    <div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
         <center>
-            <iframe id="galleryVid" width="67%" height="430px" src="https://www.youtube.com/embed/1V5h9hi-lf0?rel=0&amp;showinfo=0"
+            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/1V5h9hi-lf0?rel=0&amp;showinfo=0"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/o6kgarMCsTA?rel=0&amp;showinfo=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </center>
     </div>
 
-    <div class="row" id="videoRow" style="display: inline; padding-top: -10px;">
-        <center>
-            <iframe id="galleryVid" width="67%" height="430px" src="https://www.youtube.com/embed/o6kgarMCsTA?rel=0&amp;showinfo=0"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-        </center>
-    </div>
 
-    <div class="row" id="normalDiv">
+
+    <div class="row" id="normalDiv" style="margin-bottom:40px;">
         <div class="card-deck" style="width:80%;margin:auto;">
             <div class="card" style="border-color: deepskyblue">
                 <img class="card-img-top" src="img/Events/event7.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
@@ -251,6 +250,81 @@
     </div>
     <div class="col-md-6"></div>
 
+    <h2 style="text-align: center;color:black;font-weight: 600">Active Events</h2>
+    <div class="container" style="">
+        <div class="col-md-6"></div>
+        <!--hr style="margin-bottom:0px;">
+        <div class="col-md-6"></div>
+        <div class="row" style="display: inline;padding-top: -10px;" >
+            <h1 style="text-align: center; color:#1b1b1b;margin-bottom: 3px;">Our past <strong style="color:deepskyblue">Events</strong></h1>
+            <div class="section-title-divider" style="width:300px;"></div>
+        </div-->
+        <!--<div class="row" id="videoRow" style="display: inline; padding-top: -10px;">
+            <center>
+                <video id="video" style="margin-bottom: 30px" controls>
+                    <source src="vid/event_video.MP4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </center>
+        </div>-->
+        <div class="row" id="normalDiv2">
+            <div class="card-deck" style="width:80%;margin:auto;">
+                <div class="card" style="border-color: deepskyblue">
+                    <img class="card-img-top" src="img/Events/event9.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                    <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
+                        <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Domingo De Brunch!</h5>
+                        <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
+                            Miércoles de sushi.<br>
+                            Call Keiry for reservations: 401-215-7824.
+                            <br><br>
+                            <strong>Date: Every Sunday</strong><br><br><br>
+                            <!--strong>Start: 12pm</strong><br>
+                            <!--strong>End: </strong><br-->
+                        </p>
+
+                    </div>
+                    <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
+                        <small class="d-flex justify-content-cen6ter" style="color:white;font-weight: bold; text-align: center">
+                            The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
+                    </div>
+
+                    <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
+                        <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                            The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
+                    </div>
+                </div>
+                <div class="card" style="border-color: deepskyblue">
+                    <img class="card-img-top" src="img/Events/event10.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                    <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
+                        <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">100 NFL</h5>
+                        <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
+                            Every Thursday at 8:00pm.<br>
+                            Buffalo/BBQ chicken wings $6.00. <br>
+                            Nachos/Tacos $6.00.
+                            <br><br>
+                            <strong>Date: Every Thursday</strong><br>
+                            <strong>Start: 8pm</strong><br>
+                            <!--strong>End: 1am</strong><br-->
+                        </p>
+
+                    </div>
+                    <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
+                        <small class="d-flex justify-content-cen6ter" style="color:white;font-weight: bold; text-align: center">
+                            The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
+                    </div>
+
+                    <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
+                        <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                            The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6"></div>
+    </div>
+
+
+
 
 </div>
 <div class="col-md-6"></div>
@@ -258,77 +332,7 @@
 
 <br><br>
 
-<div class="container">
-    <div class="col-md-6"></div>
-    <!--hr style="margin-bottom:0px;">
-    <div class="col-md-6"></div>
-    <div class="row" style="display: inline;padding-top: -10px;" >
-        <h1 style="text-align: center; color:#1b1b1b;margin-bottom: 3px;">Our past <strong style="color:deepskyblue">Events</strong></h1>
-        <div class="section-title-divider" style="width:300px;"></div>
-    </div-->
-    <!--<div class="row" id="videoRow" style="display: inline; padding-top: -10px;">
-        <center>
-            <video id="video" style="margin-bottom: 30px" controls>
-                <source src="vid/event_video.MP4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </center>
-    </div>-->
-    <div class="row" id="normalDiv2">
-        <div class="card-deck" style="width:80%;margin:auto;">
-            <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/event9.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
-                <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Domingo De Brunch!</h5>
-                    <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        Miércoles de sushi.<br>
-                        Call Keiry for reservations: 401-215-7824.
-                        <br><br>
-                        <strong>Date: Every Sunday</strong><br><br><br>
-                        <!--strong>Start: 12pm</strong><br>
-                        <!--strong>End: </strong><br-->
-                    </p>
 
-                </div>
-                <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
-                    <small class="d-flex justify-content-cen6ter" style="color:white;font-weight: bold; text-align: center">
-                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
-                </div>
-
-                <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
-                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
-                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
-                </div>
-            </div>
-            <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/event10.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
-                <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">100 NFL</h5>
-                    <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        Every Thursday at 8:00pm.<br>
-                        Buffalo/BBQ chicken wings $6.00. <br>
-                        Nachos/Tacos $6.00.
-                        <br><br>
-                        <strong>Date: Every Thursday</strong><br>
-                        <strong>Start: 8pm</strong><br>
-                        <!--strong>End: 1am</strong><br-->
-                    </p>
-
-                </div>
-                <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
-                    <small class="d-flex justify-content-cen6ter" style="color:white;font-weight: bold; text-align: center">
-                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
-                </div>
-
-                <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
-                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
-                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6"></div>
-</div>
 
 <!--div class="container">
     <center>

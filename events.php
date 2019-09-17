@@ -250,7 +250,7 @@
     </div>
     <div class="col-md-6"></div>
 
-    <h2 style="text-align: center;color:black;font-weight: 600">Active Events</h2>
+    <h2 style="text-align: center;color:black;font-weight: 600">Recurring Events</h2>
     <div class="container" style="">
         <div class="col-md-6"></div>
         <!--hr style="margin-bottom:0px;">

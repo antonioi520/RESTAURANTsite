@@ -268,16 +268,16 @@
             </center>
         </div>-->
         <div class="row" id="normalDiv2">
-            <div class="card-deck" style="width:80%;margin:auto;">
+            <div class="card-deck" style="width:84%;margin:auto;">
                 <div class="card" style="border-color: deepskyblue">
                     <img class="card-img-top" src="img/Events/event9.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
                     <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                        <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Domingo De Brunch!</h5>
+                        <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Miércoles De Sushi & Domingo De Brunch!</h5>
                         <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                            Miércoles de sushi.<br>
+                            Sushi Wednesday and Sunday Brunch! <br>
                             Call Keiry for reservations: 401-215-7824.
                             <br><br>
-                            <strong>Date: Every Sunday</strong><br><br><br>
+                            <strong>Date: Every Wednesday and Sunday</strong><br><br><br>
                             <!--strong>Start: 12pm</strong><br>
                             <!--strong>End: </strong><br-->
                         </p>

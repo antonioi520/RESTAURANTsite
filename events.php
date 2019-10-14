@@ -186,10 +186,10 @@
 
     <div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
         <center>
-            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/1V5h9hi-lf0?rel=0&amp;showinfo=0"
+            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/EGx7DpPm5M0?rel=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
-            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/o6kgarMCsTA?rel=0&amp;showinfo=0"
+            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/F15XEZrJjLA?rel=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </center>
@@ -200,15 +200,16 @@
     <div class="row" id="normalDiv" style="margin-bottom:40px;">
         <div class="card-deck" style="width:80%;margin:auto;">
             <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/event11.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <img class="card-img-top" src="img/Events/la_cronica_irreverente.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Humor Mañanero</h5>
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">La Crónica Irreverente</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        El show de humor mas esperado en Providence!
+                        Gratis un encuentro con el periodista marino zapete<br>
+                        Mayor Información: Juan Chaves 617-970-9629
                         <br><br>
-                        <strong>Date: Friday, October 4th</strong><br>
-                        <strong>Start: 10pm</strong><br>
-                        <!--strong>End: 1am</strong><br--><br>
+                        <strong>Date: Friday, October 18th</strong><br>
+                        <strong>Start: 6pm</strong>
+                        <br><br><br><br>
                     </p>
 
                 </div>
@@ -223,15 +224,15 @@
                 </div>
             </div>
             <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/event12.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <img class="card-img-top" src="img/Events/sushi_night_con_el_ninja.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Humor Mañanero</h5>
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Sushi Night Con El Ninja</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        El show de humor mas esperado en Providence!
+                        With Live DJS: DJ TRAVIESO x DJ JOTA x DJ BENTLY
                         <br><br>
-                        <strong>Date: Friday, October 4th</strong><br>
-                        <strong>Start: 10pm</strong><br>
-                        <!--strong>End: 1am</strong><br--><br>
+                        <strong style="float:left">Dates:</strong><strong id="ninjaCardA"> Friday, November 1st <br> Sunday, November 3rd</strong><br><br>
+                        <strong style="float:left">Times:</strong><strong id="ninjaCardB"> Friday: 4pm - 11pm <br> Sunday: 12pm - 10pm</strong><br>
+                        <br><br><br>
                     </p>
 
                 </div>
@@ -250,7 +251,7 @@
     <div class="col-md-6"></div>
 
     <div class="row">
-        <div class="card-deck" style="width: 80%; margin:auto">
+        <!--div class="card-deck" style="width: 80%; margin:auto">
             <div class="col-md-3"></div>
             <div class="card" style="border-color: deepskyblue">
                 <img class="card-img-top" src="img/Events/event8.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
@@ -277,7 +278,7 @@
                 </div>
             </div>
             <div class="col-md-3"></div>
-        </div>
+        </div-->
     </div>
 
     <br>

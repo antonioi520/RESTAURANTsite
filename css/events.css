@@ -84,6 +84,16 @@
     display: none;
 }
 
+#ninjaCardA{
+    float:right;
+    margin-right:41%;
+}
+
+#ninjaCardB{
+    float:right;
+    margin-right:43%;
+}
+
 @media (max-width:896px) {
 
     img#hide {

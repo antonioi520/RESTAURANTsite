@@ -209,7 +209,7 @@
                         <br><br>
                         <strong>Date: Friday, October 18th</strong><br>
                         <strong>Start: 6pm</strong>
-                        <br><br><br>
+                        <br><br><br><br>
                     </p>
 
                 </div>
@@ -232,7 +232,7 @@
                         <br><br>
                         <strong style="float:left">Dates:</strong><strong id="ninjaCardA"> Friday, November 1st <br> Sunday, November 3rd</strong><br><br>
                         <strong style="float:left">Times:</strong><strong id="ninjaCardB"> Friday: 4pm - 11pm <br> Sunday: 12pm - 10pm</strong><br>
-                        <br><br>
+                        <br><br><br>
                     </p>
 
                 </div>

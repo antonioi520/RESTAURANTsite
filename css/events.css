@@ -64,6 +64,16 @@
       display:none;
     }
 }
+
+#ninjaCardA{
+    float:right;
+    margin-right:41%;
+}
+
+#ninjaCardB{
+    float:right;
+    margin-right:43%;
+}
 @media (max-width: 896px) {
     #videoRow video{
         width:300px;
@@ -71,6 +81,14 @@
     }
     #galleryVid{
         width:100%;
+    }
+    #ninjaCardA{
+        float:right;
+        margin-right:15%;
+    }
+    #ninjaCardB{
+        float:right;
+        margin-right:18%;
     }
 }
 
@@ -84,15 +102,6 @@
     display: none;
 }
 
-#ninjaCardA{
-    float:right;
-    margin-right:41%;
-}
-
-#ninjaCardB{
-    float:right;
-    margin-right:43%;
-}
 
 @media (max-width:896px) {
 

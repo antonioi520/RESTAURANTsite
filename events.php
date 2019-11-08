@@ -187,12 +187,6 @@
 
     <div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
         <center>
-            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/EGx7DpPm5M0?rel=0"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/F15XEZrJjLA?rel=0"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
             <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/ecU1zISjC8E?rel=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
@@ -204,15 +198,15 @@
     <div class="row" id="normalDiv" style="margin-bottom:40px;">
         <div class="card-deck" style="width:80%;margin:auto;">
             <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/la_cronica_irreverente.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <img class="card-img-top" src="img/Events/krose_optimo.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">La Crónica Irreverente</h5>
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Karlos Rose & Optimo</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        Gratis un encuentro con el periodista marino zapete<br>
-                        Mayor Información: Juan Chaves 617-970-9629
+                        With Live DJ: DJ TRAVIESO
                         <br><br>
-                        <strong>Date: Friday, October 18th</strong><br>
-                        <strong>Start: 6pm</strong>
+                        <strong>Dates:</strong><strong> Friday, November 22nd</strong><br>
+                        <strong>Times:</strong><strong> 9pm - 2am</strong><br>
+                        <strong>Tickets:</strong><strong> $25</strong><br>
                         <br><br><br><br>
                     </p>
 
@@ -228,15 +222,16 @@
                 </div>
             </div>
             <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/sushi_night_con_el_ninja.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <img class="card-img-top" src="img/Events/erasmo_brito.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Sushi Night Con El Ninja</h5>
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Erasmo Brito</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        With Live DJS: DJ TRAVIESO x DJ JOTA x DJ BENTLY
+                        Reservas: (401) 265-7142, <br> (401) 919-0162, <br> (401) 215-7824
                         <br><br>
-                        <strong style="float:left">Dates:</strong><strong id="ninjaCardA"> Friday, November 1st <br> Sunday, November 3rd</strong><br><br>
-                        <strong style="float:left">Times:</strong><strong id="ninjaCardB"> Friday: 4pm - 11pm <br> Sunday: 12pm - 10pm</strong><br>
-                        <br><br><br>
+                        <strong>Date: Saturday, February 1st, 2020</strong><br>
+                        <strong>Start: 9pm</strong><br>
+                        <strong>End: 1am</strong><br>
+                        <strong>Tickets: $20</strong><br><br>
                     </p>
 
                 </div>
@@ -257,30 +252,7 @@
     <div class="row">
         <div class="card-deck" style="width:80%;margin:auto;">
             <div class="col-md-3"></div>
-            <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/krose_optimo.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
-                <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Karlos Rose & Optimo</h5>
-                    <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        With Live DJ: DJ TRAVIESO
-                        <br><br>
-                        <strong>Dates:</strong><strong> Friday, November 22nd</strong><br>
-                        <strong>Times:</strong><strong> 9pm - 2am</strong><br>
-                        <strong>Tickets:</strong><strong> $25</strong><br>
-                        <br>
-                    </p>
 
-                </div>
-                <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
-                    <small class="d-flex justify-content-cen6ter" style="color:white;font-weight: bold; text-align: center">
-                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
-                </div>
-
-                <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
-                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
-                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
-                </div>
-            </div>
             <div class="col-md-3"></div>
         </div>
     </div>

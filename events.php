@@ -228,7 +228,7 @@
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
                         Reservas: (401) 265-7142, <br> (401) 919-0162, <br> (401) 215-7824
                         <br><br>
-                        <strong>Date: Saturday, February 1st</strong><br>
+                        <strong>Date: Saturday, February 1st, 2020</strong><br>
                         <strong>Start: 9pm</strong><br>
                         <strong>End: 1am</strong><br>
                         <strong>Tickets: $20</strong><br><br>

@@ -8,7 +8,17 @@
     url('https://fonts.googleapis.com/css?family=Satisfy')  format('truetype'), /* Safari, Android, iOS */
     url('https://fonts.googleapis.com/css?family=Satisfy') format('svg'); /* Legacy iOS */
 }
+.shadow
+{
+    text-shadow:
+            1px 1px 0 deepskyblue,
+            3px 2px 0 deepskyblue
 
+
+}
+.imglogohead{
+    height:30%;width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-9em;margin-bottom:10px;"
+}
 body {
     background: #f7f7f7;
     color: #666666;
@@ -487,6 +497,9 @@ p {
         max-width: 100%;
         width: 100%;
         padding-left: 10px;
+    }
+    .imglogohead{
+        margin-top: -5em;
     }
 
 

@@ -21,13 +21,14 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="z-index: 1;margin-top:-6.250em;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/Interior/MiAlmaCafeOpeningCeremony-22.jpg" class="d-block w-100" alt="..." style="height:59.375em;filter:brightness(20%);object-fit: cover;">
+                <img src="img/Interior/MiAlmaCafeOpeningCeremony-22.jpg" class="d-block w-100" alt="..." style="height:59.375em;filter:brightness(15%);object-fit: cover;">
                 <div class="carousel-caption d-md-block" id="hero" style="top:150px;">
                     <center>
-                        <h1 class="headertext">WELCOME TO MI ALMA<br> RESTAURANT</H1>
+                        <h1 class="headertext" style="margin-bottom: 0">Welcome To</h1><br>
+                        <h1 class="headertext shadow">MI ALMA RESTAURANT</H1>
                     </center>
                     <center>
-                        <img src="img/logo.png" style="height:30%;width: 30%;z-index: 1;object-fit: contain;filter:brightness(95%);margin-top:-6em;margin-bottom:10px;">
+                        <img src="img/logo.png" class="imglogohead">
                     </center>
                     <center>
                         <a href="#contact" id="box" style="margin-top: 1em;display:block">

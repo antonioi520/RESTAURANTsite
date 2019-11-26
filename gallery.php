@@ -300,10 +300,22 @@
     <div class="gallery-border">
         <div class="row">
             <div class="column">
-                <img id="galleryImg" src="img/MenuThumbs/mi_alma_menu-01.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(1)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/MenuThumbs/MI%20ALMA%20menu-1.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(1)" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img id="galleryImg" src="img/MenuThumbs/mi_alma_menu-02.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(2)" class="hover-shadow cursor">
+                <img id="galleryImg" src="img/MenuThumbs/MI%20ALMA%20menu-2.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/MenuThumbs/MI%20ALMA%20menu-3.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/MenuThumbs/MI%20ALMA%20menu-4.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/MenuThumbs/MI%20ALMA%20menu-5.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(5)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/MenuThumbs/MI%20ALMA%20menu-6.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(6)" class="hover-shadow cursor">
             </div>
         </div>
     </div>
@@ -608,13 +620,28 @@
         <div class="modal-content">
 
             <div class="menuSlides">
-                <div class="numbertext">1 / 2</div>
-                <img id="galleryImg" src="img/Menu/mi_alma_menu-01.jpg" style="width:100%">
+                <div class="numbertext">1 / 6</div>
+                <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-1.jpg" style="width:100%">
             </div>
-
             <div class="menuSlides">
-                <div class="numbertext">2 / 2</div>
-                <img id="galleryImg" src="img/Menu/mi_alma_menu-02.jpg" style="width:100%">
+                <div class="numbertext">2 / 6</div>
+                <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-2.jpg" style="width:100%">
+            </div>
+            <div class="menuSlides">
+                <div class="numbertext">3 / 6</div>
+                <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-3.jpg" style="width:100%">
+            </div>
+            <div class="menuSlides">
+                <div class="numbertext">4 / 6</div>
+                <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-4.jpg" style="width:100%">
+            </div>
+            <div class="menuSlides">
+                <div class="numbertext">5 / 6</div>
+                <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-5.jpg" style="width:100%">
+            </div>
+            <div class="menuSlides">
+                <div class="numbertext">6 / 6</div>
+                <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-6.jpg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusMenuSlides(-1)">&#10094;</a>

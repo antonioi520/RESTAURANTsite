@@ -116,7 +116,7 @@
             <a href="#topofMenu" id="fooddrinkButton" onclick="switchToDrinkMenu()">Drinks</a>
         </center>
         <br>
-        <img src="img/menualma.jpg" class="menuImgTop" alt="drink menu" style=""><br>
+        <!--img src="img/menualma.jpg" class="menuImgTop" alt="drink menu" style=""><br-->
         <div id="topofMenu"></div>
         <div class="menu menu-row menu-wrap menu-center" id="foodDiv">
 

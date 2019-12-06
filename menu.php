@@ -27,6 +27,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
     <link href="css/menu.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
@@ -111,13 +112,35 @@
         </center>
 
         <br> <hr>
+        <div id="topofMenu"></div>
         <center>
             <a href="#topofMenu" id="fooddrinkButton" onclick="switchToFoodMenu()">Food</a>
             <a href="#topofMenu" id="fooddrinkButton" onclick="switchToDrinkMenu()">Drinks</a>
+            <br><br>
+            <p style="color: red; font-weight: bold">Note: Drinks are unavailable for take out orders!</p>
+            <a href="#topofMenu" style="text-decoration: underline;" onclick="openMenuModal();currentMenuSlide(1)">(View take-out menu)</a>
+            <div id="menuModal" class="modal">
+                <span class="close cursor" onclick="closeMenuModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="menuSlides">
+                        <div class="numbertext">1 / 2</div>
+                        <img id="galleryImg" src="img/Menu/takeout_front.jpg" style="width:100%">
+                    </div>
+                    <div class="menuSlides">
+                        <div class="numbertext">2 / 2</div>
+                        <img id="galleryImg" src="img/Menu/takeout_back.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusMenuSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusMenuSlides(1)">&#10095;</a>
+
+                </div>
+            </div>
+
         </center>
         <br>
         <!--img src="img/menualma.jpg" class="menuImgTop" alt="drink menu" style=""><br-->
-        <div id="topofMenu"></div>
         <div class="menu menu-row menu-wrap menu-center" id="foodDiv">
 
             <div class="appetizers">
@@ -590,6 +613,46 @@
         drink.style.display = "flex";
     }
     //test
+</script>
+
+<script>
+
+    function openMenuModal() {
+        document.getElementById("menuModal").style.display = "block";
+    }
+
+    function closeMenuModal() {
+        document.getElementById("menuModal").style.display = "none";
+    }
+
+    var menuSlideIndex = 1;
+    showMenuSlides(menuSlideIndex);
+
+    function plusMenuSlides(n) {
+        showMenuSlides(menuSlideIndex += n);
+    }
+
+    function currentMenuSlide(n) {
+        showMenuSlides(menuSlideIndex = n);
+    }
+
+    function showMenuSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("menuSlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {menuSlideIndex = 1}
+        if (n < 1) {menuSlideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[menuSlideIndex-1].style.display = "block";
+        dots[menuSlideIndex-1].className += " active";
+        captionText.innerHTML = dots[menuSlideIndex-1].alt;
+    }
 </script>
 
 <br>

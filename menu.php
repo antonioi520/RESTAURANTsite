@@ -111,13 +111,15 @@
         </center>
 
         <br> <hr>
+        <div id="topofMenu"></div>
         <center>
             <a href="#topofMenu" id="fooddrinkButton" onclick="switchToFoodMenu()">Food</a>
             <a href="#topofMenu" id="fooddrinkButton" onclick="switchToDrinkMenu()">Drinks</a>
+            <br><br>
+            <p style="color: red; font-weight: bold">Note: Drinks are unavailable for take out orders!</p>
         </center>
         <br>
         <!--img src="img/menualma.jpg" class="menuImgTop" alt="drink menu" style=""><br-->
-        <div id="topofMenu"></div>
         <div class="menu menu-row menu-wrap menu-center" id="foodDiv">
 
             <div class="appetizers">

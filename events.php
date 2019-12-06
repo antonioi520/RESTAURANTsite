@@ -178,21 +178,20 @@
     <hr style="margin-bottom:0px;">
     <div class="col-md-6"></div>
     <div class="row" style="display: inline;padding-top: -10px;" >
-        <h1 style="text-align: center; color:#1b1b1b;margin-bottom: 3px;">Our upcoming <strong>Events</strong></h1>
+        <h1 style="text-align: center; color:#1b1b1b;margin-bottom: 3px;">Our upcoming <strong style="color:deepskyblue">Events</strong></h1>
         <h5 class="" style="text-align: center;font-size: 17px;">Celebrate your next special occasion with us.</h5>
         <div class="section-title-divider" style="width:300px;"></div>
     </div>
 
     <h2 style="text-align: center;color:black;margin-bottom: 5px;font-weight: 600">Special Events</h2>
-    <br>
 
-    <!--div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
+    <div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
         <center>
-            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/ecU1zISjC8E?rel=0"
+            <iframe id="galleryVid" width="70%" height="430px" src="https://www.youtube.com/embed/XgkDWWW16k0?rel=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </center>
-    </div-->
+    </div>
 
 
 

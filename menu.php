@@ -125,11 +125,13 @@
 
                     <div class="menuSlides">
                         <div class="numbertext">1 / 2</div>
-                        <img id="galleryImg" src="img/Menu/takeout_front.jpg" style="width:100%">
+                        <img id="menuImg" src="img/Menu/takeout_front.jpg" style="width:100%">
+                        <a href="img/Menu/takeout_front.jpg" class="mobileViewFullMenu">View Full</a>
                     </div>
                     <div class="menuSlides">
                         <div class="numbertext">2 / 2</div>
-                        <img id="galleryImg" src="img/Menu/takeout_back.jpg" style="width:100%">
+                        <img id="menuImg" src="img/Menu/takeout_back.jpg" style="width:100%">
+                        <a href="img/Menu/takeout_back.jpg" class="mobileViewFullMenu">View Full</a>
                     </div>
 
                     <a class="prev" onclick="plusMenuSlides(-1)">&#10094;</a>

@@ -317,6 +317,12 @@
             <div class="column">
                 <img id="galleryImg" src="img/MenuThumbs/MI%20ALMA%20menu-6.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(6)" class="hover-shadow cursor">
             </div>
+            <div class="column">
+                <img id="galleryImg" src="img/MenuThumbs/takeout_front.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(7)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img id="galleryImg" src="img/MenuThumbs/takeout_back.jpg" style="width:100%" onclick="openMenuModal();currentMenuSlide(8)" class="hover-shadow cursor">
+            </div>
         </div>
     </div>
 
@@ -620,28 +626,36 @@
         <div class="modal-content">
 
             <div class="menuSlides">
-                <div class="numbertext">1 / 6</div>
+                <div class="numbertext">1 / 8</div>
                 <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-1.jpg" style="width:100%">
             </div>
             <div class="menuSlides">
-                <div class="numbertext">2 / 6</div>
+                <div class="numbertext">2 / 8</div>
                 <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-2.jpg" style="width:100%">
             </div>
             <div class="menuSlides">
-                <div class="numbertext">3 / 6</div>
+                <div class="numbertext">3 / 8</div>
                 <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-3.jpg" style="width:100%">
             </div>
             <div class="menuSlides">
-                <div class="numbertext">4 / 6</div>
+                <div class="numbertext">4 / 8</div>
                 <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-4.jpg" style="width:100%">
             </div>
             <div class="menuSlides">
-                <div class="numbertext">5 / 6</div>
+                <div class="numbertext">5 / 8</div>
                 <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-5.jpg" style="width:100%">
             </div>
             <div class="menuSlides">
-                <div class="numbertext">6 / 6</div>
+                <div class="numbertext">6 / 8</div>
                 <img id="galleryImg" src="img/Menu/MI%20ALMA%20menu-6.jpg" style="width:100%">
+            </div>
+            <div class="menuSlides">
+                <div class="numbertext">7 / 8</div>
+                <img id="galleryImg" src="img/Menu/takeout_front.jpg" style="width:100%">
+            </div>
+            <div class="menuSlides">
+                <div class="numbertext">8 / 8</div>
+                <img id="galleryImg" src="img/Menu/takeout_back.jpg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusMenuSlides(-1)">&#10094;</a>

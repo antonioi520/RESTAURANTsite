@@ -184,6 +184,7 @@
     </div>
 
     <h2 style="text-align: center;color:black;margin-bottom: 5px;font-weight: 600">Special Events</h2>
+    <br>
 
     <!--div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
         <center>

@@ -150,6 +150,12 @@
     max-height: 800px;
 }
 
+#menuImg {
+    margin-bottom: 10px;
+    object-fit: scale-down;
+    max-height: 800px;
+}
+
 #interiorImg {
     margin-bottom: 10px;
     padding-top: 40px;
@@ -298,6 +304,11 @@ img.hover-shadow {
         object-fit: scale-down;
         max-height: 305px;
     }
+    #menuImg {
+        margin-bottom: 2px;
+        object-fit: scale-down;
+        max-height: 420px;
+    }
 
     #interiorImg {
         margin-bottom: 0px;
@@ -339,6 +350,11 @@ img.hover-shadow {
         object-fit: scale-down;
         max-height: 285px;
     }
+    #menuImg {
+        margin-bottom: 2px;
+        object-fit: scale-down;
+        max-height: 420px;
+    }
 
     #interiorImg {
         margin-bottom: 0px;
@@ -379,6 +395,11 @@ img.hover-shadow {
         margin-bottom: 2px;
         object-fit: scale-down;
         max-height: 265px;
+    }
+    #menuImg {
+        margin-bottom: 2px;
+        object-fit: scale-down;
+        max-height: 420px;
     }
 
     #interiorImg {

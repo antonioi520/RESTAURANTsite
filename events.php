@@ -291,7 +291,7 @@
                     </div>
                 </div>
                 <div class="card" style="border-color: deepskyblue">
-                    <img class="card-img-top" src="img/Events/chaval2.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                    <img class="card-img-top" src="img/Events/chaval3.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
                     <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
                         <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">El Chaval</h5>
                         <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
@@ -299,8 +299,8 @@
                             (401) 215-7824
                             <br><br>
                             <strong>Date: Friday, April 24th, 2020</strong><br>
-                            <strong>Start: TBA</strong><br>
-                            <strong>End: TBA</strong><br>
+                            <strong>Start: 9pm</strong><br>
+                            <strong>End: 2am</strong><br>
                             <strong>Tickets: $35</strong>
                             <br><br><br>
                         </p>

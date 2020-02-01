@@ -330,7 +330,7 @@
                         <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
                             Reservas: <br> Ronny Batista: (917) 385-8241, <br> Keiry Luciano: (401) 215-7824
                             <br><br>
-                            <strong>Date: Saturday, February 14th, 2020</strong><br>
+                            <strong>Date: Saturday, February 14th</strong><br>
                             <strong>Start: 5pm</strong><br>
                             <strong>End: 1am</strong><br>
                             <strong>Price: $150</strong>
@@ -356,7 +356,7 @@
                             Reservaciones: (401) 499-4689,<br>
                             (401) 215-7824
                             <br><br>
-                            <strong>Date: Friday, April 24th, 2020</strong><br>
+                            <strong>Date: Friday, April 24th</strong><br>
                             <strong>Start: 9pm</strong><br>
                             <strong>End: 2am</strong><br>
                             <strong>Tickets: $35</strong>

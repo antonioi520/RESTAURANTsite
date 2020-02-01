@@ -299,7 +299,7 @@
                         <strong>Date: Saturday, February 8th</strong><br>
                         <strong>Tickets: $30</strong><br>
                         <strong>VIP Tickets: $50</strong>
-                        <br><br><br><br><br>
+                        <br><br><br><br><br><br>
                     </p>
 
                 </div>

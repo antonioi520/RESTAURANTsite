@@ -187,10 +187,7 @@
 
     <div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
         <center>
-            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/T106tzTigHI?rel=0"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/CzvKBdZu98c?rel=0"
+            <iframe id="galleryVid" width="79%" height="430px" src="https://www.youtube.com/embed/CzvKBdZu98c?rel=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </center>
@@ -201,17 +198,16 @@
     <div class="row" id="normalDiv">
         <div class="card-deck" style="width:80%;margin:auto;">
             <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/erasmo_brito.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <img class="card-img-top" src="img/Events/superbowl_LIV.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Erasmo Brito</h5>
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Super Bowl Party</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        Reservas: (401) 265-7142, <br> (401) 919-0162, <br> (401) 215-7824
+                        49ers vs. Chiefs <br>
+                        Buffalo/BBQ Chicken Wings - $6.00 <br>
+                        Nachos/Tacos - $6.00
                         <br><br>
-                        <strong>Date: Saturday, February 1st</strong><br>
-                        <strong>Start: 9pm</strong><br>
-                        <strong>End: 1am</strong><br>
-                        <strong>Tickets: $20</strong>
-                        <strong><a href="https://www.boletosexpress.com/erasmo-brito/56430/" target="_blank" style="text-decoration: underline">(Purchase Ticket)</a></strong>
+                        <strong>Date: Sunday, February 2nd</strong><br>
+                        <strong>Start: 5pm</strong><br>
                         <br><br>
                     </p>
 
@@ -227,17 +223,16 @@
                 </div>
             </div>
             <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/superbowl_LIV.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <img class="card-img-top" src="img/Events/noche_bohemia.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Super Bowl Party</h5>
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Noche Bohemia con JanetG</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        49ers vs. Chiefs <br>
-                        Buffalo/BBQ Chicken Wings - $6.00 <br>
-                        Nachos/Tacos - $6.00
+                        Reservaciones: <br> (401) 215-7824, <br> (401) 648-0715
                         <br><br>
-                        <strong>Date: Sunday, February 2nd</strong><br>
-                        <strong>Start: 5pm</strong><br>
-                        <br><br><br>
+                        <strong>Date: Wednesday, February 5th</strong><br>
+                        <strong>Start: 6pm</strong><br>
+                        <strong>End: 11pm</strong><br>
+                        <br>
                     </p>
 
                 </div>
@@ -387,14 +382,15 @@
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
                     <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">El Chaval</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        Reservaciones: (401) 499-4689<br>
+                        Reservaciones: <br>
+                        (401) 499-4689 <br>
                         (401) 215-7824
                         <br><br>
                         <strong>Date: Friday, April 24th</strong><br>
                         <strong>Start: 9pm</strong><br>
                         <strong>End: 2am</strong><br>
                         <strong>Tickets: $35</strong>
-                        <br><br><br>
+                        <br><br>
                     </p>
 
                 </div>
@@ -413,10 +409,14 @@
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
                     <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Fernando Villalona</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        50 Años De Historia
+                        <b>50 Años De Historia</b><br>
+                        Reservaciones: <br>
+                        (401) 215-7824 <br>
+                        (401) 603-6965
                         <br><br>
                         <strong>Date: Friday, May 15th</strong><br>
-                        <br><br><br><br><br><br>
+                        <strong>Tickets: $30</strong><br>
+                        <br><br>
                     </p>
 
                 </div>

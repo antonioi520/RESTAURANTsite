@@ -385,14 +385,15 @@
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
                     <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">El Chaval</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        Reservaciones: (401) 499-4689<br>
+                        Reservaciones: <br>
+                        (401) 499-4689 <br>
                         (401) 215-7824
                         <br><br>
                         <strong>Date: Friday, April 24th</strong><br>
                         <strong>Start: 9pm</strong><br>
                         <strong>End: 2am</strong><br>
                         <strong>Tickets: $35</strong>
-                        <br><br><br>
+                        <br><br>
                     </p>
 
                 </div>
@@ -411,10 +412,14 @@
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
                     <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Fernando Villalona</h5>
                     <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        50 Años De Historia
+                        <b>50 Años De Historia</b><br>
+                        Reservaciones: <br>
+                        (401) 215-7824 <br>
+                        (401) 603-6965
                         <br><br>
                         <strong>Date: Friday, May 15th</strong><br>
-                        <br><br><br><br><br><br>
+                        <strong>Tickets: $30</strong><br>
+                        <br><br>
                     </p>
 
                 </div>

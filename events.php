@@ -206,6 +206,14 @@
         </center>
     </div>
 
+    <div class="row" id="videoRow3" style="display: inline; padding-top: 0px;">
+        <center>
+            <iframe id="galleryVid" width="98%" height="430px" src="https://www.youtube.com/embed/0KugTRVK2hQ?rel=0"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </center>
+    </div>
+
     <div class="row" id="normalDiv">
         <div class="card-deck" style="width:80%;margin:auto;">
             <div class="card" style="border-color: deepskyblue">

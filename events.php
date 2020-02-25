@@ -187,16 +187,6 @@
 
     <div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
         <center>
-            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/CzvKBdZu98c?rel=0"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/O4hLDFkJUys?rel=0"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-        </center>
-    </div>
-    <div class="row" id="videoRow2" style="display: inline; padding-top: 0px;">
-        <center>
             <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/6MyxaNma4aw?rel=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
@@ -206,7 +196,7 @@
         </center>
     </div>
 
-    <div class="row" id="videoRow3" style="display: inline; padding-top: 0px;">
+    <div class="row" id="videoRow2" style="display: inline; padding-top: 0px;">
         <center>
             <iframe id="galleryVid" width="98%" height="430px" src="https://www.youtube.com/embed/0KugTRVK2hQ?rel=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -216,31 +206,6 @@
 
     <div class="row" id="normalDiv">
         <div class="card-deck" style="width:80%;margin:auto;">
-            <div class="card" style="border-color: deepskyblue">
-                <img class="card-img-top" src="img/Events/el_ninja_valentines.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
-                <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
-                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">El Ninja Valentine's Day Event</h5>
-                    <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
-                        Reservas: <br> Ronny Batista: (917) 385-8241, <br> Keiry Luciano: (401) 215-7824
-                        <br><br>
-                        <strong>Date: Saturday, February 14th</strong><br>
-                        <strong>Start: 5pm</strong><br>
-                        <strong>End: 1am</strong><br>
-                        <strong>Price: $150</strong>
-                        <br><br>
-                    </p>
-
-                </div>
-                <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
-                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
-                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
-                </div>
-
-                <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
-                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
-                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
-                </div>
-            </div>
             <div class="card" style="border-color: deepskyblue">
                 <img class="card-img-top" src="img/Events/chaval3.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
@@ -268,19 +233,6 @@
                         The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="col-md-6"></div>
-</div>
-<div class="col-md-6"></div>
-</div>
-
-<br>
-
-<div class="container">
-    <div class="row">
-        <div class="card-deck" style="width:80%;margin:auto;">
-            <div class="col-md-3"></div>
             <div class="card" style="border-color: deepskyblue">
                 <img class="card-img-top" src="img/Events/fernando_villalona.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
@@ -293,7 +245,7 @@
                         <br><br>
                         <strong>Date: Friday, May 15th</strong><br>
                         <strong>Tickets: $30</strong><br>
-                        <br>
+                        <br><br>
                     </p>
 
                 </div>
@@ -307,6 +259,20 @@
                         The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="col-md-6"></div>
+</div>
+<div class="col-md-6"></div>
+</div>
+
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="card-deck" style="width:80%;margin:auto;">
+            <div class="col-md-3"></div>
+
             <div class="col-md-3"></div>
         </div>
     </div>

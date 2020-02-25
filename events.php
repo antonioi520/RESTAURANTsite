@@ -278,7 +278,7 @@
     </div>
 </div>
 
-    <br><br>
+
 
     <!--h2 style="text-align: center;color:black;font-weight: 600">Recurring Events</h2>
     <div class="container" style="">

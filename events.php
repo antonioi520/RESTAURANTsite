@@ -198,7 +198,10 @@
 
     <div class="row" id="videoRow2" style="display: inline; padding-top: 0px;">
         <center>
-            <iframe id="galleryVid" width="98%" height="430px" src="https://www.youtube.com/embed/0KugTRVK2hQ?rel=0"
+            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/0KugTRVK2hQ?rel=0"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/qoMfpURHPws?rel=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </center>
@@ -271,14 +274,65 @@
 <div class="container">
     <div class="row">
         <div class="card-deck" style="width:80%;margin:auto;">
-            <div class="col-md-3"></div>
+            <div class="card" style="border-color: deepskyblue">
+                <img class="card-img-top" src="img/Events/mothers_day1.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Madres Dominicanas</h5>
+                    <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
+                        Reservaciones: <br>
+                        (401) 487-0454 <br>
+                        (401) 588-0974
+                        <br><br>
+                        <strong>Date: Saturday, May 30th</strong><br>
+                        <strong>Start: 1pm</strong><br>
+                        <strong>End: 4pm</strong><br>
+                        <strong>Tickets: $50</strong>
+                        <br><br>
+                    </p>
 
-            <div class="col-md-3"></div>
+                </div>
+                <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
+                </div>
+
+                <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
+                </div>
+            </div>
+            <div class="card" style="border-color: deepskyblue">
+                <img class="card-img-top" src="img/Events/mothers_day2.jpeg" alt="Card image cap" style="height:400px;object-fit: contain;">
+                <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
+                    <h5 class="card-title" style="font-weight: bold;padding-left:10px;padding-right:10px;">Dominican Mother's Day</h5>
+                    <p class="card-text" style="background-color: #D0FBFF; color=black;padding-left:10px;padding-right:10px;">
+                        Reservations: <br>
+                        (401) 487-0454 <br>
+                        (401) 588-0974
+                        <br><br>
+                        <strong>Date: Saturday, May 30th</strong><br>
+                        <strong>Start: 1pm</strong><br>
+                        <strong>End: 4pm</strong><br>
+                        <strong>Tickets: $50</strong>
+                        <br><br>
+                    </p>
+
+                </div>
+                <div id="content-desktop" class="card-footer" style="background-color: deepskyblue;height:50px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
+                </div>
+
+                <div id="content-mobile" class="card-footer" style="background-color: deepskyblue;height:60px;">
+                    <small class="d-flex justify-content-center" style="color:white;font-weight: bold; text-align: center">
+                        The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-
+<br>
 
     <!--h2 style="text-align: center;color:black;font-weight: 600">Recurring Events</h2>
     <div class="container" style="">

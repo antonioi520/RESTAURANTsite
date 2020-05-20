@@ -104,16 +104,16 @@
     <div class="container about-container wow fadeInUp">
         <div class="row">
             <div class="col-lg-6 about-img" id="content-desktop896">
-                <img src="img/Interior/4.jpg" alt="" style="height:360px;width: 100%;object-fit: cover;" id="aboutImg">
+                <img src="img/Interior/4.jpg" alt="" style="height:395px;width: 100%;object-fit: cover;" id="aboutImg">
             </div>
             <div class="col-lg-6 about-img" id="content-mobile896">
                 <center>
-                    <img src="img/Interior/4.jpg" alt="" style="height:360px;object-fit: cover;" id="aboutImg">
+                    <img src="img/Interior/4.jpg" alt="" style="height:395px;object-fit: cover;" id="aboutImg">
                 </center>
             </div>
 
             <div class="col-md-6 about-content">
-                <h2 class="about-title" style="margin-bottom: 14px;">Latin Fusion/Sushi Restaurant</h2>
+                <h2 class="about-title" style="margin-bottom: 14px;">We provide incredible Latin/Japanese fusion dishes!</h2>
                 <p class="about-text">
                     El Ninja Restaurant is a Latin fusion sushi restaurant brought to Broad Street alongside the newly renovated Bomes Theatre,
                     headed by world-class chef El Ninja and a talented staff, that uses only the finest ingredients!

@@ -23,6 +23,12 @@
     <title>Mi Alma Restaurant</title>
     <meta name = "viewport" content = "width=device-width, initial-scale = 1, user-scalable = no"/>
 
+    <style>
+        .repeating-bg {
+            background-image: url(img/almatile.png);
+            background-repeat: space;
+        }
+    </style>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -37,7 +43,7 @@
 
 
 </head>
-<body>
+<body class="repeating-bg">
 <!-- Header -->
 
 
@@ -110,9 +116,8 @@
         <center>
             <img src="img/logo.png" style="height:200px;width:300px;object-fit: contain;">
         </center>
-
-        <br> <hr>
         <div id="topofMenu"></div>
+        <br> <hr>
         <center>
             <a href="#topofMenu" id="fooddrinkButton" onclick="switchToFoodMenu()">Food</a>
             <a href="#topofMenu" id="fooddrinkButton" onclick="switchToDrinkMenu()">Drinks</a>
@@ -590,13 +595,12 @@
         </div>
 
         <br>
-        <span class="menu-item-name">IMPORTANTE: Algunos artículos vienen crudo o parcialmente cocinando y puede incrementar el riesgo de enfermedades por alimentos.
-        Los consumidores que son especialmente vulnerables sólo debe de comer carnes, mariscos y otras comida de animales completamente cocinados.
-        Por favor notifiquemos inmediantamente de cualquier alergia que usted tenga.
+        <span class="menu-item-name">IMPORTANTE: Algunos artículos vienen crudos o parcialmente cocinados y pueden incrementar el riesgo de enfermedades por alimentos.
+        Los consumidores que son especialmente vulnerables solo deben de comer carnes, mariscos y otras comidas de animales completamente cocinados.
+        Por favor notifíquemos inmediatamente de cualquier alergia que usted tenga.
         <br> <br>
-        IMPORTANT: Some menu items are raw or partially cooked and can increase your risk of food borne illness. Consumers who are especially
-        vulnerable to food borne illness should only eat meat, seafood and other food that is thoroughly cooked. Please notify us immediately of any
-        food allergies you have.</span>
+        IMPORTANT: Some items come raw or partially cooked and may increase the risk of foodborne illness. Consumers who are especially
+        vulnerable should only eat meat, seafood and other fully cooked animal foods. Please notify us immediately of any allergies you have.</span>
 
     </div>
 

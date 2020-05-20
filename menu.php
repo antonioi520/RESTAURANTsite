@@ -28,6 +28,35 @@
             background-image: url(img/almatile.png);
             background-repeat: space;
         }
+        .top-link {
+            transition: all .25s ease-in-out;
+            position: fixed;
+            bottom: -10px;
+            right: -10px;
+            display: inline-flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            margin: 0 2em 2em 0;
+            border-radius: 50%;
+            padding: .25em;
+            width: 40px;
+            height: 40px;
+            background-color: #f7f7f7;
+            border: 2px solid #a442f4;
+        }
+        .top-link.show {
+            visibility: visible;
+            opacity: 1;
+        }
+        .top-link.hide {
+            visibility: hidden;
+            opacity: 0;
+        }
+        .top-link:hover {
+            background-color: #f7f7f7;
+            transform: scale(1.15);
+        }
     </style>
 
     <!-- Bootstrap -->
@@ -675,6 +704,40 @@
 <br>
 <br>
 <?php include("views/footer.html")?>
+
+<a class="top-link hide" href="" id="js-top">
+    <img src="img/arrow.png" style="width: 65%; height: 55%;">
+</a>
+
+<script>
+    const scrollToTopButton = document.getElementById('js-top');
+
+    const scrollFunc = () => {
+        let y = window.scrollY;
+
+        if (y > 0) {
+            scrollToTopButton.className = "top-link show";
+        } else {
+            scrollToTopButton.className = "top-link hide";
+        }
+    };
+
+    window.addEventListener("scroll", scrollFunc);
+
+    const scrollToTop = () => {
+        const c = document.documentElement.scrollTop || document.body.scrollTop;
+
+        if (c > 0) {
+            window.requestAnimationFrame(scrollToTop);
+            window.scrollTo(0, c - c / 10);
+        }
+    };
+
+    scrollToTopButton.onclick = function(e) {
+        e.preventDefault();
+        scrollToTop();
+    }
+</script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

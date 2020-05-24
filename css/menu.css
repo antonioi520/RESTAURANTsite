@@ -80,6 +80,7 @@ h2 {
 }
 
 .menu-item2:hover {
+    border: 2.5px solid #a442f4;
     transform: scale(1.03);
 }
 

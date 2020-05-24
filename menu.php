@@ -149,7 +149,7 @@
         <br> <br>
         <nav style="overflow: hidden;" class="justify-content-center">
             <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                <a class="nav-item nav-link active menunavitem .justify-content-center" id="nav-food-tab" data-toggle="tab" href="#nav-food" role="tab" aria-controls="nav-food" aria-selected="true">Food</a>
+                <a class="nav-item nav-link active menunavitem" id="nav-food-tab" data-toggle="tab" href="#nav-food" role="tab" aria-controls="nav-food" aria-selected="true">Food</a>
                 <a class="nav-item nav-link menunavitem" id="nav-drinks-tab" data-toggle="tab" href="#nav-drinks" role="tab" aria-controls="nav-drinks" aria-selected="false">Drinks</a>
             </div>
         </nav>

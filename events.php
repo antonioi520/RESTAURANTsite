@@ -185,7 +185,7 @@
 
     <h2 style="text-align: center;color:black;margin-bottom: 5px;font-weight: 600">Special Events</h2>
 
-    <div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
+    <!--div class="row" id="videoRow" style="display: inline; padding-top: 0px;">
         <center>
             <iframe id="galleryVid" width="49%" height="430px" src="https://www.youtube.com/embed/6MyxaNma4aw?rel=0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -205,10 +205,10 @@
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </center>
-    </div>
+    </div-->
 
     <div class="row" id="normalDiv">
-        <div class="card-deck" style="width:80%;margin:auto;">
+        <!--div class="card-deck" style="width:80%;margin:auto;">
             <div class="col-md-3"></div>
             <div class="card" style="border-color: deepskyblue">
                 <img class="card-img-top" src="img/Events/noche_bohemia_march.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
@@ -237,13 +237,13 @@
                 </div>
             </div>
             <div class="col-md-3"></div>
-        </div>
+        </div-->
     </div>
 
-    <br>
+    <!--br-->
 
     <div class="row" id="normalDiv2">
-        <div class="card-deck" style="width:80%;margin:auto;">
+        <!--div class="card-deck" style="width:80%;margin:auto;">
             <div class="card" style="border-color: deepskyblue">
                 <img class="card-img-top" src="img/Events/chaval3.jpg" alt="Card image cap" style="height:400px;object-fit: contain;">
                 <div class="card-body" style="padding-left:0;padding-right:0;padding-bottom:0;">
@@ -297,7 +297,7 @@
                         The Bomes Theatre, 1017 Broad Street, Providence, RI 02905</small>
                 </div>
             </div>
-        </div>
+        </div-->
     </div>
     <div class="col-md-6"></div>
 </div>

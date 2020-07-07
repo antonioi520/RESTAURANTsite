@@ -483,7 +483,7 @@ p {
     bottom: 0.938em;
     transition: background 0.5s;
 }
-@media (max-width: 896px) {
+@media (max-width: 1530px) {
     #header .bg-blackish {
         background-color:rgba(20, 20, 20, 1);
         opacity: 1;

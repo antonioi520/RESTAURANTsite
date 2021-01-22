@@ -186,7 +186,7 @@
 
             <div class="col-md-6 about-content">
 
-                <h2 class="about-title">Catering at the Bomes Theater</h2>
+                <h2 class="about-title">Catering at the Bomes Theatre</h2>
                 <p class="about-text">
                     At Mi Alma Restaurant, we provide an array of catering services for our customers.
                     If you are looking to host an event at the Bomes Theater, we can also
